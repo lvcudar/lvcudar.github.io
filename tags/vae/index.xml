@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VAE on Lvcudar Blog</title>
+    <link>/tags/vae/</link>
+    <description>Recent content in VAE on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 31 Aug 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/vae/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Generating Sentences from Disentangled Syntactic and Semantic Spaces》</title>
+      <link>/post/paper_note/20190831_acl2019dssvae/</link>
+      <pubDate>Sat, 31 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190831_acl2019dssvae/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/baoy-nlp/DSS-VAE&#34;&gt;https://github.com/baoy-nlp/DSS-VAE&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 使用变分自编码器生成句子，通过损失函数使得语法和语义空间分离，从而在无条件生成、复述、风格迁移方面取得更优的结果。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

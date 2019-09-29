@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sound on Lvcudar Blog</title>
+    <link>/categories/sound/</link>
+    <description>Recent content in Sound on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Aug 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/categories/sound/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《HIERARCHICAL GENERATIVE MODELING FOR CONTROLLABLE SPEECH SYNTHESIS》</title>
+      <link>/post/paper_note/20190829_iclr2019gmm/</link>
+      <pubDate>Thu, 29 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190829_iclr2019gmm/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://google.github.io/tacotron/publications/gmvae_controllable_tts&#34;&gt;https://google.github.io/tacotron/publications/gmvae_controllable_tts&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ICLR 2019 一个可控的语音合成模型，能使用较少的标注从复杂的环境中得到说话者的风格进而按照文本合成语音。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

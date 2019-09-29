@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dataset on Lvcudar Blog</title>
+    <link>/tags/dataset/</link>
+    <description>Recent content in Dataset on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Sep 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/dataset/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Talk2Car: Taking Control of Your Self-Driving Car》</title>
+      <link>/post/paper_note/20190928_emnlp2019talk2car/</link>
+      <pubDate>Sat, 28 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190928_emnlp2019talk2car/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/pdf/1909.10838.pdf&#34;&gt;https://arxiv.org/pdf/1909.10838.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;一个自动驾驶交互数据集，在街景、自动驾驶场景下，根据视频(雷达)和自然语言输入找出正确对参考对象，如靠近某人或物体停车。
+可以看作是视频文本理解任务或者领域VQA&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《PARABANK: Monolingual Bitext Generation and Sentential Paraphrasing via Lexically-Constrained Neural Machine Translation》</title>
+      <link>/post/paper_note/20190810_aaai2019parabank/</link>
+      <pubDate>Sat, 10 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190810_aaai2019parabank/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://decomp.io/projects/parabank/&#34;&gt;http://decomp.io/projects/parabank/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;一个英文句子复述改写的数据集基线，通过机器翻译和词法约束构造。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

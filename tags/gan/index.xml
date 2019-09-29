@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GAN on Lvcudar Blog</title>
+    <link>/tags/gan/</link>
+    <description>Recent content in GAN on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 13 Jul 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/gan/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《How to make a pizza: Learning a compositional layer-based GAN model》</title>
+      <link>/post/paper_note/20190713_cvpr2019pizzagan/</link>
+      <pubDate>Sat, 13 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190713_cvpr2019pizzagan/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://pizzagan.csail.mit.edu/&#34;&gt;http://pizzagan.csail.mit.edu/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;这是一篇生成图片烹饪方法的生成对抗网络，生成制作皮萨过程中每一步在皮萨饼上面加入或移除佐料的图片。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

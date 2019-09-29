@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paper Note on Lvcudar Blog</title>
+    <link>/categories/paper-note/</link>
+    <description>Recent content in Paper Note on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Sep 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/categories/paper-note/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Talk2Car: Taking Control of Your Self-Driving Car》</title>
+      <link>/post/paper_note/20190928_emnlp2019talk2car/</link>
+      <pubDate>Sat, 28 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190928_emnlp2019talk2car/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/pdf/1909.10838.pdf&#34;&gt;https://arxiv.org/pdf/1909.10838.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;一个自动驾驶交互数据集，在街景、自动驾驶场景下，根据视频(雷达)和自然语言输入找出正确对参考对象，如靠近某人或物体停车。
+可以看作是视频文本理解任务或者领域VQA&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Adversarial Learning with Margin-based Triplet Embedding Regularization》</title>
+      <link>/post/paper_note/20190927_iccv2019mter/</link>
+      <pubDate>Fri, 27 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190927_iccv2019mter/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/zhongyy/Adversarial_MTER&#34;&gt;https://github.com/zhongyy/Adversarial_MTER&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ICCV 2019 提出了一种基于边界距离的正则化方法，通过平滑嵌入表示空间，让深度神经网络更具鲁棒性，防御对抗样本攻击。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Text Length Adaptation in Sentiment Classification》</title>
+      <link>/post/paper_note/20190921_acml2019letranets/</link>
+      <pubDate>Sat, 21 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190921_acml2019letranets/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1909.08306&#34;&gt;https://arxiv.org/abs/1909.08306&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ACML 2019 跨长度迁移学习，在影评场景下用短评论训练情感分类模型预测长评论或反之。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Slice-based Learning: A Programming Model forResidual Learning in Critical Data Slices》</title>
+      <link>/post/paper_note/20190916_nips2019slicebasedlearning/</link>
+      <pubDate>Mon, 16 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190916_nips2019slicebasedlearning/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1909.06349&#34;&gt;https://arxiv.org/abs/1909.06349&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;NIPS 2019 提出一种编程抽象方法，用于在不损害整体性能的情况下提高难点部分的效果。比如穿黑衣服的骑车人难以识别，那么可以用一个粗略的方法挑出包含黑衣骑车人的样本(可以有杂质)，然后交给框架针对性优化并获得整体提升。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《SoftTriple Loss: Deep Metric Learning Without Triplet Sampling》</title>
+      <link>/post/paper_note/20190912_iccv2019softtripleloss/</link>
+      <pubDate>Thu, 12 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190912_iccv2019softtripleloss/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1909.05235&#34;&gt;https://arxiv.org/abs/1909.05235&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ICCV 2019 参考SoftMax对三元损失改进以实现对多个类中心情况的度量学习。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《ScisummNet: A Large Annotated Corpus and Content-Impact Models for Scientific Paper Summarization with Citation Networks》</title>
+      <link>/post/paper_note/20190905_aaai2019scisummnet/</link>
+      <pubDate>Thu, 05 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190905_aaai2019scisummnet/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://aaai.org/ojs/index.php/AAAI/article/view/4727&#34;&gt;https://aaai.org/ojs/index.php/AAAI/article/view/4727&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;AAAI 2019 加入对社区贡献情况的科学论文自动摘要。构建了新的数据集，不以原文摘要为参考，而是结合社区影响(引用网络)人工标注的新摘要。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Generating Sentences from Disentangled Syntactic and Semantic Spaces》</title>
+      <link>/post/paper_note/20190831_acl2019dssvae/</link>
+      <pubDate>Sat, 31 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190831_acl2019dssvae/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/baoy-nlp/DSS-VAE&#34;&gt;https://github.com/baoy-nlp/DSS-VAE&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 使用变分自编码器生成句子，通过损失函数使得语法和语义空间分离，从而在无条件生成、复述、风格迁移方面取得更优的结果。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《HIERARCHICAL GENERATIVE MODELING FOR CONTROLLABLE SPEECH SYNTHESIS》</title>
+      <link>/post/paper_note/20190829_iclr2019gmm/</link>
+      <pubDate>Thu, 29 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190829_iclr2019gmm/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://google.github.io/tacotron/publications/gmvae_controllable_tts&#34;&gt;https://google.github.io/tacotron/publications/gmvae_controllable_tts&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ICLR 2019 一个可控的语音合成模型，能使用较少的标注从复杂的环境中得到说话者的风格进而按照文本合成语音。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Mask and Infill: Applying Masked Language Model to Sentiment Transfer》</title>
+      <link>/post/paper_note/20190823_ijcai2019maskinfill/</link>
+      <pubDate>Fri, 23 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190823_ijcai2019maskinfill/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.ijcai.org/proceedings/2019/732&#34;&gt;https://www.ijcai.org/proceedings/2019/732&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;对于非平行数据的情感转换，采用遮挡原始句子中情感的部分并替换来实现。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《LIP: Local Importance-based Pooling》</title>
+      <link>/post/paper_note/20190813_iccv2019lip/</link>
+      <pubDate>Tue, 13 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190813_iccv2019lip/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/sebgao/LIP&#34;&gt;https://github.com/sebgao/LIP&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ICCV 2019 提出了简单高效通用的由局部重要性建模的下采样池化层，一统不同任务所需设计的最大、平均、间隔池化策略，刷新了小目标检测的SOTA。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《PARABANK: Monolingual Bitext Generation and Sentential Paraphrasing via Lexically-Constrained Neural Machine Translation》</title>
+      <link>/post/paper_note/20190810_aaai2019parabank/</link>
+      <pubDate>Sat, 10 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190810_aaai2019parabank/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://decomp.io/projects/parabank/&#34;&gt;http://decomp.io/projects/parabank/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;一个英文句子复述改写的数据集基线，通过机器翻译和词法约束构造。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《HireNet: a Hierarchical Attention Model for the Automatic Analysis of Asynchronous Video Job Interviews》</title>
+      <link>/post/paper_note/20190806_aaai2019hirenet/</link>
+      <pubDate>Tue, 06 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190806_aaai2019hirenet/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://arxiv.org/abs/1907.11062&#34;&gt;http://arxiv.org/abs/1907.11062&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;AAAI 2019 在大型异步面试数据集上构建注意力机制，分析明显的行为特征预测候选人是否值得雇佣，并提供可视化以供用户评估效果。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Hybrid-Attention based Decoupled Metric Learning for Zero-Shot Image Retrieval》</title>
+      <link>/post/paper_note/20190803_cvpr2019hadml/</link>
+      <pubDate>Sat, 03 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190803_cvpr2019hadml/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hybrid-Attention_Based_Decoupled_Metric_Learning_for_Zero-Shot_Image_Retrieval_CVPR_2019_paper&#34;&gt;http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hybrid-Attention_Based_Decoupled_Metric_Learning_for_Zero-Shot_Image_Retrieval_CVPR_2019_paper&lt;/a&gt;
+&lt;a href=&#34;https://github.com/chenbinghui1/Hybrid-Attention-based-Decoupled-Metric-Learning&#34;&gt;https://github.com/chenbinghui1/Hybrid-Attention-based-Decoupled-Metric-Learning&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;CVPR 2019 提出解耦指标使得零样本学习可以得到更关键更有效的信息。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition》</title>
+      <link>/post/paper_note/20190802_tpami2015spp/</link>
+      <pubDate>Fri, 02 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190802_tpami2015spp/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/7005506&#34;&gt;https://ieeexplore.ieee.org/abstract/document/7005506&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;TPAMI 2015 经典论文。
+对于不同尺寸的输入图片动态选择池化的尺寸，使得最终输出统一尺寸的特征。
+比放缩和补0更好地保持了图像的原始特征。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Learning to Select, Track, and Generate for Data-to-Text》</title>
+      <link>/post/paper_note/20190727_acl2019data2text/</link>
+      <pubDate>Sat, 27 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190727_acl2019data2text/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/aistairc/sports-reporter&#34;&gt;https://github.com/aistairc/sports-reporter&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;像人一样追踪结构化数据的亮点，并写出摘要。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《GA-DAN: Geometry-Aware Domain Adaptation Network for Scene Text Detection and Recognition》</title>
+      <link>/post/paper_note/20190724_iccv2019gadan/</link>
+      <pubDate>Wed, 24 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190724_iccv2019gadan/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://arxiv.org/abs/1907.09466&#34;&gt;http://arxiv.org/abs/1907.09466&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;整合外观变换和几何变换，实现多模态学习，更好的适应不同视角的目标检测，并在场景文字检测中验证。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《You Write Like You Eat: Stylistic variation as a predictor of social stratification》</title>
+      <link>/post/paper_note/20190718_acl2019writelikeeat/</link>
+      <pubDate>Thu, 18 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190718_acl2019writelikeeat/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://arxiv.org/abs/1907.07265&#34;&gt;http://arxiv.org/abs/1907.07265&lt;/a&gt;
+&lt;a href=&#34;https://github.com/anbasile/social-variation(尚未存在&#34;&gt;https://github.com/anbasile/social-variation(尚未存在&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 一篇脑洞大开的创意文章。
+受不同阶层人们发音不同研究的启发，在更大的数据集上验证不同阶层的人们的写作文体不一样，并给出了重要特征。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《How to make a pizza: Learning a compositional layer-based GAN model》</title>
+      <link>/post/paper_note/20190713_cvpr2019pizzagan/</link>
+      <pubDate>Sat, 13 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190713_cvpr2019pizzagan/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://pizzagan.csail.mit.edu/&#34;&gt;http://pizzagan.csail.mit.edu/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;这是一篇生成图片烹饪方法的生成对抗网络，生成制作皮萨过程中每一步在皮萨饼上面加入或移除佐料的图片。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Sequence-to-Sequence Learning as Beam-Search Optimization》</title>
+      <link>/post/paper_note/20190709_emnlp2016s2sbso/</link>
+      <pubDate>Tue, 09 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190709_emnlp2016s2sbso/</guid>
+      <description>&lt;p&gt;URL：&lt;a href=&#34;https://www.aclweb.org/anthology/D16-1137&#34;&gt;https://www.aclweb.org/anthology/D16-1137&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;lua源代码: &lt;a href=&#34;https://github.com/harvardnlp/BSO&#34;&gt;https://github.com/harvardnlp/BSO&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;注释&#34;&gt;注释&lt;/h2&gt;
+
+&lt;p&gt;EMNLP2016 最早提出用束搜索(beam search)优化seq2seq测试时效果，一定程度上克服训练与测试间的模型获知信息偏差和损失于指标间的偏差。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Depth Growing for Neural Machine Translation》</title>
+      <link>/post/paper_note/20190704_acl2019deepernmt/</link>
+      <pubDate>Thu, 04 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190704_acl2019deepernmt/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1907.01968&#34;&gt;https://arxiv.org/abs/1907.01968&lt;/a&gt;
+&lt;a href=&#34;https://github.com/apeterswu/Depth_Growing_NMT&#34;&gt;https://github.com/apeterswu/Depth_Growing_NMT&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;一般序列到序列模型，随着网络的加深性能会下降，且难以训练。
+本文提出分层训练更深且效果更好的序列到序列模型的策略和分块构造更深层序列到序列模型的方法。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Divide and Conquer the Embedding Space for Metric Learning》</title>
+      <link>/post/paper_note/20190617_cvpr2019metric/</link>
+      <pubDate>Tue, 02 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190617_cvpr2019metric/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1906.05990&#34;&gt;https://arxiv.org/abs/1906.05990&lt;/a&gt;
+&lt;a href=&#34;https://github.com/CompVis/metric-learning-divide-and-conquer&#34;&gt;https://github.com/CompVis/metric-learning-divide-and-conquer&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;CVPR 2019
+介绍了通过分治的方法来更好的学习图像的表示并聚类。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Traffic Light Recognition for Complex Scene With Fusion Detections》</title>
+      <link>/post/paper_note/20190628_tis2018tlr/</link>
+      <pubDate>Fri, 28 Jun 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190628_tis2018tlr/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://ieeexplore.ieee.org/document/8054751/?arnumber=8054751&#34;&gt;https://ieeexplore.ieee.org/document/8054751/?arnumber=8054751&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;TIS 2018 车载摄像头视频中检测交通信号灯，并确定最需要关注的那个。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Hierarchical Transformers for Multi-Document Summarization》</title>
+      <link>/post/paper_note/20190609_acl2019multidocsum/</link>
+      <pubDate>Sun, 09 Jun 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190609_acl2019multidocsum/</guid>
+      <description>&lt;p&gt;项目或开源代码URL：&lt;a href=&#34;http://arxiv.org/abs/1905.13164&#34;&gt;http://arxiv.org/abs/1905.13164&lt;/a&gt;
+&lt;a href=&#34;https://github.com/nlpyang/hiersumm&#34;&gt;https://github.com/nlpyang/hiersumm&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;注释&#34;&gt;注释&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 多文档摘要&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Omnidirectional Scene Text Detection with Sequential-free Box Discretization 》</title>
+      <link>/post/paper_note/20190608_ijcai2019sbd/</link>
+      <pubDate>Sat, 08 Jun 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190608_ijcai2019sbd/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1906.02371&#34;&gt;https://arxiv.org/abs/1906.02371&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;IJCAI 2019 short paper
+全方向场景文本检测&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《PaperRobot: Incremental Draft Generation of Scientific Ideas》</title>
+      <link>/post/paper_note/20190602_paperrobot/</link>
+      <pubDate>Sun, 02 Jun 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190602_paperrobot/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/EagleW/PaperRobot&#34;&gt;https://github.com/EagleW/PaperRobot&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 本科生论文,生成生物医学论文的一部分&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《A Comprehensive Survey on Graph Neural Networks》</title>
+      <link>/post/paper_note/20190521_gnnsurvey/</link>
+      <pubDate>Tue, 21 May 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190521_gnnsurvey/</guid>
+      <description>综述以图卷及网络为侧重点，介绍了图神经网络的分类和研究情况,提供了对各种图神经网络最优模型和数据集的列举</description>
+    </item>
+    
+  </channel>
+</rss>

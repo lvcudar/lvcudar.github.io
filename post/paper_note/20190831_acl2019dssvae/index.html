@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Read Paper 《Generating Sentences from Disentangled Syntactic and Semantic Spaces》 - Lvcudar Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="lvcudar" /><meta name="description" content="URL: https://github.com/baoy-nlp/DSS-VAE
+TL;DR ACL 2019 使用变分自编码器生成句子，通过损失函数使得语法和语义空间分离，从而在无条件生成、复述、风格迁移方面取得更优的结果。
+" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.58.3 with theme even" />
+
+
+<link rel="canonical" href="/post/paper_note/20190831_acl2019dssvae/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="Read Paper 《Generating Sentences from Disentangled Syntactic and Semantic Spaces》" />
+<meta property="og:description" content="URL: https://github.com/baoy-nlp/DSS-VAE
+
+TL;DR
+
+ACL 2019 使用变分自编码器生成句子，通过损失函数使得语法和语义空间分离，从而在无条件生成、复述、风格迁移方面取得更优的结果。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/paper_note/20190831_acl2019dssvae/" />
+<meta property="article:published_time" content="2019-08-31T12:00:00+08:00" />
+<meta property="article:modified_time" content="2019-08-31T12:00:00+08:00" />
+<meta itemprop="name" content="Read Paper 《Generating Sentences from Disentangled Syntactic and Semantic Spaces》">
+<meta itemprop="description" content="URL: https://github.com/baoy-nlp/DSS-VAE
+
+TL;DR
+
+ACL 2019 使用变分自编码器生成句子，通过损失函数使得语法和语义空间分离，从而在无条件生成、复述、风格迁移方面取得更优的结果。">
+
+
+<meta itemprop="datePublished" content="2019-08-31T12:00:00&#43;08:00" />
+<meta itemprop="dateModified" content="2019-08-31T12:00:00&#43;08:00" />
+<meta itemprop="wordCount" content="476">
+
+
+
+<meta itemprop="keywords" content="ACL,NLG,VAE," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Read Paper 《Generating Sentences from Disentangled Syntactic and Semantic Spaces》"/>
+<meta name="twitter:description" content="URL: https://github.com/baoy-nlp/DSS-VAE
+
+TL;DR
+
+ACL 2019 使用变分自编码器生成句子，通过损失函数使得语法和语义空间分离，从而在无条件生成、复述、风格迁移方面取得更优的结果。"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Lvcudar Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Lvcudar Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Read Paper 《Generating Sentences from Disentangled Syntactic and Semantic Spaces》</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-08-31 </span>
+        <div class="post-category">
+            <a href="/categories/paper-note/"> Paper Note </a>
+            <a href="/categories/nlp/"> NLP </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    
+  </div>
+</div>
+    <div class="post-content">
+      <p>URL: <a href="https://github.com/baoy-nlp/DSS-VAE">https://github.com/baoy-nlp/DSS-VAE</a></p>
+
+<h2 id="tldr">TL;DR</h2>
+
+<p>ACL 2019 使用变分自编码器生成句子，通过损失函数使得语法和语义空间分离，从而在无条件生成、复述、风格迁移方面取得更优的结果。</p>
+
+<h2 id="algorithm">Algorithm</h2>
+
+<p>将变分自编码器的潜空间分割为独立的语法和语义两部分。
+<span  class="math">\( p(x) = \int p(z)p(x|z)dz \Rightarrow p(x) = \int p(z_{sem}) p(z_{syn}) p(x|z_{sem}, z_{syn}) dz_{sem}dz_{syn} \)</span>
+类似的通过最大化改进的时间最小边界(ELBO)进行训练。
+<span  class="math">\( \log p(x) \ge \mathrm{ELBO} = \mathop\mathbb{E}\limits_{q(z_{sem}|x)q(z_{syn}|x)} [\log p(x|z_{sem}, z_{syn})] - KL(q(z_{sem}|x) || p(z_{sem})) - KL(q(z_{syn}|x || p(z_{syn})) \)</span></p>
+
+<p>考虑到语法有无穷形式，所以采用线性化到语法树到编码来控制生成到语法。
+<figure><img src="/image/20190831_ACL2019DSSVAE/alg.jpg" alt="alg"></figure>
+除了采用正则化潜空间常用的多任务损失和对抗损失外，考虑到即使完美划分，两部分也可以通过重排序等方法而不需要另一部分完成任务，这里还用重构对抗损失进一步强化潜空间划分。
+$L = L_{vae} + L_{aux} = - \mathop\mathbb{E}\limits_{q(z_{sem}|x)q(z_{syn}|x)} [\log p(x|z_{sem}, z_{syn})] + \lambda^{KL}<em>{sem} KL(q(z</em>{sem}|x) || p(z_{sem})) + \lambda^{KL}<em>{syn} KL(q(z</em>{syn}|x || p(z_{syn})) + \lambda^{mul}<em>{sem} L^{mul}</em>{sem} + \lambda^{adv}<em>{sem} L^{adv}</em>{sem} + \lambda^{rec}<em>{sem} L^{adv}</em>{rec}(z_{sem}) + \lambda^{mul}<em>{syn} L^{mul}</em>{syn} + \lambda^{adv}<em>{syn} L^{adv}</em>{syn} + \lambda^{rec}<em>{syn} L^{adv}</em>{rec}(z_{syn}), \lambda \text{ are the hyperparameters to adjust}$</p>
+
+<h2 id="dataset">Dataset</h2>
+
+<ul>
+<li>Penn Treebank: 用于重构和无条件生成</li>
+<li>Quora dataset: 用于无监督复述,<a href="https://www.kaggle.com/c/quora-question-pairs/data">https://www.kaggle.com/c/quora-question-pairs/data</a></li>
+<li>Stanford Natural Language Inference: 用于语法迁移, 这里选取了其子集</li>
+</ul>
+
+<h2 id="experiment-detail">Experiment Detail</h2>
+
+<p>作者在重构和无条件生成、无监督复述、风格迁移三个方面进行了实验，并取得了最好的结果。
+<figure><img src="/image/20190831_ACL2019DSSVAE/res1.jpg" alt="res1"></figure>
+<figure><img src="/image/20190831_ACL2019DSSVAE/res2.jpg" alt="res2"></figure>
+<figure><img src="/image/20190831_ACL2019DSSVAE/res3.jpg" alt="res3"></figure></p>
+
+<h2 id="thoughts">Thoughts</h2>
+
+<p>需要重构对抗损失说明两个空间的假设分布是不独立的。</p>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">lvcudar</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2019-08-31
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/acl/">ACL</a>
+          <a href="/tags/nlg/">NLG</a>
+          <a href="/tags/vae/">VAE</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/paper_note/20190905_aaai2019scisummnet/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Read Paper 《ScisummNet: A Large Annotated Corpus and Content-Impact Models for Scientific Paper Summarization with Citation Networks》</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/paper_note/20190829_iclr2019gmm/">
+            <span class="next-text nav-default">Read Paper 《HIERARCHICAL GENERATIVE MODELING FOR CONTROLLABLE SPEECH SYNTHESIS》</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:cudar@inbox.lv" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/lvcudar" class="iconfont icon-github" title="github"></a>
+      <a href="https://www.weibo.com/" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://getpocket.com/" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="https://gitlab.com/explore" class="iconfont icon-gitlab" title="gitlab"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">lvcudar</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

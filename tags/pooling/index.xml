@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pooling on Lvcudar Blog</title>
+    <link>/tags/pooling/</link>
+    <description>Recent content in Pooling on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 Aug 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/pooling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《LIP: Local Importance-based Pooling》</title>
+      <link>/post/paper_note/20190813_iccv2019lip/</link>
+      <pubDate>Tue, 13 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190813_iccv2019lip/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/sebgao/LIP&#34;&gt;https://github.com/sebgao/LIP&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ICCV 2019 提出了简单高效通用的由局部重要性建模的下采样池化层，一统不同任务所需设计的最大、平均、间隔池化策略，刷新了小目标检测的SOTA。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

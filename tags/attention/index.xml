@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Attention on Lvcudar Blog</title>
+    <link>/tags/attention/</link>
+    <description>Recent content in Attention on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 06 Aug 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/attention/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《HireNet: a Hierarchical Attention Model for the Automatic Analysis of Asynchronous Video Job Interviews》</title>
+      <link>/post/paper_note/20190806_aaai2019hirenet/</link>
+      <pubDate>Tue, 06 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190806_aaai2019hirenet/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://arxiv.org/abs/1907.11062&#34;&gt;http://arxiv.org/abs/1907.11062&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;AAAI 2019 在大型异步面试数据集上构建注意力机制，分析明显的行为特征预测候选人是否值得雇佣，并提供可视化以供用户评估效果。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Hybrid-Attention based Decoupled Metric Learning for Zero-Shot Image Retrieval》</title>
+      <link>/post/paper_note/20190803_cvpr2019hadml/</link>
+      <pubDate>Sat, 03 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190803_cvpr2019hadml/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hybrid-Attention_Based_Decoupled_Metric_Learning_for_Zero-Shot_Image_Retrieval_CVPR_2019_paper&#34;&gt;http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hybrid-Attention_Based_Decoupled_Metric_Learning_for_Zero-Shot_Image_Retrieval_CVPR_2019_paper&lt;/a&gt;
+&lt;a href=&#34;https://github.com/chenbinghui1/Hybrid-Attention-based-Decoupled-Metric-Learning&#34;&gt;https://github.com/chenbinghui1/Hybrid-Attention-based-Decoupled-Metric-Learning&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;CVPR 2019 提出解耦指标使得零样本学习可以得到更关键更有效的信息。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

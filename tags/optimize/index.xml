@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Optimize on Lvcudar Blog</title>
+    <link>/tags/optimize/</link>
+    <description>Recent content in Optimize on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 09 Jul 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/optimize/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Sequence-to-Sequence Learning as Beam-Search Optimization》</title>
+      <link>/post/paper_note/20190709_emnlp2016s2sbso/</link>
+      <pubDate>Tue, 09 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190709_emnlp2016s2sbso/</guid>
+      <description>&lt;p&gt;URL：&lt;a href=&#34;https://www.aclweb.org/anthology/D16-1137&#34;&gt;https://www.aclweb.org/anthology/D16-1137&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;lua源代码: &lt;a href=&#34;https://github.com/harvardnlp/BSO&#34;&gt;https://github.com/harvardnlp/BSO&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;注释&#34;&gt;注释&lt;/h2&gt;
+
+&lt;p&gt;EMNLP2016 最早提出用束搜索(beam search)优化seq2seq测试时效果，一定程度上克服训练与测试间的模型获知信息偏差和损失于指标间的偏差。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

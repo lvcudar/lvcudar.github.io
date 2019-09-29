@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Metric on Lvcudar Blog</title>
+    <link>/tags/metric/</link>
+    <description>Recent content in Metric on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 Jul 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/metric/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Divide and Conquer the Embedding Space for Metric Learning》</title>
+      <link>/post/paper_note/20190617_cvpr2019metric/</link>
+      <pubDate>Tue, 02 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190617_cvpr2019metric/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1906.05990&#34;&gt;https://arxiv.org/abs/1906.05990&lt;/a&gt;
+&lt;a href=&#34;https://github.com/CompVis/metric-learning-divide-and-conquer&#34;&gt;https://github.com/CompVis/metric-learning-divide-and-conquer&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;CVPR 2019
+介绍了通过分治的方法来更好的学习图像的表示并聚类。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

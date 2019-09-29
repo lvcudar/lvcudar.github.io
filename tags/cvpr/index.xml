@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CVPR on Lvcudar Blog</title>
+    <link>/tags/cvpr/</link>
+    <description>Recent content in CVPR on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 03 Aug 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/cvpr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Hybrid-Attention based Decoupled Metric Learning for Zero-Shot Image Retrieval》</title>
+      <link>/post/paper_note/20190803_cvpr2019hadml/</link>
+      <pubDate>Sat, 03 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190803_cvpr2019hadml/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hybrid-Attention_Based_Decoupled_Metric_Learning_for_Zero-Shot_Image_Retrieval_CVPR_2019_paper&#34;&gt;http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hybrid-Attention_Based_Decoupled_Metric_Learning_for_Zero-Shot_Image_Retrieval_CVPR_2019_paper&lt;/a&gt;
+&lt;a href=&#34;https://github.com/chenbinghui1/Hybrid-Attention-based-Decoupled-Metric-Learning&#34;&gt;https://github.com/chenbinghui1/Hybrid-Attention-based-Decoupled-Metric-Learning&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;CVPR 2019 提出解耦指标使得零样本学习可以得到更关键更有效的信息。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《How to make a pizza: Learning a compositional layer-based GAN model》</title>
+      <link>/post/paper_note/20190713_cvpr2019pizzagan/</link>
+      <pubDate>Sat, 13 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190713_cvpr2019pizzagan/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://pizzagan.csail.mit.edu/&#34;&gt;http://pizzagan.csail.mit.edu/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;这是一篇生成图片烹饪方法的生成对抗网络，生成制作皮萨过程中每一步在皮萨饼上面加入或移除佐料的图片。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Divide and Conquer the Embedding Space for Metric Learning》</title>
+      <link>/post/paper_note/20190617_cvpr2019metric/</link>
+      <pubDate>Tue, 02 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190617_cvpr2019metric/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1906.05990&#34;&gt;https://arxiv.org/abs/1906.05990&lt;/a&gt;
+&lt;a href=&#34;https://github.com/CompVis/metric-learning-divide-and-conquer&#34;&gt;https://github.com/CompVis/metric-learning-divide-and-conquer&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;CVPR 2019
+介绍了通过分治的方法来更好的学习图像的表示并聚类。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

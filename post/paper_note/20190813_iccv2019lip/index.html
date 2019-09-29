@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Read Paper 《LIP: Local Importance-based Pooling》 - Lvcudar Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="lvcudar" /><meta name="description" content="URL: https://github.com/sebgao/LIP
+TL;DR ICCV 2019 提出了简单高效通用的由局部重要性建模的下采样池化层，一统不同任务所需设计的最大、平均、间隔池化策略，刷新了小目标检测的SOTA。
+" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.58.3 with theme even" />
+
+
+<link rel="canonical" href="/post/paper_note/20190813_iccv2019lip/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="Read Paper 《LIP: Local Importance-based Pooling》" />
+<meta property="og:description" content="URL: https://github.com/sebgao/LIP
+
+TL;DR
+
+ICCV 2019 提出了简单高效通用的由局部重要性建模的下采样池化层，一统不同任务所需设计的最大、平均、间隔池化策略，刷新了小目标检测的SOTA。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/paper_note/20190813_iccv2019lip/" />
+<meta property="article:published_time" content="2019-08-13T12:00:00+08:00" />
+<meta property="article:modified_time" content="2019-08-13T12:00:00+08:00" />
+<meta itemprop="name" content="Read Paper 《LIP: Local Importance-based Pooling》">
+<meta itemprop="description" content="URL: https://github.com/sebgao/LIP
+
+TL;DR
+
+ICCV 2019 提出了简单高效通用的由局部重要性建模的下采样池化层，一统不同任务所需设计的最大、平均、间隔池化策略，刷新了小目标检测的SOTA。">
+
+
+<meta itemprop="datePublished" content="2019-08-13T12:00:00&#43;08:00" />
+<meta itemprop="dateModified" content="2019-08-13T12:00:00&#43;08:00" />
+<meta itemprop="wordCount" content="531">
+
+
+
+<meta itemprop="keywords" content="ICCV,Pooling," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Read Paper 《LIP: Local Importance-based Pooling》"/>
+<meta name="twitter:description" content="URL: https://github.com/sebgao/LIP
+
+TL;DR
+
+ICCV 2019 提出了简单高效通用的由局部重要性建模的下采样池化层，一统不同任务所需设计的最大、平均、间隔池化策略，刷新了小目标检测的SOTA。"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Lvcudar Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Lvcudar Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Read Paper 《LIP: Local Importance-based Pooling》</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-08-13 </span>
+        <div class="post-category">
+            <a href="/categories/paper-note/"> Paper Note </a>
+            <a href="/categories/cv/"> CV </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#tl-dr">TL;DR</a></li>
+<li><a href="#dataset">Dataset</a></li>
+<li><a href="#algorithm">Algorithm</a></li>
+<li><a href="#model">Model</a></li>
+<li><a href="#experiment-detail">Experiment Detail</a></li>
+<li><a href="#thoughts">Thoughts</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>URL: <a href="https://github.com/sebgao/LIP">https://github.com/sebgao/LIP</a></p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>ICCV 2019 提出了简单高效通用的由局部重要性建模的下采样池化层，一统不同任务所需设计的最大、平均、间隔池化策略，刷新了小目标检测的SOTA。</p>
+
+<h2 id="dataset">Dataset</h2>
+
+<p>ImageNet &amp; MSCOCO</p>
+
+<h2 id="algorithm">Algorithm</h2>
+
+<p>作者首先通过局部累加网络(LAN)对现有的池化策略——最大、平均、跳步卷积、细节保护(DPP)等的分析发现它们都是局部优化的。
+并提出理想的池化操作应具备特性:
+* 预期下采样过程尽可能地处理微小的移位和失真，因此应避免采用固定间隔采样方案，即步幅卷积使用的F。
+* 重要性函数F应该对判别特征具有选择性，而不是基于先验知识手动设计，即在最大池和DPP中使用的F。这种判别性措施应适应不同的任务，并由最终目标自动确定。</p>
+
+<p><img src="/image/20190813_ICCV2019LIP/alg.png" alt="image" />
+于是作者设计出了LIP，自适应任务的为池化区域的每个位置设置权重。
+重要性计算函数采用了全卷积的设计以适应不同的输入。</p>
+
+<h2 id="model">Model</h2>
+
+<p>对于原有的CV模型，可以直接将池化层替换为本文的LIP，对于resnet的跨步卷积，可以替换为普通卷积和LIP。
+<img src="/image/20190813_ICCV2019LIP/block.png" alt="image" />
+为了提高LIP的权重计算，重要性计算函数logit采用了参数共享、仿射实例归一化等策略。</p>
+
+<h2 id="experiment-detail">Experiment Detail</h2>
+
+<p>对于LIP，再性能和效果两方面都进行了实验。
+<img src="/image/20190813_ICCV2019LIP/flop.png" alt="image" />
+在计算量增长不多的情况下，实现了图片分类和目标检测的提升。
+<img src="/image/20190813_ICCV2019LIP/res.png" alt="image" />
+同时还用局部累加网络LAN对新的池化过程进行了可视化。</p>
+
+<h2 id="thoughts">Thoughts</h2>
+
+<p>感觉像是高效的注意力机制。</p>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">lvcudar</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2019-08-13
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/iccv/">ICCV</a>
+          <a href="/tags/pooling/">Pooling</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/paper_note/20190823_ijcai2019maskinfill/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Read Paper 《Mask and Infill: Applying Masked Language Model to Sentiment Transfer》</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/paper_note/20190810_aaai2019parabank/">
+            <span class="next-text nav-default">Read Paper 《PARABANK: Monolingual Bitext Generation and Sentential Paraphrasing via Lexically-Constrained Neural Machine Translation》</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:cudar@inbox.lv" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/lvcudar" class="iconfont icon-github" title="github"></a>
+      <a href="https://www.weibo.com/" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://getpocket.com/" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="https://gitlab.com/explore" class="iconfont icon-gitlab" title="gitlab"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">lvcudar</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

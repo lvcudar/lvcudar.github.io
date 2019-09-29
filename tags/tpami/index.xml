@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TPAMI on Lvcudar Blog</title>
+    <link>/tags/tpami/</link>
+    <description>Recent content in TPAMI on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 02 Aug 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/tpami/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition》</title>
+      <link>/post/paper_note/20190802_tpami2015spp/</link>
+      <pubDate>Fri, 02 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190802_tpami2015spp/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/7005506&#34;&gt;https://ieeexplore.ieee.org/abstract/document/7005506&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;TPAMI 2015 经典论文。
+对于不同尺寸的输入图片动态选择池化的尺寸，使得最终输出统一尺寸的特征。
+比放缩和补0更好地保持了图像的原始特征。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

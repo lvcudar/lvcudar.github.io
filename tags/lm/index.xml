@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LM on Lvcudar Blog</title>
+    <link>/tags/lm/</link>
+    <description>Recent content in LM on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 23 Aug 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/lm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Mask and Infill: Applying Masked Language Model to Sentiment Transfer》</title>
+      <link>/post/paper_note/20190823_ijcai2019maskinfill/</link>
+      <pubDate>Fri, 23 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190823_ijcai2019maskinfill/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.ijcai.org/proceedings/2019/732&#34;&gt;https://www.ijcai.org/proceedings/2019/732&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;对于非平行数据的情感转换，采用遮挡原始句子中情感的部分并替换来实现。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

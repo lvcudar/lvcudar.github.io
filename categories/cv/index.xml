@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CV on Lvcudar Blog</title>
+    <link>/categories/cv/</link>
+    <description>Recent content in CV on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Sep 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/categories/cv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Talk2Car: Taking Control of Your Self-Driving Car》</title>
+      <link>/post/paper_note/20190928_emnlp2019talk2car/</link>
+      <pubDate>Sat, 28 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190928_emnlp2019talk2car/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/pdf/1909.10838.pdf&#34;&gt;https://arxiv.org/pdf/1909.10838.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;一个自动驾驶交互数据集，在街景、自动驾驶场景下，根据视频(雷达)和自然语言输入找出正确对参考对象，如靠近某人或物体停车。
+可以看作是视频文本理解任务或者领域VQA&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Adversarial Learning with Margin-based Triplet Embedding Regularization》</title>
+      <link>/post/paper_note/20190927_iccv2019mter/</link>
+      <pubDate>Fri, 27 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190927_iccv2019mter/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/zhongyy/Adversarial_MTER&#34;&gt;https://github.com/zhongyy/Adversarial_MTER&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ICCV 2019 提出了一种基于边界距离的正则化方法，通过平滑嵌入表示空间，让深度神经网络更具鲁棒性，防御对抗样本攻击。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Slice-based Learning: A Programming Model forResidual Learning in Critical Data Slices》</title>
+      <link>/post/paper_note/20190916_nips2019slicebasedlearning/</link>
+      <pubDate>Mon, 16 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190916_nips2019slicebasedlearning/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1909.06349&#34;&gt;https://arxiv.org/abs/1909.06349&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;NIPS 2019 提出一种编程抽象方法，用于在不损害整体性能的情况下提高难点部分的效果。比如穿黑衣服的骑车人难以识别，那么可以用一个粗略的方法挑出包含黑衣骑车人的样本(可以有杂质)，然后交给框架针对性优化并获得整体提升。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《LIP: Local Importance-based Pooling》</title>
+      <link>/post/paper_note/20190813_iccv2019lip/</link>
+      <pubDate>Tue, 13 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190813_iccv2019lip/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/sebgao/LIP&#34;&gt;https://github.com/sebgao/LIP&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ICCV 2019 提出了简单高效通用的由局部重要性建模的下采样池化层，一统不同任务所需设计的最大、平均、间隔池化策略，刷新了小目标检测的SOTA。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Hybrid-Attention based Decoupled Metric Learning for Zero-Shot Image Retrieval》</title>
+      <link>/post/paper_note/20190803_cvpr2019hadml/</link>
+      <pubDate>Sat, 03 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190803_cvpr2019hadml/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hybrid-Attention_Based_Decoupled_Metric_Learning_for_Zero-Shot_Image_Retrieval_CVPR_2019_paper&#34;&gt;http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hybrid-Attention_Based_Decoupled_Metric_Learning_for_Zero-Shot_Image_Retrieval_CVPR_2019_paper&lt;/a&gt;
+&lt;a href=&#34;https://github.com/chenbinghui1/Hybrid-Attention-based-Decoupled-Metric-Learning&#34;&gt;https://github.com/chenbinghui1/Hybrid-Attention-based-Decoupled-Metric-Learning&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;CVPR 2019 提出解耦指标使得零样本学习可以得到更关键更有效的信息。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Spatial Pyramid Pooling in Deep Convolutional Networks for Visual Recognition》</title>
+      <link>/post/paper_note/20190802_tpami2015spp/</link>
+      <pubDate>Fri, 02 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190802_tpami2015spp/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/7005506&#34;&gt;https://ieeexplore.ieee.org/abstract/document/7005506&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;TPAMI 2015 经典论文。
+对于不同尺寸的输入图片动态选择池化的尺寸，使得最终输出统一尺寸的特征。
+比放缩和补0更好地保持了图像的原始特征。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《GA-DAN: Geometry-Aware Domain Adaptation Network for Scene Text Detection and Recognition》</title>
+      <link>/post/paper_note/20190724_iccv2019gadan/</link>
+      <pubDate>Wed, 24 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190724_iccv2019gadan/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://arxiv.org/abs/1907.09466&#34;&gt;http://arxiv.org/abs/1907.09466&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;整合外观变换和几何变换，实现多模态学习，更好的适应不同视角的目标检测，并在场景文字检测中验证。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《How to make a pizza: Learning a compositional layer-based GAN model》</title>
+      <link>/post/paper_note/20190713_cvpr2019pizzagan/</link>
+      <pubDate>Sat, 13 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190713_cvpr2019pizzagan/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://pizzagan.csail.mit.edu/&#34;&gt;http://pizzagan.csail.mit.edu/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;这是一篇生成图片烹饪方法的生成对抗网络，生成制作皮萨过程中每一步在皮萨饼上面加入或移除佐料的图片。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Traffic Light Recognition for Complex Scene With Fusion Detections》</title>
+      <link>/post/paper_note/20190628_tis2018tlr/</link>
+      <pubDate>Fri, 28 Jun 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190628_tis2018tlr/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://ieeexplore.ieee.org/document/8054751/?arnumber=8054751&#34;&gt;https://ieeexplore.ieee.org/document/8054751/?arnumber=8054751&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;TIS 2018 车载摄像头视频中检测交通信号灯，并确定最需要关注的那个。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Omnidirectional Scene Text Detection with Sequential-free Box Discretization 》</title>
+      <link>/post/paper_note/20190608_ijcai2019sbd/</link>
+      <pubDate>Sat, 08 Jun 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190608_ijcai2019sbd/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1906.02371&#34;&gt;https://arxiv.org/abs/1906.02371&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;IJCAI 2019 short paper
+全方向场景文本检测&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

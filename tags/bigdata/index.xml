@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BigData on Lvcudar Blog</title>
+    <link>/tags/bigdata/</link>
+    <description>Recent content in BigData on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Jul 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/bigdata/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《You Write Like You Eat: Stylistic variation as a predictor of social stratification》</title>
+      <link>/post/paper_note/20190718_acl2019writelikeeat/</link>
+      <pubDate>Thu, 18 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190718_acl2019writelikeeat/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://arxiv.org/abs/1907.07265&#34;&gt;http://arxiv.org/abs/1907.07265&lt;/a&gt;
+&lt;a href=&#34;https://github.com/anbasile/social-variation(尚未存在&#34;&gt;https://github.com/anbasile/social-variation(尚未存在&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 一篇脑洞大开的创意文章。
+受不同阶层人们发音不同研究的启发，在更大的数据集上验证不同阶层的人们的写作文体不一样，并给出了重要特征。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

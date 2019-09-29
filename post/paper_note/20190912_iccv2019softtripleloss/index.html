@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Read Paper 《SoftTriple Loss: Deep Metric Learning Without Triplet Sampling》 - Lvcudar Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="lvcudar" /><meta name="description" content="URL: https://arxiv.org/abs/1909.05235
+TL;DR ICCV 2019 参考SoftMax对三元损失改进以实现对多个类中心情况的度量学习。
+" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.58.3 with theme even" />
+
+
+<link rel="canonical" href="/post/paper_note/20190912_iccv2019softtripleloss/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="Read Paper 《SoftTriple Loss: Deep Metric Learning Without Triplet Sampling》" />
+<meta property="og:description" content="URL: https://arxiv.org/abs/1909.05235
+
+TL;DR
+
+ICCV 2019 参考SoftMax对三元损失改进以实现对多个类中心情况的度量学习。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/paper_note/20190912_iccv2019softtripleloss/" />
+<meta property="article:published_time" content="2019-09-12T12:00:00+08:00" />
+<meta property="article:modified_time" content="2019-09-12T12:00:00+08:00" />
+<meta itemprop="name" content="Read Paper 《SoftTriple Loss: Deep Metric Learning Without Triplet Sampling》">
+<meta itemprop="description" content="URL: https://arxiv.org/abs/1909.05235
+
+TL;DR
+
+ICCV 2019 参考SoftMax对三元损失改进以实现对多个类中心情况的度量学习。">
+
+
+<meta itemprop="datePublished" content="2019-09-12T12:00:00&#43;08:00" />
+<meta itemprop="dateModified" content="2019-09-12T12:00:00&#43;08:00" />
+<meta itemprop="wordCount" content="532">
+
+
+
+<meta itemprop="keywords" content="ICCV,Cluster,Loss," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Read Paper 《SoftTriple Loss: Deep Metric Learning Without Triplet Sampling》"/>
+<meta name="twitter:description" content="URL: https://arxiv.org/abs/1909.05235
+
+TL;DR
+
+ICCV 2019 参考SoftMax对三元损失改进以实现对多个类中心情况的度量学习。"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Lvcudar Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Lvcudar Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Read Paper 《SoftTriple Loss: Deep Metric Learning Without Triplet Sampling》</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-09-12 </span>
+        <div class="post-category">
+            <a href="/categories/paper-note/"> Paper Note </a>
+            <a href="/categories/ml/"> ML </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    
+  </div>
+</div>
+    <div class="post-content">
+      <p>URL: <a href="https://arxiv.org/abs/1909.05235">https://arxiv.org/abs/1909.05235</a></p>
+
+<h2 id="tldr">TL;DR</h2>
+
+<p>ICCV 2019 参考SoftMax对三元损失改进以实现对多个类中心情况的度量学习。</p>
+
+<h2 id="dataset">Dataset</h2>
+
+<ul>
+<li>CUB-2011: 200种鸟类的11788张图。</li>
+<li>Cars196: 196种车的16185张图。</li>
+<li>SOP: 斯坦福在线商品数据集,包含22634种商品的120053张图。</li>
+</ul>
+
+<h2 id="algorithm">Algorithm</h2>
+
+<p>softmax loss也可以视为是一种triplet loss, 只是正样本和负样本分别变成了类内和类间模板。
+<span  class="math">\( S^{'}_{i, c} = \sum\frac{\exp(\frac{1}{\gamma}X^T_iW^k_c)}{\sum_k \exp(\frac{1}{\gamma}X^T_iW^k_c)} X^T_iW^k_c \)</span>
+<span  class="math">\( L_{SoftTriple}(X_i) = - \log\frac{\exp(\lambda(S^{'}_{i, y_i} - \delta))}{\exp(\lambda(S^{'}_{i, y_i} - \delta) + \sum_{j \ne y_i}\exp(\lambda S^{'}_{i, y_i}))} \)</span>
+这里使用软最大化支持多个类中心但方法来更好的适应同一类别的不同视角样本，比如同一种鸟的不同姿势。
+<figure><img src="/image/20190912_ICCV2019SoftTripleLoss/model.jpg" alt="model"></figure>
+对于类中心数目，这里先初始化足够多的中心，然后用L2-L1正则化来约束临近的类中心尽可能的合并。</p>
+
+<h2 id="experiment-detail">Experiment Detail</h2>
+
+<p>基线是SoftMax。
+在三个数据集上分别取一部分类别学习表示，在另一部分未用来训练但类别上测试，均比基线和其他方法有提升。
+消融实验比较缺乏，公式中包含几个超参——τ、γ和δ, 没有对这两个超参做消融实验, 没有对HardTriple做实验对比。
+从实验可以看出，类中心数目的正则化非常重要；本文没有解决如何在开始阶段就自适应的确定类中心数目的问题，CUB-2011和Cars196初始化K为10，到了SOP初始化K为2。
+<figure><img src="/image/20190912_ICCV2019SoftTripleLoss/res.png" alt="fig3"></figure></p>
+
+<h2 id="thoughts">Thoughts</h2>
+
+<p>在多个数据集上取得了明显而普遍的提升，但是跨数据集仍然不一定work。
+多类中心不实用，对W参数增加太显著了。</p>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">lvcudar</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2019-09-12
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/iccv/">ICCV</a>
+          <a href="/tags/cluster/">Cluster</a>
+          <a href="/tags/loss/">Loss</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/paper_note/20190916_nips2019slicebasedlearning/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Read Paper 《Slice-based Learning: A Programming Model forResidual Learning in Critical Data Slices》</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/paper_note/20190905_aaai2019scisummnet/">
+            <span class="next-text nav-default">Read Paper 《ScisummNet: A Large Annotated Corpus and Content-Impact Models for Scientific Paper Summarization with Citation Networks》</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:cudar@inbox.lv" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/lvcudar" class="iconfont icon-github" title="github"></a>
+      <a href="https://www.weibo.com/" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://getpocket.com/" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="https://gitlab.com/explore" class="iconfont icon-gitlab" title="gitlab"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">lvcudar</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

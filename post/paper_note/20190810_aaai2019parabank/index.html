@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Read Paper 《PARABANK: Monolingual Bitext Generation and Sentential Paraphrasing via Lexically-Constrained Neural Machine Translation》 - Lvcudar Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="lvcudar" /><meta name="description" content="URL: http://decomp.io/projects/parabank/
+TL;DR 一个英文句子复述改写的数据集基线，通过机器翻译和词法约束构造。
+" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.58.3 with theme even" />
+
+
+<link rel="canonical" href="/post/paper_note/20190810_aaai2019parabank/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="Read Paper 《PARABANK: Monolingual Bitext Generation and Sentential Paraphrasing via Lexically-Constrained Neural Machine Translation》" />
+<meta property="og:description" content="URL: http://decomp.io/projects/parabank/
+
+TL;DR
+
+一个英文句子复述改写的数据集基线，通过机器翻译和词法约束构造。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/paper_note/20190810_aaai2019parabank/" />
+<meta property="article:published_time" content="2019-08-10T12:00:00+08:00" />
+<meta property="article:modified_time" content="2019-08-10T12:00:00+08:00" />
+<meta itemprop="name" content="Read Paper 《PARABANK: Monolingual Bitext Generation and Sentential Paraphrasing via Lexically-Constrained Neural Machine Translation》">
+<meta itemprop="description" content="URL: http://decomp.io/projects/parabank/
+
+TL;DR
+
+一个英文句子复述改写的数据集基线，通过机器翻译和词法约束构造。">
+
+
+<meta itemprop="datePublished" content="2019-08-10T12:00:00&#43;08:00" />
+<meta itemprop="dateModified" content="2019-08-10T12:00:00&#43;08:00" />
+<meta itemprop="wordCount" content="433">
+
+
+
+<meta itemprop="keywords" content="AAAI,Dataset,Paraphrase," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Read Paper 《PARABANK: Monolingual Bitext Generation and Sentential Paraphrasing via Lexically-Constrained Neural Machine Translation》"/>
+<meta name="twitter:description" content="URL: http://decomp.io/projects/parabank/
+
+TL;DR
+
+一个英文句子复述改写的数据集基线，通过机器翻译和词法约束构造。"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Lvcudar Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Lvcudar Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Read Paper 《PARABANK: Monolingual Bitext Generation and Sentential Paraphrasing via Lexically-Constrained Neural Machine Translation》</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-08-10 </span>
+        <div class="post-category">
+            <a href="/categories/paper-note/"> Paper Note </a>
+            <a href="/categories/nlp/"> NLP </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#tl-dr">TL;DR</a></li>
+<li><a href="#dataset">Dataset</a></li>
+<li><a href="#algorithm-model">Algorithm/Model</a></li>
+<li><a href="#experiment-detail">Experiment Detail</a></li>
+<li><a href="#thoughts">Thoughts</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>URL: <a href="http://decomp.io/projects/parabank/">http://decomp.io/projects/parabank/</a></p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>一个英文句子复述改写的数据集基线，通过机器翻译和词法约束构造。</p>
+
+<h2 id="dataset">Dataset</h2>
+
+<p>本文的ParaBank包含79.5M参考句和人工打分。
+研究方法主要基于ACL2018的<a href="https://www.cs.cmu.edu/~jwieting/">ParaNMT-50M</a>,那是一个50M的复述改写数据集;
+并参考经典的<a href="http://paraphrase.org">PPDB(Paraphrase Database)</a>
+本文的数据集参考句有更好的语义相关，和更多样的词法结构。</p>
+
+<h2 id="algorithm-model">Algorithm/Model</h2>
+
+<ol>
+<li>通过捷克语-英语数据训练复述改写的机器翻译模型，即把同一句或相似句的捷克语对应的英语参考作为复述改写的参考。</li>
+<li>通过词法约束选择输出，主要是要求必须出现或必须不出现什么词。</li>
+<li>通过反向文档词频筛选掉异常频繁或不频繁的词(保留介词)，这里作者随手拍了个阈值，优化留着以后做。</li>
+<li>形态约束:去掉仅仅改变时态语态的参考句。</li>
+<li>位置约束:要求复述的输出不能仅仅改动前几个词(参考文献的经验)。</li>
+<li>将和PPDB数据集相似的情况，去那个数据集查询以做约束。</li>
+</ol>
+
+<h2 id="experiment-detail">Experiment Detail</h2>
+
+<p>实验主要和ParaNMT对比语义相似性和词法多样性，同时通过消融实验证明本文的各种trick的作用。
+<img src="/image/20190810_AAAI2019ParaBank/res.jpg" alt="image" /></p>
+
+<h2 id="thoughts">Thoughts</h2>
+
+<p>感觉满满的trick。</p>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">lvcudar</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2019-08-10
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/aaai/">AAAI</a>
+          <a href="/tags/dataset/">Dataset</a>
+          <a href="/tags/paraphrase/">Paraphrase</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/paper_note/20190813_iccv2019lip/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Read Paper 《LIP: Local Importance-based Pooling》</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/paper_note/20190806_aaai2019hirenet/">
+            <span class="next-text nav-default">Read Paper 《HireNet: a Hierarchical Attention Model for the Automatic Analysis of Asynchronous Video Job Interviews》</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:cudar@inbox.lv" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/lvcudar" class="iconfont icon-github" title="github"></a>
+      <a href="https://www.weibo.com/" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://getpocket.com/" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="https://gitlab.com/explore" class="iconfont icon-gitlab" title="gitlab"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">lvcudar</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

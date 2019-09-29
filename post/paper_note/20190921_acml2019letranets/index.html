@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Read Paper 《Text Length Adaptation in Sentiment Classification》 - Lvcudar Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="lvcudar" /><meta name="description" content="URL: https://arxiv.org/abs/1909.08306
+TL;DR ACML 2019 跨长度迁移学习，在影评场景下用短评论训练情感分类模型预测长评论或反之。
+" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.58.3 with theme even" />
+
+
+<link rel="canonical" href="/post/paper_note/20190921_acml2019letranets/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="Read Paper 《Text Length Adaptation in Sentiment Classification》" />
+<meta property="og:description" content="URL: https://arxiv.org/abs/1909.08306
+
+TL;DR
+
+ACML 2019 跨长度迁移学习，在影评场景下用短评论训练情感分类模型预测长评论或反之。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/paper_note/20190921_acml2019letranets/" />
+<meta property="article:published_time" content="2019-09-21T12:00:00+08:00" />
+<meta property="article:modified_time" content="2019-09-21T12:00:00+08:00" />
+<meta itemprop="name" content="Read Paper 《Text Length Adaptation in Sentiment Classification》">
+<meta itemprop="description" content="URL: https://arxiv.org/abs/1909.08306
+
+TL;DR
+
+ACML 2019 跨长度迁移学习，在影评场景下用短评论训练情感分类模型预测长评论或反之。">
+
+
+<meta itemprop="datePublished" content="2019-09-21T12:00:00&#43;08:00" />
+<meta itemprop="dateModified" content="2019-09-21T12:00:00&#43;08:00" />
+<meta itemprop="wordCount" content="796">
+
+
+
+<meta itemprop="keywords" content="ACML,Transfer,Classify," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Read Paper 《Text Length Adaptation in Sentiment Classification》"/>
+<meta name="twitter:description" content="URL: https://arxiv.org/abs/1909.08306
+
+TL;DR
+
+ACML 2019 跨长度迁移学习，在影评场景下用短评论训练情感分类模型预测长评论或反之。"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Lvcudar Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Lvcudar Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Read Paper 《Text Length Adaptation in Sentiment Classification》</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-09-21 </span>
+        <div class="post-category">
+            <a href="/categories/paper-note/"> Paper Note </a>
+            <a href="/categories/nlp/"> NLP </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#tl-dr">TL;DR</a></li>
+<li><a href="#dataset">Dataset</a></li>
+<li><a href="#task">Task</a></li>
+<li><a href="#model">Model</a></li>
+<li><a href="#experiment-detail">Experiment Detail</a></li>
+<li><a href="#thoughts">Thoughts</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>URL: <a href="https://arxiv.org/abs/1909.08306">https://arxiv.org/abs/1909.08306</a></p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>ACML 2019 跨长度迁移学习，在影评场景下用短评论训练情感分类模型预测长评论或反之。</p>
+
+<h2 id="dataset">Dataset</h2>
+
+<p><a href="https://github.com/rktamplayo/LeTraNets">https://github.com/rktamplayo/LeTraNets</a></p>
+
+<p>收集自不同领域不同语言的长短评论数据,并人工挑选标注
+- MOV_EN 英语影评
+- RES_EN 英语餐评
+- MOV_KO 韩语影评</p>
+
+<p><img src="/image/20190921_ACML2019LeTraNets/data.jpg" alt="tab2" /></p>
+
+<h2 id="task">Task</h2>
+
+<p>长度迁移相对于领域迁移或语义迁移，具有相同的环境(领域)和语言却有截然不同的长度，及长度不同导致的显著词语丰富度和结构化的不同，带来新的挑战。
+相关的跨领域迁移、多实例学习(MIL)和弱监督都不易直接用于长度迁移。
+长度的不同对于RNN有着显著的影响，而本文所设计的基线和最优模型也都采用了CNN结构。</p>
+
+<h2 id="model">Model</h2>
+
+<p>本文参考<a href="https://transacl.org/ojs/index.php/tacl/article/view/1225">MILNet</a>构建了一个强基线BaggedCNN。
+进而集成CNN结构构造了SOTA模型LeTraNets。
+<img src="/image/20190921_ACML2019LeTraNets/arch.jpg" alt="fig2" />
+LeTraNets测试的时候将评论分别输入两个网络，长短都输入CNNlong获取整体特征，长评论再输入BaggedCNN获取分段特征,短评论则输入CNNbag获得分段特征，最后将两个输出特征拼接并预测情感分类。
+其中CNNlong是一个，CNNbag也只有一套参数。</p>
+
+<p>模型训练则非常麻烦，因为测试时是另一种长度，所以训练时，长文本将其每段输入BaggedCNN，短文本则随机挑一些情感一致的输入CNNlong。
+作者还设计了三种训练策略让网络能够被训练出来:
+- 联合训练(JT): 采用同一套词向量初始化
+- 预测正则化(PR): 用KL散度约束两边CNN单独的预测标签尽可能一致
+- 逐步训练(SP): 先预训练每个CNN在整体训练</p>
+
+<h2 id="experiment-detail">Experiment Detail</h2>
+
+<p>采用GloVe300词向量初始化,对比相关任务的模型取得SOTA，且很多相关人物的模型在本任务不work。
+<img src="/image/20190921_ACML2019LeTraNets/res.jpg" alt="tab3" /></p>
+
+<p>消融实验上度量了迁移率指标，即跨长度错误率/不垮长度错误率，以及三种训练策略的作用。
+<img src="/image/20190921_ACML2019LeTraNets/ablation.jpg" alt="tab3&amp;tab4" /></p>
+
+<p>并且还补充验证了，随着长度变化、主题多样化本文的模型都能逐渐显现优势。</p>
+
+<h2 id="thoughts">Thoughts</h2>
+
+<p>消融实验的思路不错，很完整有说服力。
+这个网络感觉太麻烦了，而且transfomer类的模型应该具有适应长度的能力，但是缺乏参考。</p>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">lvcudar</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2019-09-21
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/acml/">ACML</a>
+          <a href="/tags/transfer/">Transfer</a>
+          <a href="/tags/classify/">Classify</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/paper_note/20190927_iccv2019mter/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Read Paper 《Adversarial Learning with Margin-based Triplet Embedding Regularization》</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/paper_note/20190916_nips2019slicebasedlearning/">
+            <span class="next-text nav-default">Read Paper 《Slice-based Learning: A Programming Model forResidual Learning in Critical Data Slices》</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:cudar@inbox.lv" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/lvcudar" class="iconfont icon-github" title="github"></a>
+      <a href="https://www.weibo.com/" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://getpocket.com/" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="https://gitlab.com/explore" class="iconfont icon-gitlab" title="gitlab"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">lvcudar</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

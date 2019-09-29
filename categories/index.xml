@@ -1,14 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Even - A super concise theme for Hugo</title>
+    <title>Categories on Lvcudar Blog</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on Even - A super concise theme for Hugo</description>
+    <description>Recent content in Categories on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Sat, 28 Sep 2019 12:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CV</title>
+      <link>/categories/cv/</link>
+      <pubDate>Sat, 28 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/categories/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper Note</title>
+      <link>/categories/paper-note/</link>
+      <pubDate>Sat, 28 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/categories/paper-note/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>/categories/nlp/</link>
+      <pubDate>Sat, 21 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/categories/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ML</title>
+      <link>/categories/ml/</link>
+      <pubDate>Thu, 12 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/categories/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sound</title>
+      <link>/categories/sound/</link>
+      <pubDate>Thu, 29 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/categories/sound/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

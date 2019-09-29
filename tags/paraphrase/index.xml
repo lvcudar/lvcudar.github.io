@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paraphrase on Lvcudar Blog</title>
+    <link>/tags/paraphrase/</link>
+    <description>Recent content in Paraphrase on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 10 Aug 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/paraphrase/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《PARABANK: Monolingual Bitext Generation and Sentential Paraphrasing via Lexically-Constrained Neural Machine Translation》</title>
+      <link>/post/paper_note/20190810_aaai2019parabank/</link>
+      <pubDate>Sat, 10 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190810_aaai2019parabank/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://decomp.io/projects/parabank/&#34;&gt;http://decomp.io/projects/parabank/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;一个英文句子复述改写的数据集基线，通过机器翻译和词法约束构造。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

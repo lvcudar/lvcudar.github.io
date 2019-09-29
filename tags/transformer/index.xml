@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Transformer on Lvcudar Blog</title>
+    <link>/tags/transformer/</link>
+    <description>Recent content in Transformer on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 04 Jul 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/transformer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Depth Growing for Neural Machine Translation》</title>
+      <link>/post/paper_note/20190704_acl2019deepernmt/</link>
+      <pubDate>Thu, 04 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190704_acl2019deepernmt/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1907.01968&#34;&gt;https://arxiv.org/abs/1907.01968&lt;/a&gt;
+&lt;a href=&#34;https://github.com/apeterswu/Depth_Growing_NMT&#34;&gt;https://github.com/apeterswu/Depth_Growing_NMT&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;一般序列到序列模型，随着网络的加深性能会下降，且难以训练。
+本文提出分层训练更深且效果更好的序列到序列模型的策略和分块构造更深层序列到序列模型的方法。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

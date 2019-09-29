@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data2Text on Lvcudar Blog</title>
+    <link>/tags/data2text/</link>
+    <description>Recent content in Data2Text on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 Jul 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/data2text/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Learning to Select, Track, and Generate for Data-to-Text》</title>
+      <link>/post/paper_note/20190727_acl2019data2text/</link>
+      <pubDate>Sat, 27 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190727_acl2019data2text/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/aistairc/sports-reporter&#34;&gt;https://github.com/aistairc/sports-reporter&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;像人一样追踪结构化数据的亮点，并写出摘要。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

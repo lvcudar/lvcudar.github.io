@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Detection on Lvcudar Blog</title>
+    <link>/tags/detection/</link>
+    <description>Recent content in Detection on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Jul 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/detection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《GA-DAN: Geometry-Aware Domain Adaptation Network for Scene Text Detection and Recognition》</title>
+      <link>/post/paper_note/20190724_iccv2019gadan/</link>
+      <pubDate>Wed, 24 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190724_iccv2019gadan/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://arxiv.org/abs/1907.09466&#34;&gt;http://arxiv.org/abs/1907.09466&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;整合外观变换和几何变换，实现多模态学习，更好的适应不同视角的目标检测，并在场景文字检测中验证。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Omnidirectional Scene Text Detection with Sequential-free Box Discretization 》</title>
+      <link>/post/paper_note/20190608_ijcai2019sbd/</link>
+      <pubDate>Sat, 08 Jun 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190608_ijcai2019sbd/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1906.02371&#34;&gt;https://arxiv.org/abs/1906.02371&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;IJCAI 2019 short paper
+全方向场景文本检测&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

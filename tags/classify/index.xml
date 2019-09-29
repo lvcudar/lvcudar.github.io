@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Classify on Lvcudar Blog</title>
+    <link>/tags/classify/</link>
+    <description>Recent content in Classify on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 21 Sep 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/classify/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Text Length Adaptation in Sentiment Classification》</title>
+      <link>/post/paper_note/20190921_acml2019letranets/</link>
+      <pubDate>Sat, 21 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190921_acml2019letranets/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1909.08306&#34;&gt;https://arxiv.org/abs/1909.08306&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ACML 2019 跨长度迁移学习，在影评场景下用短评论训练情感分类模型预测长评论或反之。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

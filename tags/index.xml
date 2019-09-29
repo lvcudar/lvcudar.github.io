@@ -1,14 +1,411 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Even - A super concise theme for Hugo</title>
+    <title>Tags on Lvcudar Blog</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Even - A super concise theme for Hugo</description>
+    <description>Recent content in Tags on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Sat, 28 Sep 2019 12:00:00 +0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Dataset</title>
+      <link>/tags/dataset/</link>
+      <pubDate>Sat, 28 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EMNLP</title>
+      <link>/tags/emnlp/</link>
+      <pubDate>Sat, 28 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/emnlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MultiModel</title>
+      <link>/tags/multimodel/</link>
+      <pubDate>Sat, 28 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/multimodel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial</title>
+      <link>/tags/adversarial/</link>
+      <pubDate>Fri, 27 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/adversarial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICCV</title>
+      <link>/tags/iccv/</link>
+      <pubDate>Fri, 27 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/iccv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Regular</title>
+      <link>/tags/regular/</link>
+      <pubDate>Fri, 27 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/regular/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACML</title>
+      <link>/tags/acml/</link>
+      <pubDate>Sat, 21 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/acml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classify</title>
+      <link>/tags/classify/</link>
+      <pubDate>Sat, 21 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/classify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transfer</title>
+      <link>/tags/transfer/</link>
+      <pubDate>Sat, 21 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/transfer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DS</title>
+      <link>/tags/ds/</link>
+      <pubDate>Mon, 16 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/ds/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NIPS</title>
+      <link>/tags/nips/</link>
+      <pubDate>Mon, 16 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/nips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Programming</title>
+      <link>/tags/programming/</link>
+      <pubDate>Mon, 16 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cluster</title>
+      <link>/tags/cluster/</link>
+      <pubDate>Thu, 12 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/cluster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Loss</title>
+      <link>/tags/loss/</link>
+      <pubDate>Thu, 12 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/loss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AAAI</title>
+      <link>/tags/aaai/</link>
+      <pubDate>Thu, 05 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/aaai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Social</title>
+      <link>/tags/social/</link>
+      <pubDate>Thu, 05 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/social/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summary</title>
+      <link>/tags/summary/</link>
+      <pubDate>Thu, 05 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/summary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACL</title>
+      <link>/tags/acl/</link>
+      <pubDate>Sat, 31 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/acl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLG</title>
+      <link>/tags/nlg/</link>
+      <pubDate>Sat, 31 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/nlg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VAE</title>
+      <link>/tags/vae/</link>
+      <pubDate>Sat, 31 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/vae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICLR</title>
+      <link>/tags/iclr/</link>
+      <pubDate>Thu, 29 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/iclr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Speech</title>
+      <link>/tags/speech/</link>
+      <pubDate>Thu, 29 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/speech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Synthesis</title>
+      <link>/tags/synthesis/</link>
+      <pubDate>Thu, 29 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/synthesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IJCAI</title>
+      <link>/tags/ijcai/</link>
+      <pubDate>Fri, 23 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/ijcai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LM</title>
+      <link>/tags/lm/</link>
+      <pubDate>Fri, 23 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/lm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pooling</title>
+      <link>/tags/pooling/</link>
+      <pubDate>Tue, 13 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/pooling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paraphrase</title>
+      <link>/tags/paraphrase/</link>
+      <pubDate>Sat, 10 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/paraphrase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>/tags/ai/</link>
+      <pubDate>Tue, 06 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attention</title>
+      <link>/tags/attention/</link>
+      <pubDate>Tue, 06 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/attention/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CVPR</title>
+      <link>/tags/cvpr/</link>
+      <pubDate>Sat, 03 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/cvpr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recognition</title>
+      <link>/tags/recognition/</link>
+      <pubDate>Fri, 02 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/recognition/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TPAMI</title>
+      <link>/tags/tpami/</link>
+      <pubDate>Fri, 02 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/tpami/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data2Text</title>
+      <link>/tags/data2text/</link>
+      <pubDate>Sat, 27 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/data2text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Detection</title>
+      <link>/tags/detection/</link>
+      <pubDate>Wed, 24 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BigData</title>
+      <link>/tags/bigdata/</link>
+      <pubDate>Thu, 18 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/bigdata/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GAN</title>
+      <link>/tags/gan/</link>
+      <pubDate>Sat, 13 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/gan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Optimize</title>
+      <link>/tags/optimize/</link>
+      <pubDate>Tue, 09 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/optimize/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seq2Seq</title>
+      <link>/tags/seq2seq/</link>
+      <pubDate>Tue, 09 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/seq2seq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NMT</title>
+      <link>/tags/nmt/</link>
+      <pubDate>Thu, 04 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/nmt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformer</title>
+      <link>/tags/transformer/</link>
+      <pubDate>Thu, 04 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Metric</title>
+      <link>/tags/metric/</link>
+      <pubDate>Tue, 02 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/metric/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TIS</title>
+      <link>/tags/tis/</link>
+      <pubDate>Fri, 28 Jun 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/tis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Traffic</title>
+      <link>/tags/traffic/</link>
+      <pubDate>Fri, 28 Jun 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/traffic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GNN</title>
+      <link>/tags/gnn/</link>
+      <pubDate>Tue, 21 May 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/tags/gnn/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

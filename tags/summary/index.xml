@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Summary on Lvcudar Blog</title>
+    <link>/tags/summary/</link>
+    <description>Recent content in Summary on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Sep 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/summary/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《ScisummNet: A Large Annotated Corpus and Content-Impact Models for Scientific Paper Summarization with Citation Networks》</title>
+      <link>/post/paper_note/20190905_aaai2019scisummnet/</link>
+      <pubDate>Thu, 05 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190905_aaai2019scisummnet/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://aaai.org/ojs/index.php/AAAI/article/view/4727&#34;&gt;https://aaai.org/ojs/index.php/AAAI/article/view/4727&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;AAAI 2019 加入对社区贡献情况的科学论文自动摘要。构建了新的数据集，不以原文摘要为参考，而是结合社区影响(引用网络)人工标注的新摘要。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Hierarchical Transformers for Multi-Document Summarization》</title>
+      <link>/post/paper_note/20190609_acl2019multidocsum/</link>
+      <pubDate>Sun, 09 Jun 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190609_acl2019multidocsum/</guid>
+      <description>&lt;p&gt;项目或开源代码URL：&lt;a href=&#34;http://arxiv.org/abs/1905.13164&#34;&gt;http://arxiv.org/abs/1905.13164&lt;/a&gt;
+&lt;a href=&#34;https://github.com/nlpyang/hiersumm&#34;&gt;https://github.com/nlpyang/hiersumm&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;注释&#34;&gt;注释&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 多文档摘要&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

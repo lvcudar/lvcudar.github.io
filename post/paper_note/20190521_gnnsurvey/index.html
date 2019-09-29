@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Read Paper 《A Comprehensive Survey on Graph Neural Networks》 - Lvcudar Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="lvcudar" /><meta name="description" content="综述以图卷及网络为侧重点，介绍了图神经网络的分类和研究情况,提供了对各种图神经网络最优模型和数据集的列举" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.58.3 with theme even" />
+
+
+<link rel="canonical" href="/post/paper_note/20190521_gnnsurvey/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="Read Paper 《A Comprehensive Survey on Graph Neural Networks》" />
+<meta property="og:description" content="综述以图卷及网络为侧重点，介绍了图神经网络的分类和研究情况,提供了对各种图神经网络最优模型和数据集的列举" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/paper_note/20190521_gnnsurvey/" />
+<meta property="article:published_time" content="2019-05-21T12:00:00+08:00" />
+<meta property="article:modified_time" content="2019-05-21T12:00:00+08:00" />
+<meta itemprop="name" content="Read Paper 《A Comprehensive Survey on Graph Neural Networks》">
+<meta itemprop="description" content="综述以图卷及网络为侧重点，介绍了图神经网络的分类和研究情况,提供了对各种图神经网络最优模型和数据集的列举">
+
+
+<meta itemprop="datePublished" content="2019-05-21T12:00:00&#43;08:00" />
+<meta itemprop="dateModified" content="2019-05-21T12:00:00&#43;08:00" />
+<meta itemprop="wordCount" content="350">
+
+
+
+<meta itemprop="keywords" content="GNN," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Read Paper 《A Comprehensive Survey on Graph Neural Networks》"/>
+<meta name="twitter:description" content="综述以图卷及网络为侧重点，介绍了图神经网络的分类和研究情况,提供了对各种图神经网络最优模型和数据集的列举"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Lvcudar Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Lvcudar Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Read Paper 《A Comprehensive Survey on Graph Neural Networks》</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-05-21 </span>
+        <div class="post-category">
+            <a href="/categories/paper-note/"> Paper Note </a>
+            <a href="/categories/ml/"> ML </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li><a href="#介绍">介绍</a></li>
+<li><a href="#模型">模型</a></li>
+<li><a href="#数据集">数据集</a></li>
+<li><a href="#未来工作">未来工作</a></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      
+
+<p>URL: <a href="https://arxiv.org/abs/1901.00596">https://arxiv.org/abs/1901.00596</a></p>
+
+<h1 id="介绍">介绍</h1>
+
+<p>这篇综述以图卷及网络为侧重点，介绍了图神经网络的分类和研究情况。
+提供了对各种图神经网络最优模型和数据集的列举。</p>
+
+<h1 id="模型">模型</h1>
+
+<p><img src="/image/20190521_GNNSurvey/model_list.jpg" alt="image" /></p>
+
+<p><strong>Graph Convolution Networks 图卷积网络</strong> 参考CNN，卷积核每次将中心结点和周围结点的特征线性累加作为输出，周围结点到中心结点的距离作为卷积核尺寸。</p>
+
+<p><strong>Graph Attention Networks 图注意力机制</strong> 实现对图更高效的表示，比如优化随机游走和图分类。</p>
+
+<p><strong>Graph Auto-encoders 图自编码器</strong> 通过对图的重构来学习图的表示。</p>
+
+<p><strong>Graph Generative Networks 图生成网络</strong> 根据已有的图，生成类似的图。</p>
+
+<p><strong>Graph Spatial-temporal Networks 图时空网络</strong> 融合RNN的图网络。</p>
+
+<h1 id="数据集">数据集</h1>
+
+<p><img src="/image/20190521_GNNSurvey/dataset_list.jpg" alt="image" /></p>
+
+<p><strong>文献引用类</strong> Cora, Citeseer, Pubmed, DBLP</p>
+
+<p><strong>社交网络类</strong> BlogCatalog, Reddit, Epinions</p>
+
+<p><strong>生物化学结构类</strong> PPI, NCI-1, NCI-109, MUTAG, D&amp;D, QM9, tox21</p>
+
+<p><strong>需要构造的</strong> MNIST, Wikipedia, 20NEWS</p>
+
+<p><strong>其他</strong> METR-LA, Movie_Lens1M, Nell</p>
+
+<h1 id="未来工作">未来工作</h1>
+
+<ul>
+<li>GNN能否像其他网络，如ResNet那样很深</li>
+<li>面对大规模数据，GNN难以收敛</li>
+<li>如何处理动态的图，比如新成员加入的情况</li>
+<li>如何获得更好的结点表示，解决类似NLP中罕见词的情况</li>
+</ul>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">lvcudar</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2019-05-21
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/gnn/">GNN</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/paper_note/20190602_paperrobot/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Read Paper 《PaperRobot: Incremental Draft Generation of Scientific Ideas》</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:cudar@inbox.lv" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/lvcudar" class="iconfont icon-github" title="github"></a>
+      <a href="https://www.weibo.com/" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://getpocket.com/" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="https://gitlab.com/explore" class="iconfont icon-gitlab" title="gitlab"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">lvcudar</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

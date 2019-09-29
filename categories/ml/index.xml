@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ML on Lvcudar Blog</title>
+    <link>/categories/ml/</link>
+    <description>Recent content in ML on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 Sep 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/categories/ml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《SoftTriple Loss: Deep Metric Learning Without Triplet Sampling》</title>
+      <link>/post/paper_note/20190912_iccv2019softtripleloss/</link>
+      <pubDate>Thu, 12 Sep 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190912_iccv2019softtripleloss/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1909.05235&#34;&gt;https://arxiv.org/abs/1909.05235&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ICCV 2019 参考SoftMax对三元损失改进以实现对多个类中心情况的度量学习。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Hybrid-Attention based Decoupled Metric Learning for Zero-Shot Image Retrieval》</title>
+      <link>/post/paper_note/20190803_cvpr2019hadml/</link>
+      <pubDate>Sat, 03 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190803_cvpr2019hadml/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hybrid-Attention_Based_Decoupled_Metric_Learning_for_Zero-Shot_Image_Retrieval_CVPR_2019_paper&#34;&gt;http://openaccess.thecvf.com/content_CVPR_2019/papers/Chen_Hybrid-Attention_Based_Decoupled_Metric_Learning_for_Zero-Shot_Image_Retrieval_CVPR_2019_paper&lt;/a&gt;
+&lt;a href=&#34;https://github.com/chenbinghui1/Hybrid-Attention-based-Decoupled-Metric-Learning&#34;&gt;https://github.com/chenbinghui1/Hybrid-Attention-based-Decoupled-Metric-Learning&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;CVPR 2019 提出解耦指标使得零样本学习可以得到更关键更有效的信息。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Divide and Conquer the Embedding Space for Metric Learning》</title>
+      <link>/post/paper_note/20190617_cvpr2019metric/</link>
+      <pubDate>Tue, 02 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190617_cvpr2019metric/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1906.05990&#34;&gt;https://arxiv.org/abs/1906.05990&lt;/a&gt;
+&lt;a href=&#34;https://github.com/CompVis/metric-learning-divide-and-conquer&#34;&gt;https://github.com/CompVis/metric-learning-divide-and-conquer&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;CVPR 2019
+介绍了通过分治的方法来更好的学习图像的表示并聚类。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《A Comprehensive Survey on Graph Neural Networks》</title>
+      <link>/post/paper_note/20190521_gnnsurvey/</link>
+      <pubDate>Tue, 21 May 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190521_gnnsurvey/</guid>
+      <description>综述以图卷及网络为侧重点，介绍了图神经网络的分类和研究情况,提供了对各种图神经网络最优模型和数据集的列举</description>
+    </item>
+    
+  </channel>
+</rss>

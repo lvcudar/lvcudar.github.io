@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ACL on Lvcudar Blog</title>
+    <link>/tags/acl/</link>
+    <description>Recent content in ACL on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 31 Aug 2019 12:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/acl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Generating Sentences from Disentangled Syntactic and Semantic Spaces》</title>
+      <link>/post/paper_note/20190831_acl2019dssvae/</link>
+      <pubDate>Sat, 31 Aug 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190831_acl2019dssvae/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/baoy-nlp/DSS-VAE&#34;&gt;https://github.com/baoy-nlp/DSS-VAE&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tldr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 使用变分自编码器生成句子，通过损失函数使得语法和语义空间分离，从而在无条件生成、复述、风格迁移方面取得更优的结果。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Learning to Select, Track, and Generate for Data-to-Text》</title>
+      <link>/post/paper_note/20190727_acl2019data2text/</link>
+      <pubDate>Sat, 27 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190727_acl2019data2text/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/aistairc/sports-reporter&#34;&gt;https://github.com/aistairc/sports-reporter&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;像人一样追踪结构化数据的亮点，并写出摘要。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《You Write Like You Eat: Stylistic variation as a predictor of social stratification》</title>
+      <link>/post/paper_note/20190718_acl2019writelikeeat/</link>
+      <pubDate>Thu, 18 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190718_acl2019writelikeeat/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://arxiv.org/abs/1907.07265&#34;&gt;http://arxiv.org/abs/1907.07265&lt;/a&gt;
+&lt;a href=&#34;https://github.com/anbasile/social-variation(尚未存在&#34;&gt;https://github.com/anbasile/social-variation(尚未存在&lt;/a&gt;)&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 一篇脑洞大开的创意文章。
+受不同阶层人们发音不同研究的启发，在更大的数据集上验证不同阶层的人们的写作文体不一样，并给出了重要特征。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Depth Growing for Neural Machine Translation》</title>
+      <link>/post/paper_note/20190704_acl2019deepernmt/</link>
+      <pubDate>Thu, 04 Jul 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190704_acl2019deepernmt/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1907.01968&#34;&gt;https://arxiv.org/abs/1907.01968&lt;/a&gt;
+&lt;a href=&#34;https://github.com/apeterswu/Depth_Growing_NMT&#34;&gt;https://github.com/apeterswu/Depth_Growing_NMT&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;一般序列到序列模型，随着网络的加深性能会下降，且难以训练。
+本文提出分层训练更深且效果更好的序列到序列模型的策略和分块构造更深层序列到序列模型的方法。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Hierarchical Transformers for Multi-Document Summarization》</title>
+      <link>/post/paper_note/20190609_acl2019multidocsum/</link>
+      <pubDate>Sun, 09 Jun 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190609_acl2019multidocsum/</guid>
+      <description>&lt;p&gt;项目或开源代码URL：&lt;a href=&#34;http://arxiv.org/abs/1905.13164&#34;&gt;http://arxiv.org/abs/1905.13164&lt;/a&gt;
+&lt;a href=&#34;https://github.com/nlpyang/hiersumm&#34;&gt;https://github.com/nlpyang/hiersumm&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;注释&#34;&gt;注释&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 多文档摘要&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《PaperRobot: Incremental Draft Generation of Scientific Ideas》</title>
+      <link>/post/paper_note/20190602_paperrobot/</link>
+      <pubDate>Sun, 02 Jun 2019 12:00:00 +0800</pubDate>
+      
+      <guid>/post/paper_note/20190602_paperrobot/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/EagleW/PaperRobot&#34;&gt;https://github.com/EagleW/PaperRobot&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 本科生论文,生成生物医学论文的一部分&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
