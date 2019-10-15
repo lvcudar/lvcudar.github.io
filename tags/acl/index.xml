@@ -6,10 +6,24 @@
     <description>Recent content in ACL on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 31 Aug 2019 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 22:59:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/acl/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Paper Read 《Simple and Effective Paraphrastic Similarity from Parallel Translations》</title>
+      <link>/post/paper_note/simpleandeffectiveparaphrasticsimilarityfromparalleltranslations/</link>
+      <pubDate>Thu, 10 Oct 2019 22:59:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/simpleandeffectiveparaphrasticsimilarityfromparalleltranslations/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/P19-1453/&#34;&gt;https://www.aclweb.org/anthology/P19-1453/&lt;/a&gt;
+&lt;a href=&#34;https://github.com/jwieting/simple-and-effective-paraphrastic-similarity&#34;&gt;https://github.com/jwieting/simple-and-effective-paraphrastic-similarity&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 利用平行语料学习句子相似性，但是不利用回翻技术，而是直接在平行预料上用三元损失函数。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Generating Sentences from Disentangled Syntactic and Semantic Spaces》</title>

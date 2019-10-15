@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Read Paper 《Talk2Car: Taking Control of Your Self-Driving Car》 - Lvcudar Blog</title>
+  <title>Paper Read 《Simple and Effective Paraphrastic Similarity from Parallel Translations》 - Lvcudar Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,8 +16,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="lvcudar" /><meta name="description" content="URL: https://arxiv.org/pdf/1909.10838.pdf
-TL;DR 一个自动驾驶交互数据集，在街景、自动驾驶场景下，根据视频(雷达)和自然语言输入找出正确对参考对象，如靠近某人或物体停车。 可以看作是视频文本理解任务或者领域VQA
+<meta name="author" content="lvcudar" /><meta name="description" content="URL: https://www.aclweb.org/anthology/P19-1453/ https://github.com/jwieting/simple-and-effective-paraphrastic-similarity
+简介 ACL 2019 利用平行语料学习句子相似性，但是不利用回翻技术，而是直接在平行预料上用三元损失函数。
 " /><meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -28,7 +28,7 @@ TL;DR 一个自动驾驶交互数据集，在街景、自动驾驶场景下，�
 <meta name="generator" content="Hugo 0.58.3 with theme even" />
 
 
-<link rel="canonical" href="/post/paper_note/20190928_emnlp2019talk2car/" />
+<link rel="canonical" href="/post/paper_note/simpleandeffectiveparaphrasticsimilarityfromparalleltranslations/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -40,41 +40,41 @@ TL;DR 一个自动驾驶交互数据集，在街景、自动驾驶场景下，�
 <link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
 
-<meta property="og:title" content="Read Paper 《Talk2Car: Taking Control of Your Self-Driving Car》" />
-<meta property="og:description" content="URL: https://arxiv.org/pdf/1909.10838.pdf
+<meta property="og:title" content="Paper Read 《Simple and Effective Paraphrastic Similarity from Parallel Translations》" />
+<meta property="og:description" content="URL: https://www.aclweb.org/anthology/P19-1453/
+https://github.com/jwieting/simple-and-effective-paraphrastic-similarity
 
-TL;DR
+简介
 
-一个自动驾驶交互数据集，在街景、自动驾驶场景下，根据视频(雷达)和自然语言输入找出正确对参考对象，如靠近某人或物体停车。
-可以看作是视频文本理解任务或者领域VQA" />
+ACL 2019 利用平行语料学习句子相似性，但是不利用回翻技术，而是直接在平行预料上用三元损失函数。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/paper_note/20190928_emnlp2019talk2car/" />
-<meta property="article:published_time" content="2019-09-28T12:00:00+08:00" />
-<meta property="article:modified_time" content="2019-09-28T12:00:00+08:00" />
-<meta itemprop="name" content="Read Paper 《Talk2Car: Taking Control of Your Self-Driving Car》">
-<meta itemprop="description" content="URL: https://arxiv.org/pdf/1909.10838.pdf
+<meta property="og:url" content="/post/paper_note/simpleandeffectiveparaphrasticsimilarityfromparalleltranslations/" />
+<meta property="article:published_time" content="2019-10-10T22:59:12+08:00" />
+<meta property="article:modified_time" content="2019-10-10T22:59:12+08:00" />
+<meta itemprop="name" content="Paper Read 《Simple and Effective Paraphrastic Similarity from Parallel Translations》">
+<meta itemprop="description" content="URL: https://www.aclweb.org/anthology/P19-1453/
+https://github.com/jwieting/simple-and-effective-paraphrastic-similarity
 
-TL;DR
+简介
 
-一个自动驾驶交互数据集，在街景、自动驾驶场景下，根据视频(雷达)和自然语言输入找出正确对参考对象，如靠近某人或物体停车。
-可以看作是视频文本理解任务或者领域VQA">
-
-
-<meta itemprop="datePublished" content="2019-09-28T12:00:00&#43;08:00" />
-<meta itemprop="dateModified" content="2019-09-28T12:00:00&#43;08:00" />
-<meta itemprop="wordCount" content="449">
+ACL 2019 利用平行语料学习句子相似性，但是不利用回翻技术，而是直接在平行预料上用三元损失函数。">
 
 
+<meta itemprop="datePublished" content="2019-10-10T22:59:12&#43;08:00" />
+<meta itemprop="dateModified" content="2019-10-10T22:59:12&#43;08:00" />
+<meta itemprop="wordCount" content="468">
 
-<meta itemprop="keywords" content="Dataset,EMNLP,MultiModel," />
+
+
+<meta itemprop="keywords" content="ACL,Similarity," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Read Paper 《Talk2Car: Taking Control of Your Self-Driving Car》"/>
-<meta name="twitter:description" content="URL: https://arxiv.org/pdf/1909.10838.pdf
+<meta name="twitter:title" content="Paper Read 《Simple and Effective Paraphrastic Similarity from Parallel Translations》"/>
+<meta name="twitter:description" content="URL: https://www.aclweb.org/anthology/P19-1453/
+https://github.com/jwieting/simple-and-effective-paraphrastic-similarity
 
-TL;DR
+简介
 
-一个自动驾驶交互数据集，在街景、自动驾驶场景下，根据视频(雷达)和自然语言输入找出正确对参考对象，如靠近某人或物体停车。
-可以看作是视频文本理解任务或者领域VQA"/>
+ACL 2019 利用平行语料学习句子相似性，但是不利用回翻技术，而是直接在平行预料上用三元损失函数。"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -137,13 +137,13 @@ TL;DR
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Read Paper 《Talk2Car: Taking Control of Your Self-Driving Car》</h1>
+      <h1 class="post-title">Paper Read 《Simple and Effective Paraphrastic Similarity from Parallel Translations》</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2019-09-28 </span>
+        <span class="post-time"> 2019-10-10 </span>
         <div class="post-category">
             <a href="/categories/paper-note/"> Paper Note </a>
-            <a href="/categories/cv/"> CV </a>
+            <a href="/categories/nlp/"> NLP </a>
             </div>
         
       </div>
@@ -152,108 +152,54 @@ TL;DR
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">Contents</h2>
   <div class="post-toc-content always-active">
-    <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#tl-dr">TL;DR</a></li>
-<li><a href="#dataset">Dataset</a></li>
-<li><a href="#method">Method</a></li>
-<li><a href="#model">Model</a></li>
-<li><a href="#experiment-detail">Experiment Detail</a></li>
-<li><a href="#thoughts">Thoughts</a></li>
-</ul></li>
-</ul>
-</nav>
+    
   </div>
 </div>
     <div class="post-content">
-      <p>URL: <a href="https://arxiv.org/pdf/1909.10838.pdf">https://arxiv.org/pdf/1909.10838.pdf</a></p>
+      <p>URL: <a href="https://www.aclweb.org/anthology/P19-1453/">https://www.aclweb.org/anthology/P19-1453/</a>
+<a href="https://github.com/jwieting/simple-and-effective-paraphrastic-similarity">https://github.com/jwieting/simple-and-effective-paraphrastic-similarity</a></p>
 
-<h2 id="tl-dr">TL;DR</h2>
+<h2 id="简介">简介</h2>
 
-<p>一个自动驾驶交互数据集，在街景、自动驾驶场景下，根据视频(雷达)和自然语言输入找出正确对参考对象，如靠近某人或物体停车。
-可以看作是视频文本理解任务或者领域VQA</p>
+<p>ACL 2019 利用平行语料学习句子相似性，但是不利用回翻技术，而是直接在平行预料上用三元损失函数。</p>
 
-<h2 id="dataset">Dataset</h2>
+<h2 id="数据集">数据集</h2>
 
-<p><a href="http://macchina-ai.cs.kuleuven.be">http://macchina-ai.cs.kuleuven.be</a>
-<img src="/image/20190928_EMNLP2019Talk2Car/sample.jpg" alt="fig1" /></p>
+<p>2012-2016 SemEval Semantic Textual Similarity (STS) shared tasks</p>
 
-<p>本文的数据集在<a href="https://www.nuscenes.org/">unScenes dataset</a>基础上构建。
-为每一段视频标注尽可能多的指令和参考对象，除了视频还提供雷达等多模态信息。
-<img src="/image/20190928_EMNLP2019Talk2Car/stat.jpg" alt="fig2" /></p>
+<h2 id="算法">算法</h2>
 
-<h2 id="method">Method</h2>
+<p>在平行语料中每次选一个句子s，它对应的翻译t和其他的翻译t'。
+以让s和t的句子编码尽可能相近，s和t'的句子编码尽可能远为目标来优化。
+<span  class="math">\( \min\limits_{\theta_{src}, \theta_{tgt}} \sum\limits_i [\delta - f_\theta(s_i, t_i) + f_\theta(s_i, t'_i)] \)</span>
+其中
+$f_\theta(s, t) = \cos(g(s; \theta_{src}), g(t; \theta_{tgt})), \text{g is encoder.}$</p>
 
-<p>作者将已有解决方法按是否基于区域候选划分。
-候选框统一由SSD512提供，然后为候选匹配指令语义；非候选框的方法由文本理解得到图像中的关注区域。</p>
+<p>这样就省去了回翻的算力消耗。
+如果是多语言翻译语料，则t'会在所有的集合中随机抽取，而不是向双语言语料那样只在对应的翻译语言上。</p>
 
-<h2 id="model">Model</h2>
+<h2 id="模型">模型</h2>
 
-<p>文章没有提出新的baseline，在随机方法和相关SOTA模型上进行了测试</p>
+<p>编码器主要采用子词编码取平均的方法(SP)。
+也对词编码、三元语言模型、双向LSTM等进行了实验。</p>
 
-<table>
-<thead>
-<tr>
-<th>Model</th>
-<th>Name</th>
-<th>Desc</th>
-</tr>
-</thead>
+<h2 id="实验与对比">实验与对比</h2>
 
-<tbody>
-<tr>
-<td>RNM</td>
-<td>Random Noun Matching</td>
-<td>将指令中抽出的名次和所有SSD给出的候选框随机匹配</td>
-</tr>
+<p>双语实验，相似性都是英文句子间相似性。
+说明了本文的子词编码取平均的方法(SP)优于其他句子编码方法。
+<figure><img src="/image/20191010_ACL2019ParaSim/res_bi.png" alt="tab1"></figure></p>
 
-<tr>
-<td>RS</td>
-<td>Random  Selection</td>
-<td>随机选择SSD的候选框作为预测</td>
-</tr>
+<p>多语言实验，训练语料是多语言平行语料，指标是跨语言相似性准确程度。
+说明了本文的不依赖回翻的方法在跨语言相似性上的优越性。
+<figure><img src="/image/20191010_ACL2019ParaSim/res_mul.png" alt="tab2"></figure></p>
 
-<tr>
-<td>BOBB</td>
-<td>Biggest Overlapping Bounding Box</td>
-<td>从测试中SSD输出的候选框中选择与训练集标注重叠最多的</td>
-</tr>
+<p>作者还通过消融实验说明结果和语言的选择是无关的。
+<figure><img src="/image/20191010_ACL2019ParaSim/ablation.png" alt="fig1"></figure></p>
 
-<tr>
-<td>OSM</td>
-<td>Object Sentence Mapping</td>
-<td>将SSD+ResNet18得到的候选区域特征和GRU得到的指令特征内积匹配</td>
-</tr>
+<h2 id="思考">思考</h2>
 
-<tr>
-<td>SCRC</td>
-<td>Spatial Context Recurrent ConvNet</td>
-<td>CVPR2016 <a href="http://ronghanghu.com/text_obj_retrieval/">http://ronghanghu.com/text_obj_retrieval/</a></td>
-</tr>
-
-<tr>
-<td>S-NMN</td>
-<td>Stack Neural Module Network</td>
-<td>ECCV2018 <a href="http://ronghanghu.com/snmn/">http://ronghanghu.com/snmn/</a></td>
-</tr>
-
-<tr>
-<td>MAC</td>
-<td>Memory Attention Composition</td>
-<td>ICLR2018 <a href="https://openreview.net/forum?id=S1Euwz-Rb">https://openreview.net/forum?id=S1Euwz-Rb</a></td>
-</tr>
-</tbody>
-</table>
-
-<h2 id="experiment-detail">Experiment Detail</h2>
-
-<p><img src="/image/20190928_EMNLP2019Talk2Car/res.jpg" alt="fig3" /></p>
-
-<h2 id="thoughts">Thoughts</h2>
-
-<p>类似VQA的寻找参考任务，特定领域数据集，但没有给出加入街景特点的新Baseline。</p>
+<p>本文说明了相似性度量可以省去回翻这一步，节省大量时间与算力。
+至于可省去回翻是否因为字词编码效果好，消融说明感觉不是很充分。</p>
     </div>
 
     <div class="post-copyright">
@@ -264,7 +210,7 @@ TL;DR
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2019-09-28
+        2019-10-10
         
     </span>
   </p>
@@ -273,18 +219,17 @@ TL;DR
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/dataset/">Dataset</a>
-          <a href="/tags/emnlp/">EMNLP</a>
-          <a href="/tags/multimodel/">MultiModel</a>
+          <a href="/tags/acl/">ACL</a>
+          <a href="/tags/similarity/">Similarity</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/paper_note/simpleandeffectiveparaphrasticsimilarityfromparalleltranslations/">
+        <a class="prev" href="/post/paper_note/generalizationwithoutsystematicityonthecompositionalskillsofsequence-to-sequencerecurrentnetworks/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Paper Read 《Simple and Effective Paraphrastic Similarity from Parallel Translations》</span>
+            <span class="prev-text nav-default">Paper Read 《Generalization without Systematicity: On the Compositional Skills of Sequence-to-Sequence Recurrent Networks》</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
-        <a class="next" href="/post/paper_note/20190927_iccv2019mter/">
-            <span class="next-text nav-default">Read Paper 《Adversarial Learning with Margin-based Triplet Embedding Regularization》</span>
+        <a class="next" href="/post/paper_note/20190928_emnlp2019talk2car/">
+            <span class="next-text nav-default">Read Paper 《Talk2Car: Taking Control of Your Self-Driving Car》</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

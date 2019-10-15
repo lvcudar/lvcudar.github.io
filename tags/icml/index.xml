@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ICML on Lvcudar Blog</title>
+    <link>/tags/icml/</link>
+    <description>Recent content in ICML on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Oct 2019 11:19:12 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/icml/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Paper Read 《Generalization without Systematicity: On the Compositional Skills of Sequence-to-Sequence Recurrent Networks》</title>
+      <link>/post/paper_note/generalizationwithoutsystematicityonthecompositionalskillsofsequence-to-sequencerecurrentnetworks/</link>
+      <pubDate>Sat, 12 Oct 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/generalizationwithoutsystematicityonthecompositionalskillsofsequence-to-sequencerecurrentnetworks/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://proceedings.mlr.press/v80/lake18a.html&#34;&gt;http://proceedings.mlr.press/v80/lake18a.html&lt;/a&gt;
+&lt;a href=&#34;https://github.com/brendenlake/SCAN&#34;&gt;https://github.com/brendenlake/SCAN&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ICML 2018 一个测试AI能根据结构，理解零样本新指令的数据集，类似于迁移学习的dax。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

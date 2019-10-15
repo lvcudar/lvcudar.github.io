@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Sep 2019 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 12 Oct 2019 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,36 @@
     <item>
       <title>Dataset</title>
       <link>/tags/dataset/</link>
-      <pubDate>Sat, 28 Sep 2019 12:00:00 +0800</pubDate>
+      <pubDate>Sat, 12 Oct 2019 11:19:12 +0800</pubDate>
       
       <guid>/tags/dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICML</title>
+      <link>/tags/icml/</link>
+      <pubDate>Sat, 12 Oct 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/icml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACL</title>
+      <link>/tags/acl/</link>
+      <pubDate>Thu, 10 Oct 2019 22:59:12 +0800</pubDate>
+      
+      <guid>/tags/acl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Similarity</title>
+      <link>/tags/similarity/</link>
+      <pubDate>Thu, 10 Oct 2019 22:59:12 +0800</pubDate>
+      
+      <guid>/tags/similarity/</guid>
       <description></description>
     </item>
     
@@ -161,15 +188,6 @@
       <pubDate>Thu, 05 Sep 2019 12:00:00 +0800</pubDate>
       
       <guid>/tags/summary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ACL</title>
-      <link>/tags/acl/</link>
-      <pubDate>Sat, 31 Aug 2019 12:00:00 +0800</pubDate>
-      
-      <guid>/tags/acl/</guid>
       <description></description>
     </item>
     

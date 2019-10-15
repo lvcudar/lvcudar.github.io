@@ -3,20 +3,90 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2019-09-28T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/cv/</loc>
-    <lastmod>2019-09-28T12:00:00+08:00</lastmod>
+    <lastmod>2019-10-13T08:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/dataset/</loc>
+    <lastmod>2019-10-13T08:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/icml/</loc>
+    <lastmod>2019-10-13T08:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-10-13T08:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/nlp/</loc>
+    <lastmod>2019-10-13T08:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/paper-note/</loc>
+    <lastmod>2019-10-13T08:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/paper_note/generalizationwithoutsystematicityonthecompositionalskillsofsequence-to-sequencerecurrentnetworks/</loc>
+    <lastmod>2019-10-13T08:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-10-13T08:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-10-13T08:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/acl/</loc>
+    <lastmod>2019-10-10T22:59:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/paper_note/simpleandeffectiveparaphrasticsimilarityfromparalleltranslations/</loc>
+    <lastmod>2019-10-10T22:59:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/similarity/</loc>
+    <lastmod>2019-10-10T22:59:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/cv/</loc>
     <lastmod>2019-09-28T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -30,13 +100,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-09-28T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/tags/multimodel/</loc>
     <lastmod>2019-09-28T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -44,28 +107,7 @@
   </url>
   
   <url>
-    <loc>/categories/paper-note/</loc>
-    <lastmod>2019-09-28T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-09-28T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/post/paper_note/20190928_emnlp2019talk2car/</loc>
-    <lastmod>2019-09-28T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-09-28T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -108,13 +150,6 @@
   
   <url>
     <loc>/tags/classify/</loc>
-    <lastmod>2019-09-21T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/nlp/</loc>
     <lastmod>2019-09-21T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -214,13 +249,6 @@
   <url>
     <loc>/tags/summary/</loc>
     <lastmod>2019-09-05T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/acl/</loc>
-    <lastmod>2019-08-31T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

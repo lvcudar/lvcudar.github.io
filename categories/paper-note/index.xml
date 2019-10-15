@@ -6,10 +6,38 @@
     <description>Recent content in Paper Note on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Sep 2019 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 12 Oct 2019 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/categories/paper-note/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Paper Read 《Generalization without Systematicity: On the Compositional Skills of Sequence-to-Sequence Recurrent Networks》</title>
+      <link>/post/paper_note/generalizationwithoutsystematicityonthecompositionalskillsofsequence-to-sequencerecurrentnetworks/</link>
+      <pubDate>Sat, 12 Oct 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/generalizationwithoutsystematicityonthecompositionalskillsofsequence-to-sequencerecurrentnetworks/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://proceedings.mlr.press/v80/lake18a.html&#34;&gt;http://proceedings.mlr.press/v80/lake18a.html&lt;/a&gt;
+&lt;a href=&#34;https://github.com/brendenlake/SCAN&#34;&gt;https://github.com/brendenlake/SCAN&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ICML 2018 一个测试AI能根据结构，理解零样本新指令的数据集，类似于迁移学习的dax。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Read 《Simple and Effective Paraphrastic Similarity from Parallel Translations》</title>
+      <link>/post/paper_note/simpleandeffectiveparaphrasticsimilarityfromparalleltranslations/</link>
+      <pubDate>Thu, 10 Oct 2019 22:59:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/simpleandeffectiveparaphrasticsimilarityfromparalleltranslations/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/P19-1453/&#34;&gt;https://www.aclweb.org/anthology/P19-1453/&lt;/a&gt;
+&lt;a href=&#34;https://github.com/jwieting/simple-and-effective-paraphrastic-similarity&#34;&gt;https://github.com/jwieting/simple-and-effective-paraphrastic-similarity&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 利用平行语料学习句子相似性，但是不利用回翻技术，而是直接在平行预料上用三元损失函数。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Talk2Car: Taking Control of Your Self-Driving Car》</title>
