@@ -6,10 +6,36 @@
     <description>Recent content in EMNLP on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Sep 2019 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2019 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/emnlp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Paper Read 《Pun-GAN: Generative Adversarial Network for Pun Generation》</title>
+      <link>/post/paper_note/emnlp2019_pungan/</link>
+      <pubDate>Sat, 26 Oct 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/emnlp2019_pungan/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://github.com/lishunyao97/Pun-GAN&#34;&gt;https://github.com/lishunyao97/Pun-GAN&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;使用GAN生成有歧义的话语&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Paper Read 《Towards Controllable and Personalized Review Generation》</title>
+      <link>/post/paper_note/towardscontrollableandpersonalizedreviewgeneration/</link>
+      <pubDate>Mon, 21 Oct 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/towardscontrollableandpersonalizedreviewgeneration/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/abs/1910.03506&#34;&gt;https://arxiv.org/abs/1910.03506&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP2019 使用GAN结构通过商品介绍和顾客之前评论数据，自动生成新的评论。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Talk2Car: Taking Control of Your Self-Driving Car》</title>

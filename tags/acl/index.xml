@@ -6,10 +6,25 @@
     <description>Recent content in ACL on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Oct 2019 22:59:12 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 25 Oct 2019 22:22:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/acl/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Paper Read 《Bridging the Gap between Training and Inference for Neural Machine Translation》</title>
+      <link>/post/paper_note/bridgingthegapbetweentrainingandinferenceforneuralmachinetranslation/</link>
+      <pubDate>Fri, 25 Oct 2019 22:22:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/bridgingthegapbetweentrainingandinferenceforneuralmachinetranslation/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/P19-1426&#34;&gt;https://www.aclweb.org/anthology/P19-1426&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;ACL 2019 最佳长论文。
+使用新的训练方法跨越神经机器翻译训练和测试解码输入不同和过渡矫正为例句的问题。
+即从之前输出，真实参考和其他例句中选择训练时的输入，而不只是用一句参考。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Paper Read 《Simple and Effective Paraphrastic Similarity from Parallel Translations》</title>
