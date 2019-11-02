@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Oct 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 02 Nov 2019 16:13:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Drive</title>
+      <link>/tags/drive/</link>
+      <pubDate>Sat, 02 Nov 2019 16:13:12 +0800</pubDate>
+      
+      <guid>/tags/drive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FSR</title>
+      <link>/tags/fsr/</link>
+      <pubDate>Sat, 02 Nov 2019 16:13:12 +0800</pubDate>
+      
+      <guid>/tags/fsr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoRL</title>
+      <link>/tags/corl/</link>
+      <pubDate>Sat, 02 Nov 2019 13:19:12 +0800</pubDate>
+      
+      <guid>/tags/corl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dataset</title>
+      <link>/tags/dataset/</link>
+      <pubDate>Sat, 02 Nov 2019 13:19:12 +0800</pubDate>
+      
+      <guid>/tags/dataset/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>EMNLP</title>
@@ -53,15 +89,6 @@
       <pubDate>Fri, 25 Oct 2019 22:22:12 +0800</pubDate>
       
       <guid>/tags/nmt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dataset</title>
-      <link>/tags/dataset/</link>
-      <pubDate>Sat, 12 Oct 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/dataset/</guid>
       <description></description>
     </item>
     

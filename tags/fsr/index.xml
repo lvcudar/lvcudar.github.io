@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>FSR on Lvcudar Blog</title>
+    <link>/tags/fsr/</link>
+    <description>Recent content in FSR on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Nov 2019 16:13:12 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/fsr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles》</title>
+      <link>/post/paper_note/airsim/</link>
+      <pubDate>Sat, 02 Nov 2019 16:13:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/airsim/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://microsoft.github.io/AirSim/&#34;&gt;https://microsoft.github.io/AirSim/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;FSR2017 一个自动驾驶模拟器，为四旋翼飞行器通过类似车的方式提供模拟环境。
+有虚幻和Unity的版本，但是需要注册才可以获得。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

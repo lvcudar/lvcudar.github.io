@@ -3,7 +3,84 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2019-10-26T11:19:12+08:00</lastmod>
+    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/cv/</loc>
+    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/drive/</loc>
+    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/fsr/</loc>
+    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/paper-note/</loc>
+    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/paper_note/airsim/</loc>
+    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/corl/</loc>
+    <lastmod>2019-11-02T13:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/dataset/</loc>
+    <lastmod>2019-11-02T13:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/paper_note/carla_an_open_urban_driving_simulator/</loc>
+    <lastmod>2019-11-02T13:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,13 +94,6 @@
   
   <url>
     <loc>/tags/gan/</loc>
-    <lastmod>2019-10-26T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/</loc>
     <lastmod>2019-10-26T11:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -44,28 +114,7 @@
   </url>
   
   <url>
-    <loc>/categories/paper-note/</loc>
-    <lastmod>2019-10-26T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/post/paper_note/emnlp2019_pungan/</loc>
-    <lastmod>2019-10-26T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-10-26T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-10-26T11:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -100,13 +149,6 @@
   </url>
   
   <url>
-    <loc>/tags/dataset/</loc>
-    <lastmod>2019-10-13T08:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/tags/icml/</loc>
     <lastmod>2019-10-13T08:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -130,13 +172,6 @@
   <url>
     <loc>/tags/similarity/</loc>
     <lastmod>2019-10-10T22:59:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/cv/</loc>
-    <lastmod>2019-09-28T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

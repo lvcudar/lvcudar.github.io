@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Paper Read 《Pun-GAN: Generative Adversarial Network for Pun Generation》 - Lvcudar Blog</title>
+  <title>Read Paper 《CARLA: An Open Urban Driving Simulator》 - Lvcudar Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,8 +16,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="lvcudar" /><meta name="description" content="URL: https://github.com/lishunyao97/Pun-GAN
-TL;DR 使用GAN生成有歧义的话语
+<meta name="author" content="lvcudar" /><meta name="description" content="URL: http://proceedings.mlr.press/v78/dosovitskiy17a http://carla.org/
+TL;DR CoRL2017 一个开源的自动驾驶模拟器，提供丰富的环境、人物和传感器支持，和便于机器学习使用的驾驶API。
 " /><meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -28,7 +28,7 @@ TL;DR 使用GAN生成有歧义的话语
 <meta name="generator" content="Hugo 0.58.3 with theme even" />
 
 
-<link rel="canonical" href="/post/paper_note/emnlp2019_pungan/" />
+<link rel="canonical" href="/post/paper_note/carla_an_open_urban_driving_simulator/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -40,38 +40,41 @@ TL;DR 使用GAN生成有歧义的话语
 <link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
 
-<meta property="og:title" content="Paper Read 《Pun-GAN: Generative Adversarial Network for Pun Generation》" />
-<meta property="og:description" content="URL: https://github.com/lishunyao97/Pun-GAN
+<meta property="og:title" content="Read Paper 《CARLA: An Open Urban Driving Simulator》" />
+<meta property="og:description" content="URL: http://proceedings.mlr.press/v78/dosovitskiy17a
+http://carla.org/
 
 TL;DR
 
-使用GAN生成有歧义的话语" />
+CoRL2017 一个开源的自动驾驶模拟器，提供丰富的环境、人物和传感器支持，和便于机器学习使用的驾驶API。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/paper_note/emnlp2019_pungan/" />
-<meta property="article:published_time" content="2019-10-26T11:19:12+08:00" />
-<meta property="article:modified_time" content="2019-10-26T11:19:12+08:00" />
-<meta itemprop="name" content="Paper Read 《Pun-GAN: Generative Adversarial Network for Pun Generation》">
-<meta itemprop="description" content="URL: https://github.com/lishunyao97/Pun-GAN
+<meta property="og:url" content="/post/paper_note/carla_an_open_urban_driving_simulator/" />
+<meta property="article:published_time" content="2019-11-02T13:19:12+08:00" />
+<meta property="article:modified_time" content="2019-11-02T13:19:12+08:00" />
+<meta itemprop="name" content="Read Paper 《CARLA: An Open Urban Driving Simulator》">
+<meta itemprop="description" content="URL: http://proceedings.mlr.press/v78/dosovitskiy17a
+http://carla.org/
 
 TL;DR
 
-使用GAN生成有歧义的话语">
+CoRL2017 一个开源的自动驾驶模拟器，提供丰富的环境、人物和传感器支持，和便于机器学习使用的驾驶API。">
 
 
-<meta itemprop="datePublished" content="2019-10-26T11:19:12&#43;08:00" />
-<meta itemprop="dateModified" content="2019-10-26T11:19:12&#43;08:00" />
-<meta itemprop="wordCount" content="295">
+<meta itemprop="datePublished" content="2019-11-02T13:19:12&#43;08:00" />
+<meta itemprop="dateModified" content="2019-11-02T13:19:12&#43;08:00" />
+<meta itemprop="wordCount" content="443">
 
 
 
-<meta itemprop="keywords" content="EMNLP,GAN,NLG," />
+<meta itemprop="keywords" content="CoRL,Drive,Dataset," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Paper Read 《Pun-GAN: Generative Adversarial Network for Pun Generation》"/>
-<meta name="twitter:description" content="URL: https://github.com/lishunyao97/Pun-GAN
+<meta name="twitter:title" content="Read Paper 《CARLA: An Open Urban Driving Simulator》"/>
+<meta name="twitter:description" content="URL: http://proceedings.mlr.press/v78/dosovitskiy17a
+http://carla.org/
 
 TL;DR
 
-使用GAN生成有歧义的话语"/>
+CoRL2017 一个开源的自动驾驶模拟器，提供丰富的环境、人物和传感器支持，和便于机器学习使用的驾驶API。"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -134,13 +137,13 @@ TL;DR
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Paper Read 《Pun-GAN: Generative Adversarial Network for Pun Generation》</h1>
+      <h1 class="post-title">Read Paper 《CARLA: An Open Urban Driving Simulator》</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2019-10-26 </span>
+        <span class="post-time"> 2019-11-02 </span>
         <div class="post-category">
             <a href="/categories/paper-note/"> Paper Note </a>
-            <a href="/categories/nlp/"> NLP </a>
+            <a href="/categories/cv/"> CV </a>
             </div>
         
       </div>
@@ -154,8 +157,9 @@ TL;DR
 <li>
 <ul>
 <li><a href="#tl-dr">TL;DR</a></li>
-<li><a href="#dataset">Dataset</a></li>
 <li><a href="#model">Model</a></li>
+<li><a href="#dataset">Dataset</a></li>
+<li><a href="#algorithm">Algorithm</a></li>
 <li><a href="#experiment-detail">Experiment Detail</a></li>
 <li><a href="#thoughts">Thoughts</a></li>
 </ul></li>
@@ -164,37 +168,43 @@ TL;DR
   </div>
 </div>
     <div class="post-content">
-      <p>URL: <a href="https://github.com/lishunyao97/Pun-GAN">https://github.com/lishunyao97/Pun-GAN</a></p>
+      <p>URL: <a href="http://proceedings.mlr.press/v78/dosovitskiy17a">http://proceedings.mlr.press/v78/dosovitskiy17a</a>
+<a href="http://carla.org/">http://carla.org/</a></p>
 
 <h2 id="tl-dr">TL;DR</h2>
 
-<p>使用GAN生成有歧义的话语</p>
-
-<h2 id="dataset">Dataset</h2>
-
-<p>训练采用三部分数据，标注词语含义的<a href="http://web.eecs.umich.edu/~mihalcea/downloads.html#semcor">SemCor</a>、维基百科上的多含义条目、模型生成的数据。
-测试采用<a href="http://alt.qcri.org/semeval2017/task7/">SemEval2017Task7</a>的数据。</p>
+<p>CoRL2017 一个开源的自动驾驶模拟器，提供丰富的环境、人物和传感器支持，和便于机器学习使用的驾驶API。</p>
 
 <h2 id="model">Model</h2>
 
-<p><img src="/image/20191026_EMNLP2019PunGAN/arch.jpg" alt="fig1" />
-模型以有歧义的词的两个意思为输入尝试生成一个包含这个词且能表达这两个意思的句子，鉴别器则鉴别一个句子中目标词的含义是什么或是有歧义。</p>
+<p>城市驾驶模拟器基于虚幻4引擎开发。
+并且为NPC提供了一定的运动逻辑</p>
 
-<p>本文的创新在于设计了一种强化学习的奖励 $r = \frac{D_\phi(s<em>1|x) + D</em>\phi(s<em>2|x)}{|D</em>\phi(s<em>1|x) - D</em>\phi(s_2|x)| + 1}$ 来通过策略梯度优化生成器。
-考虑缺乏大规模语料的问题，鉴别器采用半监督的方式训练优化。
-即对有标注的数据精细分类，无标注的只区分是否有歧义。</p>
+<h2 id="dataset">Dataset</h2>
+
+<p>模拟器提供两个小城市的仿真数据。
+<img src="/image/20191102_CoRL2017CARLA/town.jpg" alt="fig1" />
+包括多种的建筑物、行人、车辆、天气等，而且这些数字资产也是免费的。
+行人和车辆有运动逻辑、有日出日落的效果，不同的降水则会形成水坑，如GTA5一般逼真。</p>
+
+<h2 id="algorithm">Algorithm</h2>
+
+<p>模拟器为车辆的操作提供了 python API 可以更方便的训练和测试。
+相比于GTA5，操作和传感API使得本模拟器适合于自动驾驶的训练和测试。
+<img src="/image/20191102_CoRL2017CARLA/sensor.jpg" alt="fig2" />
+文章中比较了管道化方法、模仿学习和强化学习三种自动驾驶策略在模拟器中的效果。</p>
 
 <h2 id="experiment-detail">Experiment Detail</h2>
 
-<p>效果似乎不错，挺通顺的。
-<img src="/image/20191026_EMNLP2019PunGAN/res.jpg" alt="fig2&amp;fig3" /></p>
-
-<p>对抗训练能使得歧义更明显。
-<img src="/image/20191026_EMNLP2019PunGAN/ablation.jpg" alt="tab4" /></p>
+<p>都是简单的基线，实验结果也是即使在无人状态下走直线也困难。
+这里模仿学习会胜过强化学习。
+不过，实验主要还是说明模拟器对自动驾驶的验证能力，比如可提供事故和乱跑的人或车。</p>
 
 <h2 id="thoughts">Thoughts</h2>
 
-<p>GAN策略能奏效，也许可以试试VAE。</p>
+<p>如果GTA5出个python接口感觉不错。
+文章提出了新的仿真环境并比较了baseline，但是没有详细介绍模拟器的设计和架构。
+看起来对于仿真交通环境挺全面的。</p>
     </div>
 
     <div class="post-copyright">
@@ -205,7 +215,7 @@ TL;DR
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2019-10-26
+        2019-11-02
         
     </span>
   </p>
@@ -214,18 +224,18 @@ TL;DR
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/emnlp/">EMNLP</a>
-          <a href="/tags/gan/">GAN</a>
-          <a href="/tags/nlg/">NLG</a>
+          <a href="/tags/corl/">CoRL</a>
+          <a href="/tags/drive/">Drive</a>
+          <a href="/tags/dataset/">Dataset</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/paper_note/carla_an_open_urban_driving_simulator/">
+        <a class="prev" href="/post/paper_note/airsim/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Read Paper 《CARLA: An Open Urban Driving Simulator》</span>
+            <span class="prev-text nav-default">Read Paper 《AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles》</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
-        <a class="next" href="/post/paper_note/bridgingthegapbetweentrainingandinferenceforneuralmachinetranslation/">
-            <span class="next-text nav-default">Paper Read 《Bridging the Gap between Training and Inference for Neural Machine Translation》</span>
+        <a class="next" href="/post/paper_note/emnlp2019_pungan/">
+            <span class="next-text nav-default">Paper Read 《Pun-GAN: Generative Adversarial Network for Pun Generation》</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>

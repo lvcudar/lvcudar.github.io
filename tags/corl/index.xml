@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CoRL on Lvcudar Blog</title>
+    <link>/tags/corl/</link>
+    <description>Recent content in CoRL on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 02 Nov 2019 13:19:12 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/corl/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《CARLA: An Open Urban Driving Simulator》</title>
+      <link>/post/paper_note/carla_an_open_urban_driving_simulator/</link>
+      <pubDate>Sat, 02 Nov 2019 13:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/carla_an_open_urban_driving_simulator/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://proceedings.mlr.press/v78/dosovitskiy17a&#34;&gt;http://proceedings.mlr.press/v78/dosovitskiy17a&lt;/a&gt;
+&lt;a href=&#34;http://carla.org/&#34;&gt;http://carla.org/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;CoRL2017 一个开源的自动驾驶模拟器，提供丰富的环境、人物和传感器支持，和便于机器学习使用的驾驶API。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
