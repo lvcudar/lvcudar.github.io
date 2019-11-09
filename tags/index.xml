@@ -6,10 +6,64 @@
     <description>Recent content in Tags on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 02 Nov 2019 16:13:12 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2019 15:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Classify</title>
+      <link>/tags/classify/</link>
+      <pubDate>Sat, 09 Nov 2019 15:19:12 +0800</pubDate>
+      
+      <guid>/tags/classify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NIPS</title>
+      <link>/tags/nips/</link>
+      <pubDate>Sat, 09 Nov 2019 15:19:12 +0800</pubDate>
+      
+      <guid>/tags/nips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VAE</title>
+      <link>/tags/vae/</link>
+      <pubDate>Sat, 09 Nov 2019 15:19:12 +0800</pubDate>
+      
+      <guid>/tags/vae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICML</title>
+      <link>/tags/icml/</link>
+      <pubDate>Tue, 05 Nov 2019 19:19:12 +0800</pubDate>
+      
+      <guid>/tags/icml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLG</title>
+      <link>/tags/nlg/</link>
+      <pubDate>Tue, 05 Nov 2019 19:19:12 +0800</pubDate>
+      
+      <guid>/tags/nlg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EMNLP</title>
+      <link>/tags/emnlp/</link>
+      <pubDate>Mon, 04 Nov 2019 11:12:12 +0800</pubDate>
+      
+      <guid>/tags/emnlp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Drive</title>
@@ -48,29 +102,11 @@
     </item>
     
     <item>
-      <title>EMNLP</title>
-      <link>/tags/emnlp/</link>
-      <pubDate>Sat, 26 Oct 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/emnlp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>GAN</title>
       <link>/tags/gan/</link>
       <pubDate>Sat, 26 Oct 2019 11:19:12 +0800</pubDate>
       
       <guid>/tags/gan/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NLG</title>
-      <link>/tags/nlg/</link>
-      <pubDate>Sat, 26 Oct 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/nlg/</guid>
       <description></description>
     </item>
     
@@ -89,15 +125,6 @@
       <pubDate>Fri, 25 Oct 2019 22:22:12 +0800</pubDate>
       
       <guid>/tags/nmt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ICML</title>
-      <link>/tags/icml/</link>
-      <pubDate>Sat, 12 Oct 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/icml/</guid>
       <description></description>
     </item>
     
@@ -156,15 +183,6 @@
     </item>
     
     <item>
-      <title>Classify</title>
-      <link>/tags/classify/</link>
-      <pubDate>Sat, 21 Sep 2019 12:00:00 +0800</pubDate>
-      
-      <guid>/tags/classify/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Transfer</title>
       <link>/tags/transfer/</link>
       <pubDate>Sat, 21 Sep 2019 12:00:00 +0800</pubDate>
@@ -179,15 +197,6 @@
       <pubDate>Mon, 16 Sep 2019 12:00:00 +0800</pubDate>
       
       <guid>/tags/ds/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NIPS</title>
-      <link>/tags/nips/</link>
-      <pubDate>Mon, 16 Sep 2019 12:00:00 +0800</pubDate>
-      
-      <guid>/tags/nips/</guid>
       <description></description>
     </item>
     
@@ -242,15 +251,6 @@
       <pubDate>Thu, 05 Sep 2019 12:00:00 +0800</pubDate>
       
       <guid>/tags/summary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VAE</title>
-      <link>/tags/vae/</link>
-      <pubDate>Sat, 31 Aug 2019 12:00:00 +0800</pubDate>
-      
-      <guid>/tags/vae/</guid>
       <description></description>
     </item>
     

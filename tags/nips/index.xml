@@ -6,10 +6,24 @@
     <description>Recent content in NIPS on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Sep 2019 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2019 15:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/nips/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Semi-supervised Learning with Deep Generative Models》</title>
+      <link>/post/paper_note/semi-supervised_learning_with_deep_generative_models/</link>
+      <pubDate>Sat, 09 Nov 2019 15:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/semi-supervised_learning_with_deep_generative_models/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/pdf/1406.5298.pdf&#34;&gt;https://arxiv.org/pdf/1406.5298.pdf&lt;/a&gt;
+&lt;a href=&#34;https://github.com/dpkingma/nips14-ssl&#34;&gt;https://github.com/dpkingma/nips14-ssl&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;NIPS2014 提出的一种基于生成模型变分推断(VAE)的半监督学习分类方法。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Slice-based Learning: A Programming Model forResidual Learning in Critical Data Slices》</title>

@@ -6,10 +6,24 @@
     <description>Recent content in EMNLP on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Oct 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 04 Nov 2019 11:12:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/emnlp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Controlling Output Length in Neural Encoder-Decoders》</title>
+      <link>/post/paper_note/controlling_output_length_in_neural_encoder-decoders/</link>
+      <pubDate>Mon, 04 Nov 2019 11:12:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/controlling_output_length_in_neural_encoder-decoders/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/D16-1140&#34;&gt;https://www.aclweb.org/anthology/D16-1140&lt;/a&gt;
+&lt;a href=&#34;https://github.com/kiyukuta/lencon&#34;&gt;https://github.com/kiyukuta/lencon&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP2016 提出并对比了4种控制RNN摘要任务生成长度的方法，两种基于学习的方法能够不损失ROUGE。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Paper Read 《Pun-GAN: Generative Adversarial Network for Pun Generation》</title>

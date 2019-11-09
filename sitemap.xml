@@ -3,14 +3,112 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
+    <lastmod>2019-11-09T19:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/classify/</loc>
+    <lastmod>2019-11-09T19:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/cv/</loc>
-    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
+    <lastmod>2019-11-09T19:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-11-09T19:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nips/</loc>
+    <lastmod>2019-11-09T19:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/paper-note/</loc>
+    <lastmod>2019-11-09T19:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2019-11-09T19:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/paper_note/semi-supervised_learning_with_deep_generative_models/</loc>
+    <lastmod>2019-11-09T19:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-11-09T19:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vae/</loc>
+    <lastmod>2019-11-09T19:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/icml/</loc>
+    <lastmod>2019-11-06T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nlg/</loc>
+    <lastmod>2019-11-06T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/nlp/</loc>
+    <lastmod>2019-11-06T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/paper_note/toward_controlled_generation_of_text/</loc>
+    <lastmod>2019-11-06T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/emnlp/</loc>
+    <lastmod>2019-11-04T11:12:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/paper_note/controlling_output_length_in_neural_encoder-decoders/</loc>
+    <lastmod>2019-11-04T11:12:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -30,35 +128,7 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/paper-note/</loc>
-    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/post/paper_note/airsim/</loc>
-    <lastmod>2019-11-02T16:13:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2019-11-02T16:13:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -86,28 +156,7 @@
   </url>
   
   <url>
-    <loc>/tags/emnlp/</loc>
-    <lastmod>2019-10-26T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/tags/gan/</loc>
-    <lastmod>2019-10-26T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/nlg/</loc>
-    <lastmod>2019-10-26T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/nlp/</loc>
     <lastmod>2019-10-26T11:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -144,13 +193,6 @@
   <url>
     <loc>/post/paper_note/towardscontrollableandpersonalizedreviewgeneration/</loc>
     <lastmod>2019-10-21T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/icml/</loc>
-    <lastmod>2019-10-13T08:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -226,13 +268,6 @@
   </url>
   
   <url>
-    <loc>/tags/classify/</loc>
-    <lastmod>2019-09-21T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/post/paper_note/20190921_acml2019letranets/</loc>
     <lastmod>2019-09-21T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -248,13 +283,6 @@
   
   <url>
     <loc>/tags/ds/</loc>
-    <lastmod>2019-09-16T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/nips/</loc>
     <lastmod>2019-09-16T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -332,13 +360,6 @@
   
   <url>
     <loc>/post/paper_note/20190831_acl2019dssvae/</loc>
-    <lastmod>2019-08-31T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/vae/</loc>
     <lastmod>2019-08-31T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

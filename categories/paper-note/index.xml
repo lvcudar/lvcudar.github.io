@@ -6,10 +6,55 @@
     <description>Recent content in Paper Note on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 02 Nov 2019 16:13:12 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 09 Nov 2019 15:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/categories/paper-note/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Semi-supervised Learning with Deep Generative Models》</title>
+      <link>/post/paper_note/semi-supervised_learning_with_deep_generative_models/</link>
+      <pubDate>Sat, 09 Nov 2019 15:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/semi-supervised_learning_with_deep_generative_models/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://arxiv.org/pdf/1406.5298.pdf&#34;&gt;https://arxiv.org/pdf/1406.5298.pdf&lt;/a&gt;
+&lt;a href=&#34;https://github.com/dpkingma/nips14-ssl&#34;&gt;https://github.com/dpkingma/nips14-ssl&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;NIPS2014 提出的一种基于生成模型变分推断(VAE)的半监督学习分类方法。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Toward Controlled Generation of Text》</title>
+      <link>/post/paper_note/toward_controlled_generation_of_text/</link>
+      <pubDate>Tue, 05 Nov 2019 19:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/toward_controlled_generation_of_text/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://proceedings.mlr.press/v70/hu17e.html&#34;&gt;http://proceedings.mlr.press/v70/hu17e.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Code:
+&lt;a href=&#34;https://github.com/asyml/texar/tree/master/examples/text_style_transfer&#34;&gt;Official-Texar&lt;/a&gt;
+&lt;a href=&#34;https://github.com/wiseodd/controlled-text-generation&#34;&gt;PyTorch&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;ICML2017 尝试生成通顺的符合设定属性(情感、时态等)的短句。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Controlling Output Length in Neural Encoder-Decoders》</title>
+      <link>/post/paper_note/controlling_output_length_in_neural_encoder-decoders/</link>
+      <pubDate>Mon, 04 Nov 2019 11:12:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/controlling_output_length_in_neural_encoder-decoders/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/D16-1140&#34;&gt;https://www.aclweb.org/anthology/D16-1140&lt;/a&gt;
+&lt;a href=&#34;https://github.com/kiyukuta/lencon&#34;&gt;https://github.com/kiyukuta/lencon&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP2016 提出并对比了4种控制RNN摘要任务生成长度的方法，两种基于学习的方法能够不损失ROUGE。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles》</title>

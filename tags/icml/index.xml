@@ -6,10 +6,27 @@
     <description>Recent content in ICML on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Oct 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 Nov 2019 19:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/icml/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Toward Controlled Generation of Text》</title>
+      <link>/post/paper_note/toward_controlled_generation_of_text/</link>
+      <pubDate>Tue, 05 Nov 2019 19:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/toward_controlled_generation_of_text/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://proceedings.mlr.press/v70/hu17e.html&#34;&gt;http://proceedings.mlr.press/v70/hu17e.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Code:
+&lt;a href=&#34;https://github.com/asyml/texar/tree/master/examples/text_style_transfer&#34;&gt;Official-Texar&lt;/a&gt;
+&lt;a href=&#34;https://github.com/wiseodd/controlled-text-generation&#34;&gt;PyTorch&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;ICML2017 尝试生成通顺的符合设定属性(情感、时态等)的短句。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Paper Read 《Generalization without Systematicity: On the Compositional Skills of Sequence-to-Sequence Recurrent Networks》</title>

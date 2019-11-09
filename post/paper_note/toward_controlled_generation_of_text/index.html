@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Read Paper 《AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles》 - Lvcudar Blog</title>
+  <title>Read Paper 《Toward Controlled Generation of Text》 - Lvcudar Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,8 +16,9 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="lvcudar" /><meta name="description" content="URL: https://microsoft.github.io/AirSim/
-TL;DR FSR2017 一个自动驾驶模拟器，为四旋翼飞行器通过类似车的方式提供模拟环境。 有虚幻和Unity的版本，但是需要注册才可以获得。
+<meta name="author" content="lvcudar" /><meta name="description" content="URL: http://proceedings.mlr.press/v70/hu17e.html
+Code: Official-Texar PyTorch
+简介 ICML2017 尝试生成通顺的符合设定属性(情感、时态等)的短句。
 " /><meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -28,7 +29,7 @@ TL;DR FSR2017 一个自动驾驶模拟器，为四旋翼飞行器通过类似车
 <meta name="generator" content="Hugo 0.58.3 with theme even" />
 
 
-<link rel="canonical" href="/post/paper_note/airsim/" />
+<link rel="canonical" href="/post/paper_note/toward_controlled_generation_of_text/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -40,41 +41,50 @@ TL;DR FSR2017 一个自动驾驶模拟器，为四旋翼飞行器通过类似车
 <link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
 
-<meta property="og:title" content="Read Paper 《AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles》" />
-<meta property="og:description" content="URL: https://microsoft.github.io/AirSim/
+<meta property="og:title" content="Read Paper 《Toward Controlled Generation of Text》" />
+<meta property="og:description" content="URL: http://proceedings.mlr.press/v70/hu17e.html
 
-TL;DR
+Code:
+Official-Texar
+PyTorch
 
-FSR2017 一个自动驾驶模拟器，为四旋翼飞行器通过类似车的方式提供模拟环境。
-有虚幻和Unity的版本，但是需要注册才可以获得。" />
+简介
+
+ICML2017 尝试生成通顺的符合设定属性(情感、时态等)的短句。" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/paper_note/airsim/" />
-<meta property="article:published_time" content="2019-11-02T16:13:12+08:00" />
-<meta property="article:modified_time" content="2019-11-02T16:13:12+08:00" />
-<meta itemprop="name" content="Read Paper 《AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles》">
-<meta itemprop="description" content="URL: https://microsoft.github.io/AirSim/
+<meta property="og:url" content="/post/paper_note/toward_controlled_generation_of_text/" />
+<meta property="article:published_time" content="2019-11-05T19:19:12+08:00" />
+<meta property="article:modified_time" content="2019-11-06T11:19:12+08:00" />
+<meta itemprop="name" content="Read Paper 《Toward Controlled Generation of Text》">
+<meta itemprop="description" content="URL: http://proceedings.mlr.press/v70/hu17e.html
 
-TL;DR
+Code:
+Official-Texar
+PyTorch
 
-FSR2017 一个自动驾驶模拟器，为四旋翼飞行器通过类似车的方式提供模拟环境。
-有虚幻和Unity的版本，但是需要注册才可以获得。">
+简介
 
-
-<meta itemprop="datePublished" content="2019-11-02T16:13:12&#43;08:00" />
-<meta itemprop="dateModified" content="2019-11-02T16:13:12&#43;08:00" />
-<meta itemprop="wordCount" content="235">
+ICML2017 尝试生成通顺的符合设定属性(情感、时态等)的短句。">
 
 
+<meta itemprop="datePublished" content="2019-11-05T19:19:12&#43;08:00" />
+<meta itemprop="dateModified" content="2019-11-06T11:19:12&#43;08:00" />
+<meta itemprop="wordCount" content="475">
 
-<meta itemprop="keywords" content="FSR,Drive," />
+
+
+<meta itemprop="keywords" content="ICML,NLG,VAE," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Read Paper 《AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles》"/>
-<meta name="twitter:description" content="URL: https://microsoft.github.io/AirSim/
+<meta name="twitter:title" content="Read Paper 《Toward Controlled Generation of Text》"/>
+<meta name="twitter:description" content="URL: http://proceedings.mlr.press/v70/hu17e.html
 
-TL;DR
+Code:
+Official-Texar
+PyTorch
 
-FSR2017 一个自动驾驶模拟器，为四旋翼飞行器通过类似车的方式提供模拟环境。
-有虚幻和Unity的版本，但是需要注册才可以获得。"/>
+简介
+
+ICML2017 尝试生成通顺的符合设定属性(情感、时态等)的短句。"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -137,13 +147,13 @@ FSR2017 一个自动驾驶模拟器，为四旋翼飞行器通过类似车的方
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Read Paper 《AirSim: High-Fidelity Visual and Physical Simulation for Autonomous Vehicles》</h1>
+      <h1 class="post-title">Read Paper 《Toward Controlled Generation of Text》</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2019-11-02 </span>
+        <span class="post-time"> 2019-11-05 </span>
         <div class="post-category">
             <a href="/categories/paper-note/"> Paper Note </a>
-            <a href="/categories/cv/"> CV </a>
+            <a href="/categories/nlp/"> NLP </a>
             </div>
         
       </div>
@@ -156,42 +166,91 @@ FSR2017 一个自动驾驶模拟器，为四旋翼飞行器通过类似车的方
 <ul>
 <li>
 <ul>
-<li><a href="#tl-dr">TL;DR</a></li>
-<li><a href="#dataset">Dataset</a></li>
-<li><a href="#architecture">Architecture</a></li>
-<li><a href="#algorithm">Algorithm</a></li>
-<li><a href="#thoughts">Thoughts</a></li>
+<li><a href="#简介">简介</a></li>
+<li><a href="#数据集">数据集</a></li>
+<li><a href="#模型">模型</a></li>
+<li><a href="#算法">算法</a></li>
+<li><a href="#实验与对比">实验与对比</a></li>
+<li><a href="#思考">思考</a></li>
 </ul></li>
 </ul>
 </nav>
   </div>
 </div>
     <div class="post-content">
-      <p>URL: <a href="https://microsoft.github.io/AirSim/">https://microsoft.github.io/AirSim/</a></p>
+      <p>URL: <a href="http://proceedings.mlr.press/v70/hu17e.html">http://proceedings.mlr.press/v70/hu17e.html</a></p>
 
-<h2 id="tl-dr">TL;DR</h2>
+<p>Code:
+<a href="https://github.com/asyml/texar/tree/master/examples/text_style_transfer">Official-Texar</a>
+<a href="https://github.com/wiseodd/controlled-text-generation">PyTorch</a></p>
 
-<p>FSR2017 一个自动驾驶模拟器，为四旋翼飞行器通过类似车的方式提供模拟环境。
-有虚幻和Unity的版本，但是需要注册才可以获得。</p>
+<h2 id="简介">简介</h2>
 
-<h2 id="dataset">Dataset</h2>
+<p>ICML2017 尝试生成通顺的符合设定属性(情感、时态等)的短句。</p>
 
-<p>这项工作主要是为四旋翼飞行棋提供逼真的物理参数和操控反馈，并没有携带复杂的预置的动态交通环境。
-<img src="/image/20191102_FSR2017AirSim/view.jpg" alt="fig1" /></p>
+<h2 id="数据集">数据集</h2>
 
-<h2 id="architecture">Architecture</h2>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>简介</th>
+<th>链接</th>
+</tr>
+</thead>
 
-<p><img src="/image/20191102_FSR2017AirSim/arch.jpg" alt="fig2" />
-模拟器由环境模块、车辆(智能体)模块、物理引擎、传感器模块、渲染接口、公共API层和机械固件接口层组成。</p>
+<tbody>
+<tr>
+<td>IMDB</td>
+<td>大型电影评论数据集</td>
+<td><a href="https://www.imdb.com/interfaces/">https://www.imdb.com/interfaces/</a></td>
+</tr>
 
-<h2 id="algorithm">Algorithm</h2>
+<tr>
+<td>SST</td>
+<td>标注情感和语法的电影评论</td>
+<td><a href="https://nlp.stanford.edu/sentiment/index.html">https://nlp.stanford.edu/sentiment/index.html</a></td>
+</tr>
 
-<p>四旋翼飞行器按照刚体力学来计算运动状态。
-重力、坐标等都有精确的模拟，帧率也很高。</p>
+<tr>
+<td>Lexicon</td>
+<td>句子的语义及其关键词标注</td>
+<td>参考文献 <a href="https://dl.acm.org/citation.cfm?id=1220619">https://dl.acm.org/citation.cfm?id=1220619</a></td>
+</tr>
 
-<h2 id="thoughts">Thoughts</h2>
+<tr>
+<td>TimeBank</td>
+<td>标注文档中句子时态的数据集</td>
+<td><a href="http://timeml.org/timebank/timebank.html">http://timeml.org/timebank/timebank.html</a></td>
+</tr>
+</tbody>
+</table>
 
-<p>这更像是一个电机传动的精确物理模拟器，而不是一个交通仿真环境。</p>
+<h2 id="模型">模型</h2>
+
+<p>模型看起来有些类似GAN，原始样本经过编码器得到编码z，在条件c的参考下，生成器生成符合条件的样本。
+为了解耦或者说条件的可解释性，c的每个维度控制不同的条件，比如第一维的01表示情感积极消极。
+训练时c为真实的标签，并用重构损失训练编码器和生成器生成真实的句子。
+而鉴别器则负责让生成的结果符合c中设置的属性。
+<img src="/image/20191105_ICML2017CGT/model.png" alt="fig1" /></p>
+
+<h2 id="算法">算法</h2>
+
+<p>为了成功求解，作者采用了唤醒-睡眠方法来达到优化目标。
+这不像传统的VAE同时优化生成和鉴别过程，而是像GAN一样轮流优化。
+<img src="/image/20191105_ICML2017CGT/alg.png" alt="alg1&amp;fig2" /></p>
+
+<h2 id="实验与对比">实验与对比</h2>
+
+<p>作者和NIPS2014的<a href="http://papers.nips.cc/paper/5352-semi-supervised-learning-with-deep-generative-models.pdf">Semi-supervised learning with deep generative models</a>
+对比了生成和鉴别的精度，这篇baseline本来是做MNIST条件生成的。
+还提供了同时生成各种属性的效果。
+<img src="/image/20191105_ICML2017CGT/res.png" alt="tab4&amp;tab5" /></p>
+
+<h2 id="思考">思考</h2>
+
+<p>感觉唤醒-睡眠方法和GAN的对抗训练很像，反而没使用VAE损失函数能同时包含生成和鉴别的优点。
+似乎像是GAN，而不是改进的VAE。</p>
     </div>
 
     <div class="post-copyright">
@@ -202,7 +261,7 @@ FSR2017 一个自动驾驶模拟器，为四旋翼飞行器通过类似车的方
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2019-11-02
+        2019-11-06
         
     </span>
   </p>
@@ -211,17 +270,18 @@ FSR2017 一个自动驾驶模拟器，为四旋翼飞行器通过类似车的方
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/fsr/">FSR</a>
-          <a href="/tags/drive/">Drive</a>
+          <a href="/tags/icml/">ICML</a>
+          <a href="/tags/nlg/">NLG</a>
+          <a href="/tags/vae/">VAE</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/paper_note/controlling_output_length_in_neural_encoder-decoders/">
+        <a class="prev" href="/post/paper_note/semi-supervised_learning_with_deep_generative_models/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Read Paper 《Controlling Output Length in Neural Encoder-Decoders》</span>
+            <span class="prev-text nav-default">Read Paper 《Semi-supervised Learning with Deep Generative Models》</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
-        <a class="next" href="/post/paper_note/carla_an_open_urban_driving_simulator/">
-            <span class="next-text nav-default">Read Paper 《CARLA: An Open Urban Driving Simulator》</span>
+        <a class="next" href="/post/paper_note/controlling_output_length_in_neural_encoder-decoders/">
+            <span class="next-text nav-default">Read Paper 《Controlling Output Length in Neural Encoder-Decoders》</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
