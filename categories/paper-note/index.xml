@@ -6,10 +6,37 @@
     <description>Recent content in Paper Note on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Nov 2019 15:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 16 Nov 2019 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/categories/paper-note/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《A Stable Variational Autoencoder for Text Modelling》</title>
+      <link>/post/paper_note/a_stable_variational_autoencoder_for_text_modelling/</link>
+      <pubDate>Sat, 16 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/a_stable_variational_autoencoder_for_text_modelling/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.inlg2019.com/assets/papers/61_Paper.pdf&#34;&gt;https://www.inlg2019.com/assets/papers/61_Paper.pdf&lt;/a&gt;
+&lt;a href=&#34;https://github.com/ruizheliUOA/HR-VAE&#34;&gt;https://github.com/ruizheliUOA/HR-VAE&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;INLG2019短论文，介绍了一种VAE语言建模的正则化方法，减少VAE-RNN接口发生潜变量崩溃的情况。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Generating Sentences from a Continuous Space》</title>
+      <link>/post/paper_note/generating_sentences_from_a_continuous_space/</link>
+      <pubDate>Tue, 12 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/generating_sentences_from_a_continuous_space/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://aclweb.org/anthology/K16-1002&#34;&gt;http://aclweb.org/anthology/K16-1002&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;CoNLL 2016 利用变分自编码器生成句子的早期论文,可能是第一篇&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Semi-supervised Learning with Deep Generative Models》</title>

@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 Nov 2019 15:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 16 Nov 2019 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>INLG</title>
+      <link>/tags/inlg/</link>
+      <pubDate>Sat, 16 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/inlg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLG</title>
+      <link>/tags/nlg/</link>
+      <pubDate>Sat, 16 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/nlg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VAE</title>
+      <link>/tags/vae/</link>
+      <pubDate>Sat, 16 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/vae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CoNLL</title>
+      <link>/tags/conll/</link>
+      <pubDate>Tue, 12 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/conll/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Classify</title>
@@ -30,29 +66,11 @@
     </item>
     
     <item>
-      <title>VAE</title>
-      <link>/tags/vae/</link>
-      <pubDate>Sat, 09 Nov 2019 15:19:12 +0800</pubDate>
-      
-      <guid>/tags/vae/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>ICML</title>
       <link>/tags/icml/</link>
       <pubDate>Tue, 05 Nov 2019 19:19:12 +0800</pubDate>
       
       <guid>/tags/icml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NLG</title>
-      <link>/tags/nlg/</link>
-      <pubDate>Tue, 05 Nov 2019 19:19:12 +0800</pubDate>
-      
-      <guid>/tags/nlg/</guid>
       <description></description>
     </item>
     

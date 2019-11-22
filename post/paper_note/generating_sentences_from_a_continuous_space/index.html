@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Read Paper 《Semi-supervised Learning with Deep Generative Models》 - Lvcudar Blog</title>
+  <title>Read Paper 《Generating Sentences from a Continuous Space》 - Lvcudar Blog</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,8 +16,8 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="lvcudar" /><meta name="description" content="URL: https://arxiv.org/pdf/1406.5298.pdf https://github.com/dpkingma/nips14-ssl
-简介 NIPS2014 提出的一种基于生成模型变分推断(VAE)的半监督学习分类方法。
+<meta name="author" content="lvcudar" /><meta name="description" content="URL: http://aclweb.org/anthology/K16-1002
+简介 CoNLL 2016 利用变分自编码器生成句子的早期论文,可能是第一篇
 " /><meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -28,7 +28,7 @@
 <meta name="generator" content="Hugo 0.58.3 with theme even" />
 
 
-<link rel="canonical" href="/post/paper_note/semi-supervised_learning_with_deep_generative_models/" />
+<link rel="canonical" href="/post/paper_note/generating_sentences_from_a_continuous_space/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -40,41 +40,38 @@
 <link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
 
 
-<meta property="og:title" content="Read Paper 《Semi-supervised Learning with Deep Generative Models》" />
-<meta property="og:description" content="URL: https://arxiv.org/pdf/1406.5298.pdf
-https://github.com/dpkingma/nips14-ssl
+<meta property="og:title" content="Read Paper 《Generating Sentences from a Continuous Space》" />
+<meta property="og:description" content="URL: http://aclweb.org/anthology/K16-1002
 
 简介
 
-NIPS2014 提出的一种基于生成模型变分推断(VAE)的半监督学习分类方法。" />
+CoNLL 2016 利用变分自编码器生成句子的早期论文,可能是第一篇" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/paper_note/semi-supervised_learning_with_deep_generative_models/" />
-<meta property="article:published_time" content="2019-11-09T15:19:12+08:00" />
-<meta property="article:modified_time" content="2019-11-09T19:19:12+08:00" />
-<meta itemprop="name" content="Read Paper 《Semi-supervised Learning with Deep Generative Models》">
-<meta itemprop="description" content="URL: https://arxiv.org/pdf/1406.5298.pdf
-https://github.com/dpkingma/nips14-ssl
+<meta property="og:url" content="/post/paper_note/generating_sentences_from_a_continuous_space/" />
+<meta property="article:published_time" content="2019-11-12T11:19:12+08:00" />
+<meta property="article:modified_time" content="2019-11-13T19:19:12+08:00" />
+<meta itemprop="name" content="Read Paper 《Generating Sentences from a Continuous Space》">
+<meta itemprop="description" content="URL: http://aclweb.org/anthology/K16-1002
 
 简介
 
-NIPS2014 提出的一种基于生成模型变分推断(VAE)的半监督学习分类方法。">
+CoNLL 2016 利用变分自编码器生成句子的早期论文,可能是第一篇">
 
 
-<meta itemprop="datePublished" content="2019-11-09T15:19:12&#43;08:00" />
-<meta itemprop="dateModified" content="2019-11-09T19:19:12&#43;08:00" />
-<meta itemprop="wordCount" content="624">
+<meta itemprop="datePublished" content="2019-11-12T11:19:12&#43;08:00" />
+<meta itemprop="dateModified" content="2019-11-13T19:19:12&#43;08:00" />
+<meta itemprop="wordCount" content="303">
 
 
 
-<meta itemprop="keywords" content="NIPS,VAE,Classify," />
+<meta itemprop="keywords" content="CoNLL,NLG,VAE," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Read Paper 《Semi-supervised Learning with Deep Generative Models》"/>
-<meta name="twitter:description" content="URL: https://arxiv.org/pdf/1406.5298.pdf
-https://github.com/dpkingma/nips14-ssl
+<meta name="twitter:title" content="Read Paper 《Generating Sentences from a Continuous Space》"/>
+<meta name="twitter:description" content="URL: http://aclweb.org/anthology/K16-1002
 
 简介
 
-NIPS2014 提出的一种基于生成模型变分推断(VAE)的半监督学习分类方法。"/>
+CoNLL 2016 利用变分自编码器生成句子的早期论文,可能是第一篇"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -137,13 +134,13 @@ NIPS2014 提出的一种基于生成模型变分推断(VAE)的半监督学习分
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">Read Paper 《Semi-supervised Learning with Deep Generative Models》</h1>
+      <h1 class="post-title">Read Paper 《Generating Sentences from a Continuous Space》</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2019-11-09 </span>
+        <span class="post-time"> 2019-11-12 </span>
         <div class="post-category">
             <a href="/categories/paper-note/"> Paper Note </a>
-            <a href="/categories/cv/"> CV </a>
+            <a href="/categories/nlp/"> NLP </a>
             </div>
         
       </div>
@@ -152,16 +149,27 @@ NIPS2014 提出的一种基于生成模型变分推断(VAE)的半监督学习分
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">Contents</h2>
   <div class="post-toc-content always-active">
-    
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#简介">简介</a></li>
+<li><a href="#数据集">数据集</a></li>
+<li><a href="#模型">模型</a></li>
+<li><a href="#算法">算法</a></li>
+<li><a href="#实验与对比">实验与对比</a></li>
+<li><a href="#思考">思考</a></li>
+</ul></li>
+</ul>
+</nav>
   </div>
 </div>
     <div class="post-content">
-      <p>URL: <a href="https://arxiv.org/pdf/1406.5298.pdf">https://arxiv.org/pdf/1406.5298.pdf</a>
-<a href="https://github.com/dpkingma/nips14-ssl">https://github.com/dpkingma/nips14-ssl</a></p>
+      <p>URL: <a href="http://aclweb.org/anthology/K16-1002">http://aclweb.org/anthology/K16-1002</a></p>
 
 <h2 id="简介">简介</h2>
 
-<p>NIPS2014 提出的一种基于生成模型变分推断(VAE)的半监督学习分类方法。</p>
+<p>CoNLL 2016 利用变分自编码器生成句子的早期论文,可能是第一篇</p>
 
 <h2 id="数据集">数据集</h2>
 
@@ -176,64 +184,48 @@ NIPS2014 提出的一种基于生成模型变分推断(VAE)的半监督学习分
 
 <tbody>
 <tr>
-<td>MNIST</td>
-<td>手写数字</td>
-<td><a href="http://yann.lecun.com/exdb/mnist/">http://yann.lecun.com/exdb/mnist/</a></td>
+<td>Penn Treebank</td>
+<td>词性句法标注的语料</td>
+<td><a href="https://catalog.ldc.upenn.edu/LDC99T42">https://catalog.ldc.upenn.edu/LDC99T42</a></td>
 </tr>
 
 <tr>
-<td>SVHN</td>
-<td>门牌号</td>
-<td><a href="http://ufldl.stanford.edu/housenumbers/">http://ufldl.stanford.edu/housenumbers/</a></td>
-</tr>
-
-<tr>
-<td>NORB</td>
-<td>常见物体</td>
-<td><a href="https://cs.nyu.edu/~ylclab/data/norb-v1.0/">https://cs.nyu.edu/~ylclab/data/norb-v1.0/</a></td>
+<td>Books Corpus</td>
+<td>英文电子书的句子</td>
+<td><a href="https://yknzhu.wixsite.com/mbweb">https://yknzhu.wixsite.com/mbweb</a></td>
 </tr>
 </tbody>
 </table>
 
 <h2 id="模型">模型</h2>
 
-<p>本文主要针对分类问题缺乏标注数据的情况，讨论对比了常用的潜在特征鉴别模型M1和作者设计的生成式半监督模型M2两种模型及其组合。</p>
-
-<p>M1是普通的自编码器来学习连续空间到真实数据空间的映射来得到Embeding。
-<span  class="math">\( p(z) = N(z|0,I); p_\theta(x|z) = f(x; z, \theta) \)</span>
-而M2则在得到Embeding时对标签进行了考虑。
-<span  class="math">\( p(y) = Cat(y|\pi); p(z) = N(z:0,I); p_\theta(x|y,z) = f(x; y, z, \theta) \)</span>
-M1+M2的组合则是先用M1得到表示，然后用这些表示来训练M2。
-<span  class="math">\( p(x, y, z_1, z_2) = p(y) p(z_2) p_\theta(z_1|y,z_2) p_\theta(x|z_1) \)</span>
-其中的 $f(*; *, \theta)$ 都是采用深度神经网络提供的非线性变换和估计。</p>
+<p>使用一层LSTM作为编码器和解码器，变分推理主要用于学习和调整中间变量z。
+<img src="/image/20191112_CoNLL2016VAENLG/model.png" alt="fig1" /></p>
 
 <h2 id="算法">算法</h2>
 
-<p>在对模型的实际计算中作者借鉴了VAE等的变分推理思路提出了可扩展的变分推理。
-实际上和<a href="https://openreview.net/forum?id=33X9fd2-9FyZd">VAE</a>中的推导过程是差不多的。
-都是引入 $q_\phi(z|x)$ 来估计 $p(z|x)$, 并共享参数。</p>
+<p>虽然VAE相比于GAN将生成和对抗的损失函数统一，但是训练的时候仍然可能被偏向优化某一项。
+为此作者为VAE的KL和熵动态分配全重，从而平衡损失函数前后两项的优化过程。
+<img src="/image/20191112_CoNLL2016VAENLG/alg.png" alt="fig2" /></p>
 
-<p>对M1对下界目标函数:
-<span  class="math">\( \log p_\theta(X) \ge E_{q_\phi(Z|X)}[\log p_\theta(X|Z)] - KL[q_\phi(Z|X) || p_\theta(Z)] = -J(X) \)</span>
-对于M2则整合了有无标签两种数据时的目标函数:
-<span  class="math">\( \log p_\theta(X, y) \ge E_{q_\phi(Z|X,y)}[\log p_\theta(X|y,Z) + \log p_\theta(y) + \log p_\theta(Z) - \log q_\phi(Z|X,y)] = -L(X, y) \)</span>
-<span  class="math">\( \log p_\theta(X) \ge E_{q_\phi(y,Z|X)}[\log p_\theta(X|y,Z) + \log p_\theta(y) + \log p_\theta(Z) - \log q_\phi(y,Z|X)] = \sum_y q_\phi(y|X)(-L(X,y))+H(q_\phi(y|X)) = -U(X) \)</span>
-<span  class="math">\( J_{all} = \sum_{(X,y)\sim\tilde{p_l}} L(X,y) \)</span></p>
+<p>为了让生成的语句更通顺则采用了解码器输入随即替换为<unk>的方式。</p>
 
-<p>为了更合理的优化，作者对只贡献于无标签数据的损失 $H(q_\phi(y|X))$ 进行了减轻。
-<span  class="math">\( J^\alpha = J_{all} + \alpha * E_{\tilde{p_l}(X,y)} [-\log q\phi(y|X)] \)</span>
-<figure><img src="/image/20191109_NIPS2014SSL/alg.jpg" alt="alg1&amp;alg2"></figure></p>
+<h2 id="实验与对比">实验与对比</h2>
 
-<h2 id="实验">实验</h2>
+<ul>
+<li><p>语言模型
+<img src="/image/20191112_CoNLL2016VAENLG/res_lm.png" alt="tab2" /></p></li>
 
-<p>在分类错误率上进行的实验显示本文的两种生成式模型优于传统模型或其他简单的自编码器。
-对于条件生成的引入还进行了可视化。
-<figure><img src="/image/20191109_NIPS2014SSL/res.jpg" alt="fig&amp;tab"></figure></p>
+<li><p>填空
+<img src="/image/20191112_CoNLL2016VAENLG/res_fill.png" alt="tab4" /></p></li>
 
-<h2 id="thoughts">Thoughts</h2>
+<li><p>还对两种优化策略作了消融实验</p></li>
+</ul>
 
-<p>将VAE的生成方法用于整合有无标签数据实现可扩展的变分推理，充分利用两种数据强化分类模型。
-不太理解为什么M1为M2提供预训练能够提升效果。</p>
+<h2 id="思考">思考</h2>
+
+<p>单单对中间编码z进行改进难以提供足够的信息量，应当在更大范围使用z。
+这不仅是将z输入到解码每一步，而是应当在每一步生成不同的z。</p>
     </div>
 
     <div class="post-copyright">
@@ -244,7 +236,7 @@ M1+M2的组合则是先用M1得到表示，然后用这些表示来训练M2。
   <p class="copyright-item">
     <span class="item-title">LastMod</span>
     <span class="item-content">
-        2019-11-09
+        2019-11-13
         
     </span>
   </p>
@@ -253,18 +245,18 @@ M1+M2的组合则是先用M1得到表示，然后用这些表示来训练M2。
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/nips/">NIPS</a>
+          <a href="/tags/conll/">CoNLL</a>
+          <a href="/tags/nlg/">NLG</a>
           <a href="/tags/vae/">VAE</a>
-          <a href="/tags/classify/">Classify</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/paper_note/generating_sentences_from_a_continuous_space/">
+        <a class="prev" href="/post/paper_note/a_stable_variational_autoencoder_for_text_modelling/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">Read Paper 《Generating Sentences from a Continuous Space》</span>
+            <span class="prev-text nav-default">Read Paper 《A Stable Variational Autoencoder for Text Modelling》</span>
             <span class="prev-text nav-mobile">Prev</span>
           </a>
-        <a class="next" href="/post/paper_note/toward_controlled_generation_of_text/">
-            <span class="next-text nav-default">Read Paper 《Toward Controlled Generation of Text》</span>
+        <a class="next" href="/post/paper_note/semi-supervised_learning_with_deep_generative_models/">
+            <span class="next-text nav-default">Read Paper 《Semi-supervised Learning with Deep Generative Models》</span>
             <span class="next-text nav-mobile">Next</span>
             <i class="iconfont icon-right"></i>
           </a>
