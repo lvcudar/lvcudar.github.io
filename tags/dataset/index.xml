@@ -6,10 +6,23 @@
     <description>Recent content in Dataset on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 02 Nov 2019 13:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 25 Nov 2019 17:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/dataset/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Unlimited Road-scene Synthetic Annotation(URSA) Dataset》</title>
+      <link>/post/paper_note/ursa_dataset/</link>
+      <pubDate>Mon, 25 Nov 2019 17:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/ursa_dataset/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://ieeexplore.ieee.org/document/8569519&#34;&gt;https://ieeexplore.ieee.org/document/8569519&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ITSC2018 解决内部资源不可访问的问题,借助商业游戏GTAV构建大型语义分割数据集(4T+).&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《CARLA: An Open Urban Driving Simulator》</title>

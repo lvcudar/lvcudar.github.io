@@ -6,10 +6,50 @@
     <description>Recent content on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Nov 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 26 Nov 2019 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Controlling Length in Abstractive Summarization Using a Convolutional Neural Network》</title>
+      <link>/post/paper_note/controllinglengthinabstractivesummarizationusingaconvolutionalneuralnetwork/</link>
+      <pubDate>Tue, 26 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/controllinglengthinabstractivesummarizationusingaconvolutionalneuralnetwork/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/W04-1013&#34;&gt;https://www.aclweb.org/anthology/W04-1013&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP 2018 卷积型序列到序列模型控制长度的方法。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Unlimited Road-scene Synthetic Annotation(URSA) Dataset》</title>
+      <link>/post/paper_note/ursa_dataset/</link>
+      <pubDate>Mon, 25 Nov 2019 17:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/ursa_dataset/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://ieeexplore.ieee.org/document/8569519&#34;&gt;https://ieeexplore.ieee.org/document/8569519&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;ITSC2018 解决内部资源不可访问的问题,借助商业游戏GTAV构建大型语义分割数据集(4T+).&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Positional Encoding to Control Output Sequence Length》</title>
+      <link>/post/paper_note/positional_encoding_to_control_output_sequence_length/</link>
+      <pubDate>Mon, 25 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/positional_encoding_to_control_output_sequence_length/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/N19-1401&#34;&gt;https://www.aclweb.org/anthology/N19-1401&lt;/a&gt;
+&lt;a href=&#34;https://github.com/takase/control-length&#34;&gt;https://github.com/takase/control-length&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;NAACL 2019 短论文，介绍了为Transformer构造长度相关的位置编码不仅能控制长度还能提升年摘要指标。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《A Stable Variational Autoencoder for Text Modelling》</title>

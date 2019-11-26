@@ -6,10 +6,64 @@
     <description>Recent content in Tags on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Nov 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 26 Nov 2019 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>EMNLP</title>
+      <link>/tags/emnlp/</link>
+      <pubDate>Tue, 26 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/emnlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLG</title>
+      <link>/tags/nlg/</link>
+      <pubDate>Tue, 26 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/nlg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summary</title>
+      <link>/tags/summary/</link>
+      <pubDate>Tue, 26 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/summary/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dataset</title>
+      <link>/tags/dataset/</link>
+      <pubDate>Mon, 25 Nov 2019 17:19:12 +0800</pubDate>
+      
+      <guid>/tags/dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ITSC</title>
+      <link>/tags/itsc/</link>
+      <pubDate>Mon, 25 Nov 2019 17:19:12 +0800</pubDate>
+      
+      <guid>/tags/itsc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NAACL</title>
+      <link>/tags/naacl/</link>
+      <pubDate>Mon, 25 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/naacl/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>INLG</title>
@@ -17,15 +71,6 @@
       <pubDate>Sat, 16 Nov 2019 11:19:12 +0800</pubDate>
       
       <guid>/tags/inlg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NLG</title>
-      <link>/tags/nlg/</link>
-      <pubDate>Sat, 16 Nov 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/nlg/</guid>
       <description></description>
     </item>
     
@@ -75,15 +120,6 @@
     </item>
     
     <item>
-      <title>EMNLP</title>
-      <link>/tags/emnlp/</link>
-      <pubDate>Mon, 04 Nov 2019 11:12:12 +0800</pubDate>
-      
-      <guid>/tags/emnlp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Drive</title>
       <link>/tags/drive/</link>
       <pubDate>Sat, 02 Nov 2019 16:13:12 +0800</pubDate>
@@ -107,15 +143,6 @@
       <pubDate>Sat, 02 Nov 2019 13:19:12 +0800</pubDate>
       
       <guid>/tags/corl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dataset</title>
-      <link>/tags/dataset/</link>
-      <pubDate>Sat, 02 Nov 2019 13:19:12 +0800</pubDate>
-      
-      <guid>/tags/dataset/</guid>
       <description></description>
     </item>
     
@@ -260,15 +287,6 @@
       <pubDate>Thu, 05 Sep 2019 12:00:00 +0800</pubDate>
       
       <guid>/tags/social/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Summary</title>
-      <link>/tags/summary/</link>
-      <pubDate>Thu, 05 Sep 2019 12:00:00 +0800</pubDate>
-      
-      <guid>/tags/summary/</guid>
       <description></description>
     </item>
     

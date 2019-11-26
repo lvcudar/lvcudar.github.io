@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Read Paper 《Unlimited Road-scene Synthetic Annotation(URSA) Dataset》 - Lvcudar Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="lvcudar" /><meta name="description" content="URL: https://ieeexplore.ieee.org/document/8569519
+TL;DR ITSC2018 解决内部资源不可访问的问题,借助商业游戏GTAV构建大型语义分割数据集(4T&#43;).
+" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.58.3 with theme even" />
+
+
+<link rel="canonical" href="/post/paper_note/ursa_dataset/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="Read Paper 《Unlimited Road-scene Synthetic Annotation(URSA) Dataset》" />
+<meta property="og:description" content="URL: https://ieeexplore.ieee.org/document/8569519
+
+TL;DR
+
+ITSC2018 解决内部资源不可访问的问题,借助商业游戏GTAV构建大型语义分割数据集(4T&#43;)." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/paper_note/ursa_dataset/" />
+<meta property="article:published_time" content="2019-11-25T17:19:12+08:00" />
+<meta property="article:modified_time" content="2019-11-25T23:19:12+08:00" />
+<meta itemprop="name" content="Read Paper 《Unlimited Road-scene Synthetic Annotation(URSA) Dataset》">
+<meta itemprop="description" content="URL: https://ieeexplore.ieee.org/document/8569519
+
+TL;DR
+
+ITSC2018 解决内部资源不可访问的问题,借助商业游戏GTAV构建大型语义分割数据集(4T&#43;).">
+
+
+<meta itemprop="datePublished" content="2019-11-25T17:19:12&#43;08:00" />
+<meta itemprop="dateModified" content="2019-11-25T23:19:12&#43;08:00" />
+<meta itemprop="wordCount" content="508">
+
+
+
+<meta itemprop="keywords" content="ITSC,Dataset," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Read Paper 《Unlimited Road-scene Synthetic Annotation(URSA) Dataset》"/>
+<meta name="twitter:description" content="URL: https://ieeexplore.ieee.org/document/8569519
+
+TL;DR
+
+ITSC2018 解决内部资源不可访问的问题,借助商业游戏GTAV构建大型语义分割数据集(4T&#43;)."/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Lvcudar Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Lvcudar Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Read Paper 《Unlimited Road-scene Synthetic Annotation(URSA) Dataset》</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-11-25 </span>
+        <div class="post-category">
+            <a href="/categories/paper-note/"> Paper Note </a>
+            <a href="/categories/cv/"> CV </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#tl-dr">TL;DR</a></li>
+<li><a href="#dataset">Dataset</a></li>
+<li><a href="#approach">Approach</a></li>
+<li><a href="#performance">Performance</a></li>
+<li><a href="#thoughts">Thoughts</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>URL: <a href="https://ieeexplore.ieee.org/document/8569519">https://ieeexplore.ieee.org/document/8569519</a></p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>ITSC2018 解决内部资源不可访问的问题,借助商业游戏GTAV构建大型语义分割数据集(4T+).</p>
+
+<h2 id="dataset">Dataset</h2>
+
+<p>来自GTA5主要道路的行车视角语义分割数据集，道路上车道线和标志有不同类别。
+<a href="https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/ursa">https://uwaterloo.ca/waterloo-intelligent-systems-engineering-lab/ursa</a>
+<img src="/image/20191125_ITSC2018URSA/data.png" alt="fig4" /></p>
+
+<h2 id="approach">Approach</h2>
+
+<p>本文提出了FMSS的概念——磁盘上的纹理文件、模组名称、着色器索引、采样显示数据，它们共同构筑了每个像素的语义标识。
+然后就是超像素的概念，即由一些连续的由同样几个FMSS组成的像素区域。
+<img src="/image/20191125_ITSC2018URSA/fmss.png" alt="fig1&amp;fig2" /></p>
+
+<p>通过<a href="https://github.com/dexyfex/CodeWalker">CodeWalker</a>得到总共1178355种FMSS，其中56540和道路场景有关。
+文中说通过 in-game AI drivers(这里不清楚具体如何操作) 可以得到道路图，然后让车按照一定方式行进得到相关FMSS的场景截图用于标注。
+之后将所有截图通过亚马逊众包标注每一个超像素属于哪个类别(实现、虚线、标志等),标注后每种超像素将和一组FMSS关联(有冲突要投票)。
+有了实景语义和FMSS的关系，让AI自动在道路上行进，通过<a href="https://github.com/aitorzip/DeepGTAV">DeepGTAV</a>可以得到最高画质但图像，并用FMSS推断出每个像素但语义。</p>
+
+<h2 id="performance">Performance</h2>
+
+<p>标注耗时上是有限的点击标注。
+实验说明通过这种仿真数据的训练的模型可以在真实数据上获得提升。</p>
+
+<h2 id="thoughts">Thoughts</h2>
+
+<p>一种蛮hack但方法，如果RStar能自己为AI研究贡献一些工具或数据集就好了。</p>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">lvcudar</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2019-11-25
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/itsc/">ITSC</a>
+          <a href="/tags/dataset/">Dataset</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/paper_note/controllinglengthinabstractivesummarizationusingaconvolutionalneuralnetwork/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Read Paper 《Controlling Length in Abstractive Summarization Using a Convolutional Neural Network》</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/paper_note/positional_encoding_to_control_output_sequence_length/">
+            <span class="next-text nav-default">Read Paper 《Positional Encoding to Control Output Sequence Length》</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:cudar@inbox.lv" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/lvcudar" class="iconfont icon-github" title="github"></a>
+      <a href="https://www.weibo.com/" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://getpocket.com/" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="https://gitlab.com/explore" class="iconfont icon-gitlab" title="gitlab"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">lvcudar</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
