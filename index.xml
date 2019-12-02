@@ -6,10 +6,50 @@
     <description>Recent content on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Nov 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 21:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Playing for Benchmarks》</title>
+      <link>/post/paper_note/playing_for_benchmarks/</link>
+      <pubDate>Mon, 02 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/playing_for_benchmarks/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://openaccess.thecvf.com/content_ICCV_2017/papers/Richter_Playing_for_Benchmarks_ICCV_2017_paper.pdf&#34;&gt;http://openaccess.thecvf.com/content_ICCV_2017/papers/Richter_Playing_for_Benchmarks_ICCV_2017_paper.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;ICCV 2017 从商业游戏GTAV中获取用于高级计算机视觉任务(语义分割、实例分割、光流、深度估计等)对评估标准数据集。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Playing for Data: Ground Truth from Computer Games》</title>
+      <link>/post/paper_note/playing_for_data/</link>
+      <pubDate>Mon, 02 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/playing_for_data/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-319-46475-6_7&#34;&gt;https://link.springer.com/chapter/10.1007/978-3-319-46475-6_7&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;ECCV 2016 提出一种从不可访问源代码对商业游戏中抽取资源并快速标注语义的方法，并在GTAV上进行了演示说明。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《A Probabilistic U-Net for Segmentation of Ambiguous Images》</title>
+      <link>/post/paper_note/a_probabilistic_u-net_for_segmentation_of_ambiguous_images/</link>
+      <pubDate>Fri, 29 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/a_probabilistic_u-net_for_segmentation_of_ambiguous_images/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://papers.nips.cc/paper/7928-a-probabilistic-u-net-for-segmentation-of-ambiguous-images&#34;&gt;https://papers.nips.cc/paper/7928-a-probabilistic-u-net-for-segmentation-of-ambiguous-images&lt;/a&gt;
+&lt;a href=&#34;https://github.com/SimonKohl/probabilistic_unet&#34;&gt;https://github.com/SimonKohl/probabilistic_unet&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;NIPS 2018 一种基于U-Net的随机分割方法，该方法能够把握某些分割应用程序的固有歧义。由于其随机性，对于一个给定的图像，该系统可以生成各种各样的分割图，以模拟几个人手动分割的内容。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Controlling Length in Abstractive Summarization Using a Convolutional Neural Network》</title>

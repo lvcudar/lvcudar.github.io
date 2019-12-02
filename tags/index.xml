@@ -6,10 +6,73 @@
     <description>Recent content in Tags on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Nov 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 21:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Benchmark</title>
+      <link>/tags/benchmark/</link>
+      <pubDate>Mon, 02 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/tags/benchmark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ICCV</title>
+      <link>/tags/iccv/</link>
+      <pubDate>Mon, 02 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/tags/iccv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dataset</title>
+      <link>/tags/dataset/</link>
+      <pubDate>Mon, 02 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ECCV</title>
+      <link>/tags/eccv/</link>
+      <pubDate>Mon, 02 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/eccv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NIPS</title>
+      <link>/tags/nips/</link>
+      <pubDate>Fri, 29 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/nips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Segment</title>
+      <link>/tags/segment/</link>
+      <pubDate>Fri, 29 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/segment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VAE</title>
+      <link>/tags/vae/</link>
+      <pubDate>Fri, 29 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/vae/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>EMNLP</title>
@@ -35,15 +98,6 @@
       <pubDate>Tue, 26 Nov 2019 11:19:12 +0800</pubDate>
       
       <guid>/tags/summary/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dataset</title>
-      <link>/tags/dataset/</link>
-      <pubDate>Mon, 25 Nov 2019 17:19:12 +0800</pubDate>
-      
-      <guid>/tags/dataset/</guid>
       <description></description>
     </item>
     
@@ -75,15 +129,6 @@
     </item>
     
     <item>
-      <title>VAE</title>
-      <link>/tags/vae/</link>
-      <pubDate>Sat, 16 Nov 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/vae/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CoNLL</title>
       <link>/tags/conll/</link>
       <pubDate>Tue, 12 Nov 2019 11:19:12 +0800</pubDate>
@@ -98,15 +143,6 @@
       <pubDate>Sat, 09 Nov 2019 15:19:12 +0800</pubDate>
       
       <guid>/tags/classify/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NIPS</title>
-      <link>/tags/nips/</link>
-      <pubDate>Sat, 09 Nov 2019 15:19:12 +0800</pubDate>
-      
-      <guid>/tags/nips/</guid>
       <description></description>
     </item>
     
@@ -197,15 +233,6 @@
       <pubDate>Fri, 27 Sep 2019 12:00:00 +0800</pubDate>
       
       <guid>/tags/adversarial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ICCV</title>
-      <link>/tags/iccv/</link>
-      <pubDate>Fri, 27 Sep 2019 12:00:00 +0800</pubDate>
-      
-      <guid>/tags/iccv/</guid>
       <description></description>
     </item>
     

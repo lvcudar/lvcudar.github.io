@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Read Paper 《A Probabilistic U-Net for Segmentation of Ambiguous Images》 - Lvcudar Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="lvcudar" /><meta name="description" content="URL: https://papers.nips.cc/paper/7928-a-probabilistic-u-net-for-segmentation-of-ambiguous-images https://github.com/SimonKohl/probabilistic_unet
+TL;DR NIPS 2018 一种基于U-Net的随机分割方法，该方法能够把握某些分割应用程序的固有歧义。由于其随机性，对于一个给定的图像，该系统可以生成各种各样的分割图，以模拟几个人手动分割的内容。
+" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.58.3 with theme even" />
+
+
+<link rel="canonical" href="/post/paper_note/a_probabilistic_u-net_for_segmentation_of_ambiguous_images/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="Read Paper 《A Probabilistic U-Net for Segmentation of Ambiguous Images》" />
+<meta property="og:description" content="URL: https://papers.nips.cc/paper/7928-a-probabilistic-u-net-for-segmentation-of-ambiguous-images
+https://github.com/SimonKohl/probabilistic_unet
+
+TL;DR
+
+NIPS 2018 一种基于U-Net的随机分割方法，该方法能够把握某些分割应用程序的固有歧义。由于其随机性，对于一个给定的图像，该系统可以生成各种各样的分割图，以模拟几个人手动分割的内容。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/paper_note/a_probabilistic_u-net_for_segmentation_of_ambiguous_images/" />
+<meta property="article:published_time" content="2019-11-29T11:19:12+08:00" />
+<meta property="article:modified_time" content="2019-11-29T11:19:12+08:00" />
+<meta itemprop="name" content="Read Paper 《A Probabilistic U-Net for Segmentation of Ambiguous Images》">
+<meta itemprop="description" content="URL: https://papers.nips.cc/paper/7928-a-probabilistic-u-net-for-segmentation-of-ambiguous-images
+https://github.com/SimonKohl/probabilistic_unet
+
+TL;DR
+
+NIPS 2018 一种基于U-Net的随机分割方法，该方法能够把握某些分割应用程序的固有歧义。由于其随机性，对于一个给定的图像，该系统可以生成各种各样的分割图，以模拟几个人手动分割的内容。">
+
+
+<meta itemprop="datePublished" content="2019-11-29T11:19:12&#43;08:00" />
+<meta itemprop="dateModified" content="2019-11-29T11:19:12&#43;08:00" />
+<meta itemprop="wordCount" content="387">
+
+
+
+<meta itemprop="keywords" content="NIPS,VAE,Segment," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Read Paper 《A Probabilistic U-Net for Segmentation of Ambiguous Images》"/>
+<meta name="twitter:description" content="URL: https://papers.nips.cc/paper/7928-a-probabilistic-u-net-for-segmentation-of-ambiguous-images
+https://github.com/SimonKohl/probabilistic_unet
+
+TL;DR
+
+NIPS 2018 一种基于U-Net的随机分割方法，该方法能够把握某些分割应用程序的固有歧义。由于其随机性，对于一个给定的图像，该系统可以生成各种各样的分割图，以模拟几个人手动分割的内容。"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Lvcudar Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Lvcudar Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Read Paper 《A Probabilistic U-Net for Segmentation of Ambiguous Images》</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2019-11-29 </span>
+        <div class="post-category">
+            <a href="/categories/paper-note/"> Paper Note </a>
+            <a href="/categories/cv/"> CV </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#tl-dr">TL;DR</a></li>
+<li><a href="#model">Model</a></li>
+<li><a href="#algorithm">Algorithm</a></li>
+<li><a href="#dataset">Dataset</a></li>
+<li><a href="#experiment-detail">Experiment Detail</a></li>
+<li><a href="#thoughts">Thoughts</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>URL: <a href="https://papers.nips.cc/paper/7928-a-probabilistic-u-net-for-segmentation-of-ambiguous-images">https://papers.nips.cc/paper/7928-a-probabilistic-u-net-for-segmentation-of-ambiguous-images</a>
+<a href="https://github.com/SimonKohl/probabilistic_unet">https://github.com/SimonKohl/probabilistic_unet</a></p>
+
+<h2 id="tl-dr">TL;DR</h2>
+
+<p>NIPS 2018 一种基于U-Net的随机分割方法，该方法能够把握某些分割应用程序的固有歧义。由于其随机性，对于一个给定的图像，该系统可以生成各种各样的分割图，以模拟几个人手动分割的内容。</p>
+
+<h2 id="model">Model</h2>
+
+<p><img src="/image/20191129_NIPS2018PUNET/arch.png" alt="fig1" /></p>
+
+<h2 id="algorithm">Algorithm</h2>
+
+<p>如上图a，假设人类标注者的标注是收到潜在变量z的支配，z服从高斯分布。
+z的采样影响最终的分割结果。</p>
+
+<p>为了学习z的分布，训练的时候如上图b，使用一个后验网络通过输入图像X和标注Y学习z的分布参数，并提供给U-net。
+而用KL散度来使得P(<em>|X)接近P(</em>|X,Y)。</p>
+
+<h2 id="dataset">Dataset</h2>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Link</th>
+<th>Desc</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>LIDC-IDRI</td>
+<td><a href="https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI">https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI</a></td>
+<td>肺部病变CT图像</td>
+</tr>
+
+<tr>
+<td>Cityscapes</td>
+<td><a href="https://www.cityscapes-dataset.com/">https://www.cityscapes-dataset.com/</a></td>
+<td>城市场景语义分割</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="experiment-detail">Experiment Detail</h2>
+
+<p><img src="/image/20191129_NIPS2018PUNET/baseline.png" alt="fig2" />
+在两个数据集上和相关基线进行了对比。
+<img src="/image/20191129_NIPS2018PUNET/res.png" alt="fig3&amp;fig4" /></p>
+
+<p>附录中还有一些很有意思的效果展示。
+<img src="/image/20191129_NIPS2018PUNET/vis.png" alt="fig7" /></p>
+
+<h2 id="thoughts">Thoughts</h2>
+
+<p>通过让先验网络的结果接近后验网络，从而渐渐学得从输入的分布并减少对标签对依赖，挺不错对训练方法。
+在混合数据集或者标注情况不理想对时候也许可以借鉴此方法改进。
+这篇10页的论文有18页的附录，而且信息量极大。</p>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">lvcudar</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2019-11-29
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/nips/">NIPS</a>
+          <a href="/tags/vae/">VAE</a>
+          <a href="/tags/segment/">Segment</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/paper_note/playing_for_data/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Read Paper 《Playing for Data: Ground Truth from Computer Games》</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/paper_note/controllinglengthinabstractivesummarizationusingaconvolutionalneuralnetwork/">
+            <span class="next-text nav-default">Read Paper 《Controlling Length in Abstractive Summarization Using a Convolutional Neural Network》</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:cudar@inbox.lv" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/lvcudar" class="iconfont icon-github" title="github"></a>
+      <a href="https://www.weibo.com/" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://getpocket.com/" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="https://gitlab.com/explore" class="iconfont icon-gitlab" title="gitlab"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2019
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">lvcudar</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

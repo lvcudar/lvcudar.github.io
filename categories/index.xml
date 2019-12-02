@@ -6,10 +6,28 @@
     <description>Recent content in Categories on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Nov 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 21:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CV</title>
+      <link>/categories/cv/</link>
+      <pubDate>Mon, 02 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/categories/cv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paper Note</title>
+      <link>/categories/paper-note/</link>
+      <pubDate>Mon, 02 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/categories/paper-note/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>NLP</title>
@@ -17,24 +35,6 @@
       <pubDate>Tue, 26 Nov 2019 11:19:12 +0800</pubDate>
       
       <guid>/categories/nlp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paper Note</title>
-      <link>/categories/paper-note/</link>
-      <pubDate>Tue, 26 Nov 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/categories/paper-note/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CV</title>
-      <link>/categories/cv/</link>
-      <pubDate>Mon, 25 Nov 2019 17:19:12 +0800</pubDate>
-      
-      <guid>/categories/cv/</guid>
       <description></description>
     </item>
     

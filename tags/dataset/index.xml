@@ -6,10 +6,23 @@
     <description>Recent content in Dataset on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Nov 2019 17:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2019 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/dataset/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Playing for Data: Ground Truth from Computer Games》</title>
+      <link>/post/paper_note/playing_for_data/</link>
+      <pubDate>Mon, 02 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/playing_for_data/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://link.springer.com/chapter/10.1007/978-3-319-46475-6_7&#34;&gt;https://link.springer.com/chapter/10.1007/978-3-319-46475-6_7&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;ECCV 2016 提出一种从不可访问源代码对商业游戏中抽取资源并快速标注语义的方法，并在GTAV上进行了演示说明。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Unlimited Road-scene Synthetic Annotation(URSA) Dataset》</title>

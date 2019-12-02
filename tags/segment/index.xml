@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Segment on Lvcudar Blog</title>
+    <link>/tags/segment/</link>
+    <description>Recent content in Segment on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 29 Nov 2019 11:19:12 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/segment/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《A Probabilistic U-Net for Segmentation of Ambiguous Images》</title>
+      <link>/post/paper_note/a_probabilistic_u-net_for_segmentation_of_ambiguous_images/</link>
+      <pubDate>Fri, 29 Nov 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/a_probabilistic_u-net_for_segmentation_of_ambiguous_images/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://papers.nips.cc/paper/7928-a-probabilistic-u-net-for-segmentation-of-ambiguous-images&#34;&gt;https://papers.nips.cc/paper/7928-a-probabilistic-u-net-for-segmentation-of-ambiguous-images&lt;/a&gt;
+&lt;a href=&#34;https://github.com/SimonKohl/probabilistic_unet&#34;&gt;https://github.com/SimonKohl/probabilistic_unet&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;tl-dr&#34;&gt;TL;DR&lt;/h2&gt;
+
+&lt;p&gt;NIPS 2018 一种基于U-Net的随机分割方法，该方法能够把握某些分割应用程序的固有歧义。由于其随机性，对于一个给定的图像，该系统可以生成各种各样的分割图，以模拟几个人手动分割的内容。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Benchmark on Lvcudar Blog</title>
+    <link>/tags/benchmark/</link>
+    <description>Recent content in Benchmark on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Dec 2019 21:19:12 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/benchmark/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Playing for Benchmarks》</title>
+      <link>/post/paper_note/playing_for_benchmarks/</link>
+      <pubDate>Mon, 02 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/playing_for_benchmarks/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://openaccess.thecvf.com/content_ICCV_2017/papers/Richter_Playing_for_Benchmarks_ICCV_2017_paper.pdf&#34;&gt;http://openaccess.thecvf.com/content_ICCV_2017/papers/Richter_Playing_for_Benchmarks_ICCV_2017_paper.pdf&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;ICCV 2017 从商业游戏GTAV中获取用于高级计算机视觉任务(语义分割、实例分割、光流、深度估计等)对评估标准数据集。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
