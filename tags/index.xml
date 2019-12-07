@@ -6,10 +6,55 @@
     <description>Recent content in Tags on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Dec 2019 21:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2019 19:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Economic</title>
+      <link>/tags/economic/</link>
+      <pubDate>Sat, 07 Dec 2019 19:19:12 +0800</pubDate>
+      
+      <guid>/tags/economic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EMNLP</title>
+      <link>/tags/emnlp/</link>
+      <pubDate>Sat, 07 Dec 2019 19:19:12 +0800</pubDate>
+      
+      <guid>/tags/emnlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dataset</title>
+      <link>/tags/dataset/</link>
+      <pubDate>Sat, 07 Dec 2019 15:19:12 +0800</pubDate>
+      
+      <guid>/tags/dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Extract</title>
+      <link>/tags/extract/</link>
+      <pubDate>Sat, 07 Dec 2019 15:19:12 +0800</pubDate>
+      
+      <guid>/tags/extract/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GAN</title>
+      <link>/tags/gan/</link>
+      <pubDate>Sat, 07 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/gan/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Benchmark</title>
@@ -26,15 +71,6 @@
       <pubDate>Mon, 02 Dec 2019 21:19:12 +0800</pubDate>
       
       <guid>/tags/iccv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dataset</title>
-      <link>/tags/dataset/</link>
-      <pubDate>Mon, 02 Dec 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/dataset/</guid>
       <description></description>
     </item>
     
@@ -71,15 +107,6 @@
       <pubDate>Fri, 29 Nov 2019 11:19:12 +0800</pubDate>
       
       <guid>/tags/vae/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EMNLP</title>
-      <link>/tags/emnlp/</link>
-      <pubDate>Tue, 26 Nov 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/emnlp/</guid>
       <description></description>
     </item>
     
@@ -179,15 +206,6 @@
       <pubDate>Sat, 02 Nov 2019 13:19:12 +0800</pubDate>
       
       <guid>/tags/corl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GAN</title>
-      <link>/tags/gan/</link>
-      <pubDate>Sat, 26 Oct 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/gan/</guid>
       <description></description>
     </item>
     

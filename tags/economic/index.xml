@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Economic on Lvcudar Blog</title>
+    <link>/tags/economic/</link>
+    <description>Recent content in Economic on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Dec 2019 19:19:12 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/economic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Measure Country-Level Socio-Economic Indicators with Streaming News: An Empirical Study》</title>
+      <link>/post/paper_note/measure_country-level_socio-economic_indicators_with_streaming_news_an_empirical_study/</link>
+      <pubDate>Sat, 07 Dec 2019 19:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/measure_country-level_socio-economic_indicators_with_streaming_news_an_empirical_study/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/D19-1121/&#34;&gt;https://www.aclweb.org/anthology/D19-1121/&lt;/a&gt;
+&lt;a href=&#34;https://github.com/BBN-E/ecim&#34;&gt;https://github.com/BBN-E/ecim&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP2019 对于国家经济指标(如失业率)统计困难，提出了一种基于新闻事件的估计方法，和经济指标有很强的相关性。
+&lt;figure&gt;&lt;img src=&#34;/image/20191207_EMNLP2019ECIM/intro.png&#34; alt=&#34;fig1&#34;&gt;&lt;/figure&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction》</title>
+      <link>/post/paper_note/emnlp2019doc2edag/</link>
+      <pubDate>Sat, 07 Dec 2019 15:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/emnlp2019doc2edag/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/D19-1032/&#34;&gt;https://www.aclweb.org/anthology/D19-1032/&lt;/a&gt;
+&lt;a href=&#34;https://github.com/dolphin-zs/Doc2EDAG&#34;&gt;https://github.com/dolphin-zs/Doc2EDAG&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP2019 用中国金融公告构建文档级别的事件抽取数据集，带来跨句子甚至跨文档实体和事件抽取的挑战，并提出一种端到端(文档到基于实体的有向无环图)的基线，以及三个子任务(实体抽取、事件检测、格式化填充)。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

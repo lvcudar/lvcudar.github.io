@@ -6,10 +6,23 @@
     <description>Recent content in GAN on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Oct 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2019 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/gan/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Open Event Extraction from Online Text using a Generative Adversarial Network》</title>
+      <link>/post/paper_note/open_event_extraction_from_online_text_using_a_generative_adversarial_network/</link>
+      <pubDate>Sat, 07 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/open_event_extraction_from_online_text_using_a_generative_adversarial_network/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/D19-1027/&#34;&gt;https://www.aclweb.org/anthology/D19-1027/&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP 2019 主要面对长文本事件复杂的情况，用对抗网络的方法实现开放事件抽取(发现其中第一个事件)，比之前的方法更快速，提升明显。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Paper Read 《Pun-GAN: Generative Adversarial Network for Pun Generation》</title>

@@ -6,10 +6,24 @@
     <description>Recent content in Dataset on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Dec 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 07 Dec 2019 15:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/dataset/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Doc2EDAG: An End-to-End Document-level Framework for Chinese Financial Event Extraction》</title>
+      <link>/post/paper_note/emnlp2019doc2edag/</link>
+      <pubDate>Sat, 07 Dec 2019 15:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/emnlp2019doc2edag/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/D19-1032/&#34;&gt;https://www.aclweb.org/anthology/D19-1032/&lt;/a&gt;
+&lt;a href=&#34;https://github.com/dolphin-zs/Doc2EDAG&#34;&gt;https://github.com/dolphin-zs/Doc2EDAG&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP2019 用中国金融公告构建文档级别的事件抽取数据集，带来跨句子甚至跨文档实体和事件抽取的挑战，并提出一种端到端(文档到基于实体的有向无环图)的基线，以及三个子任务(实体抽取、事件检测、格式化填充)。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Playing for Data: Ground Truth from Computer Games》</title>
