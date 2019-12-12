@@ -6,10 +6,23 @@
     <description>Recent content in NAACL on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Nov 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2019 21:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/naacl/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Deep Contextualized Word Representations》</title>
+      <link>/post/paper_note/elmo_deepcontextualizedwordrepresentations/</link>
+      <pubDate>Thu, 12 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/elmo_deepcontextualizedwordrepresentations/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://allennlp.org/elmo&#34;&gt;https://allennlp.org/elmo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;NAACL2018的杰出论文ELMo,一种深层词表示，将多层双向语言模型每层的输出合并作为任务模型的输入，在六种主流NLP任务取得明显提升。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Positional Encoding to Control Output Sequence Length》</title>

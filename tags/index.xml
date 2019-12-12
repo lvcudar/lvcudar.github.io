@@ -6,10 +6,82 @@
     <description>Recent content in Tags on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Dec 2019 19:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2019 21:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NAACL</title>
+      <link>/tags/naacl/</link>
+      <pubDate>Thu, 12 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/tags/naacl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Representation</title>
+      <link>/tags/representation/</link>
+      <pubDate>Thu, 12 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/tags/representation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Classify</title>
+      <link>/tags/classify/</link>
+      <pubDate>Thu, 12 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/classify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EMNLP</title>
+      <link>/tags/emnlp/</link>
+      <pubDate>Thu, 12 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/emnlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RL</title>
+      <link>/tags/rl/</link>
+      <pubDate>Thu, 12 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/rl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GNN</title>
+      <link>/tags/gnn/</link>
+      <pubDate>Wed, 11 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/tags/gnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACL</title>
+      <link>/tags/acl/</link>
+      <pubDate>Wed, 11 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/acl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLG</title>
+      <link>/tags/nlg/</link>
+      <pubDate>Wed, 11 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/nlg/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Economic</title>
@@ -17,15 +89,6 @@
       <pubDate>Sat, 07 Dec 2019 19:19:12 +0800</pubDate>
       
       <guid>/tags/economic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EMNLP</title>
-      <link>/tags/emnlp/</link>
-      <pubDate>Sat, 07 Dec 2019 19:19:12 +0800</pubDate>
-      
-      <guid>/tags/emnlp/</guid>
       <description></description>
     </item>
     
@@ -111,15 +174,6 @@
     </item>
     
     <item>
-      <title>NLG</title>
-      <link>/tags/nlg/</link>
-      <pubDate>Tue, 26 Nov 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/nlg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Summary</title>
       <link>/tags/summary/</link>
       <pubDate>Tue, 26 Nov 2019 11:19:12 +0800</pubDate>
@@ -138,15 +192,6 @@
     </item>
     
     <item>
-      <title>NAACL</title>
-      <link>/tags/naacl/</link>
-      <pubDate>Mon, 25 Nov 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/naacl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>INLG</title>
       <link>/tags/inlg/</link>
       <pubDate>Sat, 16 Nov 2019 11:19:12 +0800</pubDate>
@@ -161,15 +206,6 @@
       <pubDate>Tue, 12 Nov 2019 11:19:12 +0800</pubDate>
       
       <guid>/tags/conll/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Classify</title>
-      <link>/tags/classify/</link>
-      <pubDate>Sat, 09 Nov 2019 15:19:12 +0800</pubDate>
-      
-      <guid>/tags/classify/</guid>
       <description></description>
     </item>
     
@@ -206,15 +242,6 @@
       <pubDate>Sat, 02 Nov 2019 13:19:12 +0800</pubDate>
       
       <guid>/tags/corl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ACL</title>
-      <link>/tags/acl/</link>
-      <pubDate>Fri, 25 Oct 2019 22:22:12 +0800</pubDate>
-      
-      <guid>/tags/acl/</guid>
       <description></description>
     </item>
     
@@ -521,15 +548,6 @@
       <pubDate>Fri, 28 Jun 2019 12:00:00 +0800</pubDate>
       
       <guid>/tags/traffic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GNN</title>
-      <link>/tags/gnn/</link>
-      <pubDate>Tue, 21 May 2019 12:00:00 +0800</pubDate>
-      
-      <guid>/tags/gnn/</guid>
       <description></description>
     </item>
     

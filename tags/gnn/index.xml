@@ -6,10 +6,36 @@
     <description>Recent content in GNN on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 May 2019 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2019 21:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/gnn/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Text Level Graph Neural Network for Text Classification》</title>
+      <link>/post/paper_note/textlevelgraphneuralnetwork/</link>
+      <pubDate>Wed, 11 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/textlevelgraphneuralnetwork/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/D19-1345&#34;&gt;https://www.aclweb.org/anthology/D19-1345&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP2019 为文本分类构建低资源消耗的图网络，设计了一种为每个文本单独构建图的方法。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Heterogeneous Graph Attention Networks for Semi-supervised Short Text Classification》</title>
+      <link>/post/paper_note/heterogeneous_graph_attention_networks_for_semi-supervised_short_text_classification/</link>
+      <pubDate>Wed, 11 Dec 2019 19:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/heterogeneous_graph_attention_networks_for_semi-supervised_short_text_classification/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/D19-1345&#34;&gt;https://www.aclweb.org/anthology/D19-1345&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP-IJCNLP2019 对于半监督短文本分类，提出异构信息网络来扩充语义，再用图注意力网络分类，达到SOTA。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《A Comprehensive Survey on Graph Neural Networks》</title>

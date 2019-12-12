@@ -6,10 +6,79 @@
     <description>Recent content in NLP on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 07 Dec 2019 19:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 12 Dec 2019 21:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/categories/nlp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Deep Contextualized Word Representations》</title>
+      <link>/post/paper_note/elmo_deepcontextualizedwordrepresentations/</link>
+      <pubDate>Thu, 12 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/elmo_deepcontextualizedwordrepresentations/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://allennlp.org/elmo&#34;&gt;https://allennlp.org/elmo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;NAACL2018的杰出论文ELMo,一种深层词表示，将多层双向语言模型每层的输出合并作为任务模型的输入，在六种主流NLP任务取得明显提升。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Human-Like Decision Making: Document-level Aspect Sentiment Classification via Hierarchical Reinforcement Learning》</title>
+      <link>/post/paper_note/humanlikedecisionmaking/</link>
+      <pubDate>Thu, 12 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/humanlikedecisionmaking/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/D19-1560&#34;&gt;https://www.aclweb.org/anthology/D19-1560&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP2019 提出的一种使用分层强化学习可解释性较好的文档级别多方面情感分类方法，据说达到了最优的效果。
+&lt;img src=&#34;/image/20191212_EMNLP2019HRL4DASC/show.png&#34; alt=&#34;fig1&#34; /&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Text Level Graph Neural Network for Text Classification》</title>
+      <link>/post/paper_note/textlevelgraphneuralnetwork/</link>
+      <pubDate>Wed, 11 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/textlevelgraphneuralnetwork/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/D19-1345&#34;&gt;https://www.aclweb.org/anthology/D19-1345&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP2019 为文本分类构建低资源消耗的图网络，设计了一种为每个文本单独构建图的方法。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Heterogeneous Graph Attention Networks for Semi-supervised Short Text Classification》</title>
+      <link>/post/paper_note/heterogeneous_graph_attention_networks_for_semi-supervised_short_text_classification/</link>
+      <pubDate>Wed, 11 Dec 2019 19:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/heterogeneous_graph_attention_networks_for_semi-supervised_short_text_classification/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/D19-1345&#34;&gt;https://www.aclweb.org/anthology/D19-1345&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP-IJCNLP2019 对于半监督短文本分类，提出异构信息网络来扩充语义，再用图注意力网络分类，达到SOTA。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Hierarchical Neural Story Generation》</title>
+      <link>/post/paper_note/hierarchicalneuralstorygeneration/</link>
+      <pubDate>Wed, 11 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/hierarchicalneuralstorygeneration/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/P18-1082&#34;&gt;https://www.aclweb.org/anthology/P18-1082&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;ACL2018 从reddit论坛收集根据提示写故事的数据集，并通过分层方法生成更让人们喜爱，与提示更相关的故事。
+本文代码及数据整合在&lt;a href=&#34;https://github.com/pytorch/fairseq/blob/master/examples/stories/README.md&#34;&gt;fairseq&lt;/a&gt;中,非常利于复现。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/image/20191211_ACL2018HNSG/show.png&#34; alt=&#34;fig1&#34; /&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Measure Country-Level Socio-Economic Indicators with Streaming News: An Empirical Study》</title>
