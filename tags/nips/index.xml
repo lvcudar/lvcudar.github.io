@@ -6,10 +6,24 @@
     <description>Recent content in NIPS on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Nov 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 13 Dec 2019 21:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/nips/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Paraphrase Generation with Latent Bag of Words》</title>
+      <link>/post/paper_note/paraphrasegenerationwithlatentbagofwords/</link>
+      <pubDate>Fri, 13 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/paraphrasegenerationwithlatentbagofwords/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://papers.nips.cc/paper/9516-paraphrase-generation-with-latent-bag-of-words.pdf&#34;&gt;http://papers.nips.cc/paper/9516-paraphrase-generation-with-latent-bag-of-words.pdf&lt;/a&gt;
+&lt;a href=&#34;https://github.com/FranxYao/dgm_latent_bow&#34;&gt;https://github.com/FranxYao/dgm_latent_bow&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;NIPS2019 唯一一篇复述生成论文，扩展序列到序列模型在不牺牲端到端优势的情况下实现良好的解释性。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《A Probabilistic U-Net for Segmentation of Ambiguous Images》</title>

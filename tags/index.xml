@@ -6,10 +6,64 @@
     <description>Recent content in Tags on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Dec 2019 21:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2019 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NLG</title>
+      <link>/tags/nlg/</link>
+      <pubDate>Fri, 27 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/nlg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paraphrase</title>
+      <link>/tags/paraphrase/</link>
+      <pubDate>Fri, 27 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/paraphrase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dataset</title>
+      <link>/tags/dataset/</link>
+      <pubDate>Thu, 26 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/dataset/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NMT</title>
+      <link>/tags/nmt/</link>
+      <pubDate>Thu, 26 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/nmt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>EMNLP</title>
+      <link>/tags/emnlp/</link>
+      <pubDate>Sat, 21 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/emnlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NIPS</title>
+      <link>/tags/nips/</link>
+      <pubDate>Fri, 13 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/tags/nips/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>NAACL</title>
@@ -35,15 +89,6 @@
       <pubDate>Thu, 12 Dec 2019 11:19:12 +0800</pubDate>
       
       <guid>/tags/classify/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EMNLP</title>
-      <link>/tags/emnlp/</link>
-      <pubDate>Thu, 12 Dec 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/emnlp/</guid>
       <description></description>
     </item>
     
@@ -75,29 +120,11 @@
     </item>
     
     <item>
-      <title>NLG</title>
-      <link>/tags/nlg/</link>
-      <pubDate>Wed, 11 Dec 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/nlg/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Economic</title>
       <link>/tags/economic/</link>
       <pubDate>Sat, 07 Dec 2019 19:19:12 +0800</pubDate>
       
       <guid>/tags/economic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Dataset</title>
-      <link>/tags/dataset/</link>
-      <pubDate>Sat, 07 Dec 2019 15:19:12 +0800</pubDate>
-      
-      <guid>/tags/dataset/</guid>
       <description></description>
     </item>
     
@@ -143,15 +170,6 @@
       <pubDate>Mon, 02 Dec 2019 11:19:12 +0800</pubDate>
       
       <guid>/tags/eccv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NIPS</title>
-      <link>/tags/nips/</link>
-      <pubDate>Fri, 29 Nov 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/nips/</guid>
       <description></description>
     </item>
     
@@ -242,15 +260,6 @@
       <pubDate>Sat, 02 Nov 2019 13:19:12 +0800</pubDate>
       
       <guid>/tags/corl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NMT</title>
-      <link>/tags/nmt/</link>
-      <pubDate>Fri, 25 Oct 2019 22:22:12 +0800</pubDate>
-      
-      <guid>/tags/nmt/</guid>
       <description></description>
     </item>
     
@@ -413,15 +422,6 @@
       <pubDate>Tue, 13 Aug 2019 12:00:00 +0800</pubDate>
       
       <guid>/tags/pooling/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paraphrase</title>
-      <link>/tags/paraphrase/</link>
-      <pubDate>Sat, 10 Aug 2019 12:00:00 +0800</pubDate>
-      
-      <guid>/tags/paraphrase/</guid>
       <description></description>
     </item>
     

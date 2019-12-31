@@ -6,10 +6,100 @@
     <description>Recent content in Posts on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Dec 2019 21:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Dec 2019 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Learning Semantic Sentence Embeddings using Sequential Pair-wise Discriminator》</title>
+      <link>/post/paper_note/learning_semantic_sentence_embeddings_using_sequential_pair-wise_discriminator/</link>
+      <pubDate>Fri, 27 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/learning_semantic_sentence_embeddings_using_sequential_pair-wise_discriminator/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/C18-1230&#34;&gt;https://www.aclweb.org/anthology/C18-1230&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;COLING2018 通过复述任务学习句子编码，网络单元使用的LSTM，其复述生成实验到2019年底仍然是SOTA。
+&lt;figure&gt;&lt;img src=&#34;/image/20191227_COLING2018_EDDLG/intro.png&#34; alt=&#34;fig1&#34;&gt;&lt;/figure&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Survey of Machine Translation Dataset</title>
+      <link>/post/paper_note/surveymtd/</link>
+      <pubDate>Thu, 26 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/surveymtd/</guid>
+      <description>&lt;h1 id=&#34;对机器翻译数据集的调研&#34;&gt;对机器翻译数据集的调研&lt;/h1&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Abbr&lt;/th&gt;
+&lt;th&gt;Name&lt;/th&gt;
+&lt;th&gt;Link&lt;/th&gt;
+&lt;th&gt;Scale&lt;/th&gt;
+&lt;th&gt;Desc&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;WMT&lt;/td&gt;
+&lt;td&gt;Workshop on Statistical Machine Translation&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.statmt.org&#34;&gt;https://www.statmt.org&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;GB&lt;/td&gt;
+&lt;td&gt;统计机器翻译研讨会,每年举行机器翻译评测,数据集规模大、多样且开放&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;IWSLT&lt;/td&gt;
+&lt;td&gt;International Workshop on Spoken Language Translation&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;http://iwslt.org&#34;&gt;http://iwslt.org&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;MB&lt;/td&gt;
+&lt;td&gt;口语翻译国际研讨会,在TED演讲数据集上评测,每年递增数据且开放&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;MT&lt;/td&gt;
+&lt;td&gt;Open Machine Translation Evaluation&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.nist.gov/itl/iad/mig/open-machine-translation-evaluation&#34;&gt;https://www.nist.gov/itl/iad/mig/open-machine-translation-evaluation&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;KB&lt;/td&gt;
+&lt;td&gt;美国标准技术研究所的机器翻译评测,数据需要通过语言数据联盟注册获取,小规模新闻翻译&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Recurrent Positional Embedding for Neural Machine Translation》</title>
+      <link>/post/paper_note/recurrentpositionalembeddingforneuralmachinetranslation/</link>
+      <pubDate>Sat, 21 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/recurrentpositionalembeddingforneuralmachinetranslation/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/D19-1139&#34;&gt;https://www.aclweb.org/anthology/D19-1139&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP-IJCNLP2019 用单独的RNN为Transformer学习位置编码，取得更好的效果。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Paraphrase Generation with Latent Bag of Words》</title>
+      <link>/post/paper_note/paraphrasegenerationwithlatentbagofwords/</link>
+      <pubDate>Fri, 13 Dec 2019 21:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/paraphrasegenerationwithlatentbagofwords/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;http://papers.nips.cc/paper/9516-paraphrase-generation-with-latent-bag-of-words.pdf&#34;&gt;http://papers.nips.cc/paper/9516-paraphrase-generation-with-latent-bag-of-words.pdf&lt;/a&gt;
+&lt;a href=&#34;https://github.com/FranxYao/dgm_latent_bow&#34;&gt;https://github.com/FranxYao/dgm_latent_bow&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;NIPS2019 唯一一篇复述生成论文，扩展序列到序列模型在不牺牲端到端优势的情况下实现良好的解释性。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Deep Contextualized Word Representations》</title>

@@ -6,10 +6,23 @@
     <description>Recent content in EMNLP on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Dec 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2019 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/emnlp/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Recurrent Positional Embedding for Neural Machine Translation》</title>
+      <link>/post/paper_note/recurrentpositionalembeddingforneuralmachinetranslation/</link>
+      <pubDate>Sat, 21 Dec 2019 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/recurrentpositionalembeddingforneuralmachinetranslation/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/D19-1139&#34;&gt;https://www.aclweb.org/anthology/D19-1139&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;EMNLP-IJCNLP2019 用单独的RNN为Transformer学习位置编码，取得更好的效果。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Human-Like Decision Making: Document-level Aspect Sentiment Classification via Hierarchical Reinforcement Learning》</title>
