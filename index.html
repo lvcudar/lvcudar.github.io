@@ -45,7 +45,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/" />
 
-<meta property="og:updated_time" content="2019-12-27T11:19:12+08:00" />
+<meta property="og:updated_time" content="2020-03-08T11:19:12+08:00" />
 <meta itemprop="name" content="Lvcudar Blog">
 <meta itemprop="description" content="Hugo theme even site.">
 
@@ -114,9 +114,32 @@
           <section id="posts" class="posts">
     <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/paper_note/learning_semantic_sentence_embeddings_using_sequential_pair-wise_discriminator/">Read Paper 《Learning Semantic Sentence Embeddings using Sequential Pair-wise Discriminator》</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/paper_note/translate_capsulenets/">从Transformer的注意力到CapsuleNets的动态路由</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2019-12-27 </span>
+      <span class="post-time"> 2020-03-08 </span>
+      <div class="post-category">
+          <a href="/categories/translate/"> Translate </a>
+          <a href="/categories/ml/"> ML </a>
+          </div>
+    </div>
+  </header>
+  
+  <div class="post-content">
+    <div class="post-summary">
+      <p>本文中，我们纵览Transformer和胶囊网络的主要模块并尝试画出两个模型不同部分的联系。这里的目标是理解两者是否本质上不同，亦或他们有什么关联。
+译自<a href="https://staff.fnwi.uva.nl/s.abnar/?p=108">Samira Abnar's Post</a></p>
+    </div>
+    <div class="read-more">
+      <a href="/post/paper_note/translate_capsulenets/" class="read-more-link">Read more...</a>
+    </div>
+  </div>
+</article>
+
+    <article class="post">
+  <header class="post-header">
+    <h1 class="post-title"><a class="post-link" href="/post/paper_note/sequencegenerationfrombothsidestothemiddle/">Read Paper 《Sequence Generation: From Both Sides to the Middle》</a></h1>
+    <div class="post-meta">
+      <span class="post-time"> 2020-02-18 </span>
       <div class="post-category">
           <a href="/categories/paper-note/"> Paper Note </a>
           <a href="/categories/nlp/"> NLP </a>
@@ -126,86 +149,24 @@
   
   <div class="post-content">
     <div class="post-summary">
-      <p>URL: <a href="https://www.aclweb.org/anthology/C18-1230">https://www.aclweb.org/anthology/C18-1230</a></p>
+      <p>URL: <a href="https://www.ijcai.org/proceedings/2019/760">https://www.ijcai.org/proceedings/2019/760</a></p>
 
 <h2 id="简介">简介</h2>
 
-<p>COLING2018 通过复述任务学习句子编码，网络单元使用的LSTM，其复述生成实验到2019年底仍然是SOTA。
-<figure><img src="/image/20191227_COLING2018_EDDLG/intro.png" alt="fig1"></figure></p>
+<p>IJCAI2019 一种从两边到中间的序列生成方法,并证明对机器翻译和文本摘要能有速度和精度的同时提升。
+<figure><img src="/image/20200217_IJCAI2019SBSG/ill.png" alt="fig1"></figure></p>
     </div>
     <div class="read-more">
-      <a href="/post/paper_note/learning_semantic_sentence_embeddings_using_sequential_pair-wise_discriminator/" class="read-more-link">Read more...</a>
+      <a href="/post/paper_note/sequencegenerationfrombothsidestothemiddle/" class="read-more-link">Read more...</a>
     </div>
   </div>
 </article>
 
     <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/paper_note/surveymtd/">Survey of Machine Translation Dataset</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/paper_note/an_end-to-end_generative_architecture_for_paraphrase_generation/">Read Paper 《An End-to-End Generative Architecture for Paraphrase Generation》</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2019-12-26 </span>
-      <div class="post-category">
-          <a href="/categories/survey/"> Survey </a>
-          <a href="/categories/nlp/"> NLP </a>
-          </div>
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <h1 id="对机器翻译数据集的调研">对机器翻译数据集的调研</h1>
-
-<h2 id="简介">简介</h2>
-
-<table>
-<thead>
-<tr>
-<th>Abbr</th>
-<th>Name</th>
-<th>Link</th>
-<th>Scale</th>
-<th>Desc</th>
-</tr>
-</thead>
-
-<tbody>
-<tr>
-<td>WMT</td>
-<td>Workshop on Statistical Machine Translation</td>
-<td><a href="https://www.statmt.org">https://www.statmt.org</a></td>
-<td>GB</td>
-<td>统计机器翻译研讨会,每年举行机器翻译评测,数据集规模大、多样且开放</td>
-</tr>
-
-<tr>
-<td>IWSLT</td>
-<td>International Workshop on Spoken Language Translation</td>
-<td><a href="http://iwslt.org">http://iwslt.org</a></td>
-<td>MB</td>
-<td>口语翻译国际研讨会,在TED演讲数据集上评测,每年递增数据且开放</td>
-</tr>
-
-<tr>
-<td>MT</td>
-<td>Open Machine Translation Evaluation</td>
-<td><a href="https://www.nist.gov/itl/iad/mig/open-machine-translation-evaluation">https://www.nist.gov/itl/iad/mig/open-machine-translation-evaluation</a></td>
-<td>KB</td>
-<td>美国标准技术研究所的机器翻译评测,数据需要通过语言数据联盟注册获取,小规模新闻翻译</td>
-</tr>
-</tbody>
-</table>
-    </div>
-    <div class="read-more">
-      <a href="/post/paper_note/surveymtd/" class="read-more-link">Read more...</a>
-    </div>
-  </div>
-</article>
-
-    <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/paper_note/recurrentpositionalembeddingforneuralmachinetranslation/">Read Paper 《Recurrent Positional Embedding for Neural Machine Translation》</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2019-12-21 </span>
+      <span class="post-time"> 2020-02-06 </span>
       <div class="post-category">
           <a href="/categories/paper-note/"> Paper Note </a>
           <a href="/categories/nlp/"> NLP </a>
@@ -215,23 +176,23 @@
   
   <div class="post-content">
     <div class="post-summary">
-      <p>URL: <a href="https://www.aclweb.org/anthology/D19-1139">https://www.aclweb.org/anthology/D19-1139</a></p>
+      <p>URL: <a href="https://www.aclweb.org/anthology/D19-1309">https://www.aclweb.org/anthology/D19-1309</a></p>
 
 <h2 id="简介">简介</h2>
 
-<p>EMNLP-IJCNLP2019 用单独的RNN为Transformer学习位置编码，取得更好的效果。</p>
+<p>EMNLP2019 一种端到端的复述模型，将使用LSTM的条件变分自编码器作为生成对抗网络的生成器，达到了SOTA。</p>
     </div>
     <div class="read-more">
-      <a href="/post/paper_note/recurrentpositionalembeddingforneuralmachinetranslation/" class="read-more-link">Read more...</a>
+      <a href="/post/paper_note/an_end-to-end_generative_architecture_for_paraphrase_generation/" class="read-more-link">Read more...</a>
     </div>
   </div>
 </article>
 
     <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/paper_note/paraphrasegenerationwithlatentbagofwords/">Read Paper 《Paraphrase Generation with Latent Bag of Words》</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/paper_note/paraphrasediversificationusingcounterfactualdebiasing/">Read Paper 《Paraphrase Diversification Using Counterfactual Debiasing》</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2019-12-13 </span>
+      <span class="post-time"> 2020-02-02 </span>
       <div class="post-category">
           <a href="/categories/paper-note/"> Paper Note </a>
           <a href="/categories/nlp/"> NLP </a>
@@ -241,24 +202,23 @@
   
   <div class="post-content">
     <div class="post-summary">
-      <p>URL: <a href="http://papers.nips.cc/paper/9516-paraphrase-generation-with-latent-bag-of-words.pdf">http://papers.nips.cc/paper/9516-paraphrase-generation-with-latent-bag-of-words.pdf</a>
-<a href="https://github.com/FranxYao/dgm_latent_bow">https://github.com/FranxYao/dgm_latent_bow</a></p>
+      <p>URL: <a href="https://aaai.org/ojs/index.php/AAAI/article/view/4665">https://aaai.org/ojs/index.php/AAAI/article/view/4665</a></p>
 
 <h2 id="简介">简介</h2>
 
-<p>NIPS2019 唯一一篇复述生成论文，扩展序列到序列模型在不牺牲端到端优势的情况下实现良好的解释性。</p>
+<p>AAAI2019 通过随机初始化和导向生成与之前不同的复述实现多样化，其中拼凑了多种复述相关数据集。</p>
     </div>
     <div class="read-more">
-      <a href="/post/paper_note/paraphrasegenerationwithlatentbagofwords/" class="read-more-link">Read more...</a>
+      <a href="/post/paper_note/paraphrasediversificationusingcounterfactualdebiasing/" class="read-more-link">Read more...</a>
     </div>
   </div>
 </article>
 
     <article class="post">
   <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="/post/paper_note/elmo_deepcontextualizedwordrepresentations/">Read Paper 《Deep Contextualized Word Representations》</a></h1>
+    <h1 class="post-title"><a class="post-link" href="/post/paper_note/acl2019nocws/">Read Paper 《Is Word Segmentation Necessary for Deep Learning of Chinese Representations?》</a></h1>
     <div class="post-meta">
-      <span class="post-time"> 2019-12-12 </span>
+      <span class="post-time"> 2020-01-19 </span>
       <div class="post-category">
           <a href="/categories/paper-note/"> Paper Note </a>
           <a href="/categories/nlp/"> NLP </a>
@@ -268,14 +228,14 @@
   
   <div class="post-content">
     <div class="post-summary">
-      <p>URL: <a href="https://allennlp.org/elmo">https://allennlp.org/elmo</a></p>
+      <p>URL: <a href="https://www.aclweb.org/anthology/P19-1314">https://www.aclweb.org/anthology/P19-1314</a></p>
 
 <h2 id="简介">简介</h2>
 
-<p>NAACL2018的杰出论文ELMo,一种深层词表示，将多层双向语言模型每层的输出合并作为任务模型的输入，在六种主流NLP任务取得明显提升。</p>
+<p>ACL2019 探索神经网络大行其道的时代中文研究中分词的必要性，发现不分词只分字效果近似甚至更好。同时本文列举了大量中文任务数据集。</p>
     </div>
     <div class="read-more">
-      <a href="/post/paper_note/elmo_deepcontextualizedwordrepresentations/" class="read-more-link">Read more...</a>
+      <a href="/post/paper_note/acl2019nocws/" class="read-more-link">Read more...</a>
     </div>
   </div>
 </article>
@@ -322,7 +282,8 @@
 
   <span class="copyright-year">
     &copy; 
-    2019
+    2019 - 
+    2020
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>

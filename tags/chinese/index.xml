@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chinese on Lvcudar Blog</title>
+    <link>/tags/chinese/</link>
+    <description>Recent content in Chinese on Lvcudar Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 19 Jan 2020 11:19:12 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/chinese/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Read Paper 《Is Word Segmentation Necessary for Deep Learning of Chinese Representations?》</title>
+      <link>/post/paper_note/acl2019nocws/</link>
+      <pubDate>Sun, 19 Jan 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/acl2019nocws/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/P19-1314&#34;&gt;https://www.aclweb.org/anthology/P19-1314&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;ACL2019 探索神经网络大行其道的时代中文研究中分词的必要性，发现不分词只分字效果近似甚至更好。同时本文列举了大量中文任务数据集。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

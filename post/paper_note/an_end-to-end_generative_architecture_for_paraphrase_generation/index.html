@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Read Paper 《An End-to-End Generative Architecture for Paraphrase Generation》 - Lvcudar Blog</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="lvcudar" /><meta name="description" content="URL: https://www.aclweb.org/anthology/D19-1309
+简介 EMNLP2019 一种端到端的复述模型，将使用LSTM的条件变分自编码器作为生成对抗网络的生成器，达到了SOTA。
+" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.58.3 with theme even" />
+
+
+<link rel="canonical" href="/post/paper_note/an_end-to-end_generative_architecture_for_paraphrase_generation/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+<link href="/dist/even.c2a46f00.min.css" rel="stylesheet">
+<link href="/lib/fancybox/jquery.fancybox-3.1.20.min.css" rel="stylesheet">
+
+
+<meta property="og:title" content="Read Paper 《An End-to-End Generative Architecture for Paraphrase Generation》" />
+<meta property="og:description" content="URL: https://www.aclweb.org/anthology/D19-1309
+
+简介
+
+EMNLP2019 一种端到端的复述模型，将使用LSTM的条件变分自编码器作为生成对抗网络的生成器，达到了SOTA。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/paper_note/an_end-to-end_generative_architecture_for_paraphrase_generation/" />
+<meta property="article:published_time" content="2020-02-06T11:19:12+08:00" />
+<meta property="article:modified_time" content="2020-02-06T11:19:12+08:00" />
+<meta itemprop="name" content="Read Paper 《An End-to-End Generative Architecture for Paraphrase Generation》">
+<meta itemprop="description" content="URL: https://www.aclweb.org/anthology/D19-1309
+
+简介
+
+EMNLP2019 一种端到端的复述模型，将使用LSTM的条件变分自编码器作为生成对抗网络的生成器，达到了SOTA。">
+
+
+<meta itemprop="datePublished" content="2020-02-06T11:19:12&#43;08:00" />
+<meta itemprop="dateModified" content="2020-02-06T11:19:12&#43;08:00" />
+<meta itemprop="wordCount" content="854">
+
+
+
+<meta itemprop="keywords" content="EMNLP,Paraphrase,VAE,GAN," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Read Paper 《An End-to-End Generative Architecture for Paraphrase Generation》"/>
+<meta name="twitter:description" content="URL: https://www.aclweb.org/anthology/D19-1309
+
+简介
+
+EMNLP2019 一种端到端的复述模型，将使用LSTM的条件变分自编码器作为生成对抗网络的生成器，达到了SOTA。"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Lvcudar Blog</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Lvcudar Blog</a>
+</div>
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li>
+  </ul>
+</nav>
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">Read Paper 《An End-to-End Generative Architecture for Paraphrase Generation》</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-02-06 </span>
+        <div class="post-category">
+            <a href="/categories/paper-note/"> Paper Note </a>
+            <a href="/categories/nlp/"> NLP </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Contents</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li><a href="#简介">简介</a></li>
+<li><a href="#数据集">数据集</a></li>
+<li><a href="#算法与模型">算法与模型</a></li>
+<li><a href="#实验与对比">实验与对比</a></li>
+<li><a href="#思考">思考</a></li>
+</ul></li>
+</ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <p>URL: <a href="https://www.aclweb.org/anthology/D19-1309">https://www.aclweb.org/anthology/D19-1309</a></p>
+
+<h2 id="简介">简介</h2>
+
+<p>EMNLP2019 一种端到端的复述模型，将使用LSTM的条件变分自编码器作为生成对抗网络的生成器，达到了SOTA。</p>
+
+<h2 id="数据集">数据集</h2>
+
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Task</th>
+<th>Link</th>
+<th>Desc</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Quora</td>
+<td>复述生成</td>
+<td><a href="https://www.quora.com/q/quoradata/First-Quora-Dataset-Release-Question-Pairs">https://www.quora.com/q/quoradata/First-Quora-Dataset-Release-Question-Pairs</a></td>
+<td>Quora重复问题数据集,超过40万</td>
+</tr>
+
+<tr>
+<td>SST</td>
+<td>语义分析</td>
+<td><a href="https://nlp.stanford.edu/sentiment/">https://nlp.stanford.edu/sentiment/</a></td>
+<td>斯坦福情感分析数据集,正负面共五类约20万句</td>
+</tr>
+</tbody>
+</table>
+
+<p>本文按照2016年的《Neural paraphrase generation with stacked residual lstm networks》采用4个数据集，其中Quora被划分为3个分别是50k、100k、150k。</p>
+
+<h2 id="算法与模型">算法与模型</h2>
+
+<p><img src="/image/20200206_EMNLP2019GAP/model.png" alt="fig1" /></p>
+
+<p>模型中的网络模块均采用LSTM。
+从编码器得到假设为高斯分布的z的均值和方差。
+解码器G1、G2是一个seq2seq过程，G1输入原句得到中间状态作为G2LSTM的初始隐状态(H,C),G2则一个接一个预测词，如同机器翻译一般。
+鉴别器用LSTM判断输入的句子是参考还是生成的。</p>
+
+<p>本文的主要创新在于VAE部分计算图有两条路径。
+1. 将原句和目标句分别输入E1、E2得到潜在分布z1，将从z1采样的变量拼接到G2的输入，完成解码得到输出sp1。
+2. 模拟测试环境，只将原句输入E1得到潜在分布z2，将从z2采样的变量拼接到G2的输入，完成解码得到输出sp2，并将sp2送入鉴别器。</p>
+
+<p>两条路径都是训练时的，测试采用第二条路径。
+损失方面最小化z1和z2的KL散度，最小化两条路径输出和目标句的差异，只有sp2送入鉴别器和目标句计算GAN的损失。
+最小化z1和z2的KL散度在利用参考强化语义编码的同时缓解了训练和测试的流程偏差。</p>
+
+<p><img src="/image/20200206_EMNLP2019GAP/method.png" alt="alg1" /></p>
+
+<h2 id="实验与对比">实验与对比</h2>
+
+<p>在MSCOCO和Quora的三种划分上，本文的模型都超越基线并在BLEU、METEOR、TER上实现了最优。
+<img src="/image/20200206_EMNLP2019GAP/res0.png" alt="tab2" /></p>
+
+<p>作者还用人工评判了真实性(语法正确)、一致性(含义不变)、多样性(备选结果多样)。
+从测试集各随机采样100个，组成真复述对和生成复述对在亚马逊众包平台进行评测，得到了显著性p值小于0.01。
+<img src="/image/20200206_EMNLP2019GAP/judge.png" alt="tab4" /></p>
+
+<h2 id="思考">思考</h2>
+
+<p>aclweb上下载的版本竟然在第一部分介绍中有段落划分的格式错误。
+结果非常好，也许多样性应该用mBLEU之类指标测测，但是没查到开源代码。
+两条路径分别进行强监督和模拟测试，用于机器翻译也许能达到加快训练且克服偏差的效果。</p>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">Author</span>
+    <span class="item-content">lvcudar</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">LastMod</span>
+    <span class="item-content">
+        2020-02-06
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/emnlp/">EMNLP</a>
+          <a href="/tags/paraphrase/">Paraphrase</a>
+          <a href="/tags/vae/">VAE</a>
+          <a href="/tags/gan/">GAN</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/paper_note/sequencegenerationfrombothsidestothemiddle/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">Read Paper 《Sequence Generation: From Both Sides to the Middle》</span>
+            <span class="prev-text nav-mobile">Prev</span>
+          </a>
+        <a class="next" href="/post/paper_note/paraphrasediversificationusingcounterfactualdebiasing/">
+            <span class="next-text nav-default">Read Paper 《Paraphrase Diversification Using Counterfactual Debiasing》</span>
+            <span class="next-text nav-mobile">Next</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:cudar@inbox.lv" class="iconfont icon-email" title="email"></a>
+      <a href="https://twitter.com" class="iconfont icon-twitter" title="twitter"></a>
+      <a href="https://github.com/lvcudar" class="iconfont icon-github" title="github"></a>
+      <a href="https://www.weibo.com/" class="iconfont icon-weibo" title="weibo"></a>
+      <a href="https://www.zhihu.com" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="https://www.douban.com/" class="iconfont icon-douban" title="douban"></a>
+      <a href="https://getpocket.com/" class="iconfont icon-pocket" title="pocket"></a>
+      <a href="https://gitlab.com/explore" class="iconfont icon-gitlab" title="gitlab"></a>
+  <a href="/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2019 - 
+    2020
+    <span class="heart">
+      <i class="iconfont icon-heart"></i>
+    </span>
+    <span class="author">lvcudar</span>
+  </span>
+</div>
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  <script type="text/javascript" src="/lib/jquery/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="/lib/slideout/slideout-1.0.1.min.js"></script>
+  <script type="text/javascript" src="/lib/fancybox/jquery.fancybox-3.1.20.min.js"></script>
+<script type="text/javascript" src="/dist/even.26188efa.min.js"></script>
+  <script type="text/javascript">
+    window.MathJax = {
+      tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]},
+      showProcessingMessages: false,
+      messageStyle: 'none'
+    };
+  </script>
+  <script async src="https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"  integrity="sha256-nvJJv9wWKEm88qvoQl9ekL2J+k/RWIsaSScxxlsrv8k=" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>

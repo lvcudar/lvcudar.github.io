@@ -6,10 +6,20 @@
     <description>Recent content in ML on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Sep 2019 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2020 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/categories/ml/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>从Transformer的注意力到CapsuleNets的动态路由</title>
+      <link>/post/paper_note/translate_capsulenets/</link>
+      <pubDate>Sun, 08 Mar 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/translate_capsulenets/</guid>
+      <description>&lt;p&gt;本文中，我们纵览Transformer和胶囊网络的主要模块并尝试画出两个模型不同部分的联系。这里的目标是理解两者是否本质上不同，亦或他们有什么关联。
+译自&lt;a href=&#34;https://staff.fnwi.uva.nl/s.abnar/?p=108&#34;&gt;Samira Abnar&#39;s Post&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《SoftTriple Loss: Deep Metric Learning Without Triplet Sampling》</title>

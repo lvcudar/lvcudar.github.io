@@ -2,63 +2,182 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/tags/capsulenets/</loc>
+    <lastmod>2020-03-08T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-    <lastmod>2019-12-27T11:19:12+08:00</lastmod>
+    <lastmod>2020-03-08T11:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2019-12-27T11:19:12+08:00</lastmod>
+    <lastmod>2020-03-08T11:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/tags/nlg/</loc>
-    <lastmod>2019-12-27T11:19:12+08:00</lastmod>
+    <loc>/categories/ml/</loc>
+    <lastmod>2020-03-08T11:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/categories/nlp/</loc>
-    <lastmod>2019-12-27T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/paper-note/</loc>
-    <lastmod>2019-12-27T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/paraphrase/</loc>
-    <lastmod>2019-12-27T11:19:12+08:00</lastmod>
+    <loc>/tags/model/</loc>
+    <lastmod>2020-03-08T11:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2019-12-27T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/post/paper_note/learning_semantic_sentence_embeddings_using_sequential_pair-wise_discriminator/</loc>
-    <lastmod>2019-12-27T11:19:12+08:00</lastmod>
+    <lastmod>2020-03-08T11:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2020-03-08T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/translate/</loc>
+    <lastmod>2020-03-08T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/paper_note/translate_capsulenets/</loc>
+    <lastmod>2020-03-08T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ijcai/</loc>
+    <lastmod>2020-02-18T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nlg/</loc>
+    <lastmod>2020-02-18T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/nlp/</loc>
+    <lastmod>2020-02-18T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/paper-note/</loc>
+    <lastmod>2020-02-18T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/paper_note/sequencegenerationfrombothsidestothemiddle/</loc>
+    <lastmod>2020-02-18T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/emnlp/</loc>
+    <lastmod>2020-02-06T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/gan/</loc>
+    <lastmod>2020-02-06T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/paraphrase/</loc>
+    <lastmod>2020-02-06T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/paper_note/an_end-to-end_generative_architecture_for_paraphrase_generation/</loc>
+    <lastmod>2020-02-06T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/vae/</loc>
+    <lastmod>2020-02-06T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/aaai/</loc>
+    <lastmod>2020-02-02T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/paper_note/paraphrasediversificationusingcounterfactualdebiasing/</loc>
+    <lastmod>2020-02-02T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/acl/</loc>
+    <lastmod>2020-01-19T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/chinese/</loc>
+    <lastmod>2020-01-19T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/paper_note/acl2019nocws/</loc>
+    <lastmod>2020-01-19T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/seq2seq/</loc>
+    <lastmod>2020-01-19T11:19:12+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/post/paper_note/learning_semantic_sentence_embeddings_using_sequential_pair-wise_discriminator/</loc>
     <lastmod>2019-12-27T11:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -88,13 +207,6 @@
   <url>
     <loc>/post/paper_note/surveymtd/</loc>
     <lastmod>2019-12-26T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/emnlp/</loc>
-    <lastmod>2019-12-21T11:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -184,13 +296,6 @@
   </url>
   
   <url>
-    <loc>/tags/acl/</loc>
-    <lastmod>2019-12-11T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/post/paper_note/hierarchicalneuralstorygeneration/</loc>
     <lastmod>2019-12-11T11:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -221,13 +326,6 @@
   <url>
     <loc>/post/paper_note/emnlp2019doc2edag/</loc>
     <lastmod>2019-12-07T15:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/gan/</loc>
-    <lastmod>2019-12-07T11:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -290,13 +388,6 @@
   
   <url>
     <loc>/tags/segment/</loc>
-    <lastmod>2019-11-29T11:19:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/vae/</loc>
     <lastmod>2019-11-29T11:19:12+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -562,22 +653,8 @@
   </url>
   
   <url>
-    <loc>/categories/ml/</loc>
-    <lastmod>2019-09-12T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/post/paper_note/20190912_iccv2019softtripleloss/</loc>
     <lastmod>2019-09-12T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/aaai/</loc>
-    <lastmod>2019-09-05T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -634,13 +711,6 @@
   <url>
     <loc>/tags/synthesis/</loc>
     <lastmod>2019-08-29T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/ijcai/</loc>
-    <lastmod>2019-08-23T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -794,13 +864,6 @@
   
   <url>
     <loc>/post/paper_note/20190709_emnlp2016s2sbso/</loc>
-    <lastmod>2019-07-09T12:00:00+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/seq2seq/</loc>
     <lastmod>2019-07-09T12:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

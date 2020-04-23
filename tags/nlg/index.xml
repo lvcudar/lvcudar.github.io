@@ -6,10 +6,37 @@
     <description>Recent content in NLG on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Dec 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Feb 2020 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/nlg/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Sequence Generation: From Both Sides to the Middle》</title>
+      <link>/post/paper_note/sequencegenerationfrombothsidestothemiddle/</link>
+      <pubDate>Tue, 18 Feb 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/sequencegenerationfrombothsidestothemiddle/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.ijcai.org/proceedings/2019/760&#34;&gt;https://www.ijcai.org/proceedings/2019/760&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;IJCAI2019 一种从两边到中间的序列生成方法,并证明对机器翻译和文本摘要能有速度和精度的同时提升。
+&lt;figure&gt;&lt;img src=&#34;/image/20200217_IJCAI2019SBSG/ill.png&#34; alt=&#34;fig1&#34;&gt;&lt;/figure&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Read Paper 《Paraphrase Diversification Using Counterfactual Debiasing》</title>
+      <link>/post/paper_note/paraphrasediversificationusingcounterfactualdebiasing/</link>
+      <pubDate>Sun, 02 Feb 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/paraphrasediversificationusingcounterfactualdebiasing/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://aaai.org/ojs/index.php/AAAI/article/view/4665&#34;&gt;https://aaai.org/ojs/index.php/AAAI/article/view/4665&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;AAAI2019 通过随机初始化和导向生成与之前不同的复述实现多样化，其中拼凑了多种复述相关数据集。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Learning Semantic Sentence Embeddings using Sequential Pair-wise Discriminator》</title>

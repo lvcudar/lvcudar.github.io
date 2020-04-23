@@ -6,10 +6,24 @@
     <description>Recent content in IJCAI on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Aug 2019 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 18 Feb 2020 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/ijcai/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Sequence Generation: From Both Sides to the Middle》</title>
+      <link>/post/paper_note/sequencegenerationfrombothsidestothemiddle/</link>
+      <pubDate>Tue, 18 Feb 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/sequencegenerationfrombothsidestothemiddle/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.ijcai.org/proceedings/2019/760&#34;&gt;https://www.ijcai.org/proceedings/2019/760&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;IJCAI2019 一种从两边到中间的序列生成方法,并证明对机器翻译和文本摘要能有速度和精度的同时提升。
+&lt;figure&gt;&lt;img src=&#34;/image/20200217_IJCAI2019SBSG/ill.png&#34; alt=&#34;fig1&#34;&gt;&lt;/figure&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Mask and Infill: Applying Masked Language Model to Sentiment Transfer》</title>

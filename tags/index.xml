@@ -6,26 +6,116 @@
     <description>Recent content in Tags on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 27 Dec 2019 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 08 Mar 2020 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>CapsuleNets</title>
+      <link>/tags/capsulenets/</link>
+      <pubDate>Sun, 08 Mar 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/capsulenets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Model</title>
+      <link>/tags/model/</link>
+      <pubDate>Sun, 08 Mar 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/model/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IJCAI</title>
+      <link>/tags/ijcai/</link>
+      <pubDate>Tue, 18 Feb 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/ijcai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>NLG</title>
       <link>/tags/nlg/</link>
-      <pubDate>Fri, 27 Dec 2019 11:19:12 +0800</pubDate>
+      <pubDate>Tue, 18 Feb 2020 11:19:12 +0800</pubDate>
       
       <guid>/tags/nlg/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>EMNLP</title>
+      <link>/tags/emnlp/</link>
+      <pubDate>Thu, 06 Feb 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/emnlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GAN</title>
+      <link>/tags/gan/</link>
+      <pubDate>Thu, 06 Feb 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/gan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Paraphrase</title>
       <link>/tags/paraphrase/</link>
-      <pubDate>Fri, 27 Dec 2019 11:19:12 +0800</pubDate>
+      <pubDate>Thu, 06 Feb 2020 11:19:12 +0800</pubDate>
       
       <guid>/tags/paraphrase/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>VAE</title>
+      <link>/tags/vae/</link>
+      <pubDate>Thu, 06 Feb 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/vae/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AAAI</title>
+      <link>/tags/aaai/</link>
+      <pubDate>Sun, 02 Feb 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/aaai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ACL</title>
+      <link>/tags/acl/</link>
+      <pubDate>Sun, 19 Jan 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/acl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Chinese</title>
+      <link>/tags/chinese/</link>
+      <pubDate>Sun, 19 Jan 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/chinese/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Seq2Seq</title>
+      <link>/tags/seq2seq/</link>
+      <pubDate>Sun, 19 Jan 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/seq2seq/</guid>
       <description></description>
     </item>
     
@@ -44,15 +134,6 @@
       <pubDate>Thu, 26 Dec 2019 11:19:12 +0800</pubDate>
       
       <guid>/tags/nmt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EMNLP</title>
-      <link>/tags/emnlp/</link>
-      <pubDate>Sat, 21 Dec 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/emnlp/</guid>
       <description></description>
     </item>
     
@@ -111,15 +192,6 @@
     </item>
     
     <item>
-      <title>ACL</title>
-      <link>/tags/acl/</link>
-      <pubDate>Wed, 11 Dec 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/acl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Economic</title>
       <link>/tags/economic/</link>
       <pubDate>Sat, 07 Dec 2019 19:19:12 +0800</pubDate>
@@ -134,15 +206,6 @@
       <pubDate>Sat, 07 Dec 2019 15:19:12 +0800</pubDate>
       
       <guid>/tags/extract/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GAN</title>
-      <link>/tags/gan/</link>
-      <pubDate>Sat, 07 Dec 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/gan/</guid>
       <description></description>
     </item>
     
@@ -179,15 +242,6 @@
       <pubDate>Fri, 29 Nov 2019 11:19:12 +0800</pubDate>
       
       <guid>/tags/segment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>VAE</title>
-      <link>/tags/vae/</link>
-      <pubDate>Fri, 29 Nov 2019 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/vae/</guid>
       <description></description>
     </item>
     
@@ -354,15 +408,6 @@
     </item>
     
     <item>
-      <title>AAAI</title>
-      <link>/tags/aaai/</link>
-      <pubDate>Thu, 05 Sep 2019 12:00:00 +0800</pubDate>
-      
-      <guid>/tags/aaai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Social</title>
       <link>/tags/social/</link>
       <pubDate>Thu, 05 Sep 2019 12:00:00 +0800</pubDate>
@@ -395,15 +440,6 @@
       <pubDate>Thu, 29 Aug 2019 12:00:00 +0800</pubDate>
       
       <guid>/tags/synthesis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IJCAI</title>
-      <link>/tags/ijcai/</link>
-      <pubDate>Fri, 23 Aug 2019 12:00:00 +0800</pubDate>
-      
-      <guid>/tags/ijcai/</guid>
       <description></description>
     </item>
     
@@ -503,15 +539,6 @@
       <pubDate>Tue, 09 Jul 2019 12:00:00 +0800</pubDate>
       
       <guid>/tags/optimize/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Seq2Seq</title>
-      <link>/tags/seq2seq/</link>
-      <pubDate>Tue, 09 Jul 2019 12:00:00 +0800</pubDate>
-      
-      <guid>/tags/seq2seq/</guid>
       <description></description>
     </item>
     
