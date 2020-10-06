@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 08 Mar 2020 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2020 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ACL</title>
+      <link>/tags/acl/</link>
+      <pubDate>Sun, 26 Jul 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/acl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paraphrase</title>
+      <link>/tags/paraphrase/</link>
+      <pubDate>Sun, 26 Jul 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/tags/paraphrase/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CapsuleNets</title>
@@ -66,15 +84,6 @@
     </item>
     
     <item>
-      <title>Paraphrase</title>
-      <link>/tags/paraphrase/</link>
-      <pubDate>Thu, 06 Feb 2020 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/paraphrase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>VAE</title>
       <link>/tags/vae/</link>
       <pubDate>Thu, 06 Feb 2020 11:19:12 +0800</pubDate>
@@ -89,15 +98,6 @@
       <pubDate>Sun, 02 Feb 2020 11:19:12 +0800</pubDate>
       
       <guid>/tags/aaai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ACL</title>
-      <link>/tags/acl/</link>
-      <pubDate>Sun, 19 Jan 2020 11:19:12 +0800</pubDate>
-      
-      <guid>/tags/acl/</guid>
       <description></description>
     </item>
     

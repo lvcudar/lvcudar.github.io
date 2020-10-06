@@ -6,10 +6,26 @@
     <description>Recent content in Paper Note on Lvcudar Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Feb 2020 11:19:12 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 26 Jul 2020 11:19:12 +0800</lastBuildDate>
     
 	<atom:link href="/categories/paper-note/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Read Paper 《Neural Syntactic Preordering for Controlled Paraphrase Generation》</title>
+      <link>/post/paper_note/acl2020sowprep/</link>
+      <pubDate>Sun, 26 Jul 2020 11:19:12 +0800</pubDate>
+      
+      <guid>/post/paper_note/acl2020sowprep/</guid>
+      <description>&lt;p&gt;URL: &lt;a href=&#34;https://www.aclweb.org/anthology/2020.acl-main.22&#34;&gt;https://www.aclweb.org/anthology/2020.acl-main.22&lt;/a&gt;
+&lt;a href=&#34;https://github.com/tagoyal/sow-reap-paraphrasing&#34;&gt;https://github.com/tagoyal/sow-reap-paraphrasing&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;
+
+&lt;p&gt;ACL2020 引入输入重排序的方法，通过排序多样性生成多样化复述，并且提升生成质量。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/image/20200726_ACL2020SOWPREP/overview.png&#34; alt=&#34;fig1&#34; /&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Read Paper 《Sequence Generation: From Both Sides to the Middle》</title>
